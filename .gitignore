@@ -50,7 +50,7 @@ doc
 !doc/Doxyfile
 !doc/Doxyfile-mcss
 !doc/favicon.ico
-!do/*.md
+!doc/*.md
 
 external/v8/*
 !external/v8/gm.py

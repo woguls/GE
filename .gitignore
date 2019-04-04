@@ -44,9 +44,13 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 
-# dev directories
+# development stuff
 build
 doc
+!doc/Doxyfile
+!doc/Doxyfile-mcss
+!doc/favicon.ico
+!do/*.md
 
 external/v8/*
 !external/v8/gm.py

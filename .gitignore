@@ -46,11 +46,11 @@ _deps
 
 # development stuff
 build
-./doc
-!./doc/Doxyfile
-!./doc/Doxyfile-mcss
-!./doc/favicon.ico
-!./doc/*.md
+doc
+!doc/Doxyfile
+!doc/Doxyfile-mcss
+!doc/favicon.ico
+!doc/*.md
 
 external/v8/*
 !external/v8/gm.py

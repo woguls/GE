@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="config_8hpp" kind="file" language="C++">
+    <compoundname>config.hpp</compoundname>
+    <includedby refid="class_8cpp" local="yes">v8pp/class.cpp</includedby>
+    <includedby refid="class_8hpp" local="yes">v8pp/class.hpp</includedby>
+    <includedby refid="throw__ex_8hpp" local="yes">v8pp/throw_ex.hpp</includedby>
+    <includedby refid="context_8cpp" local="yes">v8pp/context.cpp</includedby>
+    <includedby refid="convert_8cpp" local="yes">v8pp/convert.cpp</includedby>
+    <includedby refid="json_8cpp" local="yes">v8pp/json.cpp</includedby>
+    <includedby refid="json_8hpp" local="yes">v8pp/json.hpp</includedby>
+    <includedby refid="throw__ex_8cpp" local="yes">v8pp/throw_ex.cpp</includedby>
+    <invincdepgraph>
+      <node id="101">
+        <label>v8pp/config.hpp</label>
+        <link refid="config_8hpp"/>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>v8pp/throw_ex.hpp</label>
+        <link refid="throw__ex_8hpp_source"/>
+        <childnode refid="104" relation="include">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>v8pp/property.hpp</label>
+        <link refid="property_8hpp_source"/>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>v8pp/function.hpp</label>
+        <link refid="function_8hpp_source"/>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>v8pp/class.hpp</label>
+        <link refid="class_8hpp_source"/>
+      </node>
+      <node id="107">
+        <label>v8pp/json.hpp</label>
+        <link refid="json_8hpp_source"/>
+      </node>
+      <node id="106">
+        <label>v8pp/module.hpp</label>
+        <link refid="module_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="config_8hpp_1a2b4189b5db7016940c0978eb72b5c6e8" prot="public" static="no">
+        <name>V8PP_PLUGIN_INIT_PROC_NAME</name>
+        <initializer>v8pp_module_init</initializer>
+        <briefdescription>
+<para>v8::Isolate data slot number, used in v8pp for shared data </para>        </briefdescription>
+        <detaileddescription>
+<para>v8pp plugin initialization procedure name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/config.hpp" line="19" column="9" bodyfile="v8pp/config.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8hpp_1a0ab2171e32c0d225d43b3a2bc36cb86a" prot="public" static="no">
+        <name>V8PP_PLUGIN_SUFFIX</name>
+        <initializer>&quot;.so&quot;</initializer>
+        <briefdescription>
+<para>v8pp plugin filename suffix </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/config.hpp" line="27" column="12" bodyfile="v8pp/config.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8hpp_1a8c9960399a0e5be9e67451296247b9c2" prot="public" static="no">
+        <name>V8PP_EXPORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/config.hpp" line="38" column="11" bodyfile="v8pp/config.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8hpp_1a7b2b22ac0b92bb203534f5a0c5317ec8" prot="public" static="no">
+        <name>V8PP_IMPORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/config.hpp" line="39" column="10" bodyfile="v8pp/config.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8hpp_1ac926c891226a41dd76c19fe6306f0735" prot="public" static="no">
+        <name>V8PP_PLUGIN_INIT</name>
+        <param><defname>isolate</defname></param>
+        <initializer>extern &quot;C&quot; V8PP_EXPORT \
+v8::Local&lt;v8::Value&gt; V8PP_PLUGIN_INIT_PROC_NAME(isolate)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/config.hpp" line="42" column="9" bodyfile="v8pp/config.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8hpp_1a8e68365e2d3ba3ebf8df3739f147afee" prot="public" static="no">
+        <name>V8PP_HEADER_ONLY</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/config.hpp" line="46" column="9" bodyfile="v8pp/config.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="config_8hpp_1a4da4ca5d9cf993a2e3939fe4c0fce365" prot="public" static="no">
+        <name>V8PP_IMPL</name>
+        <initializer>inline</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/config.hpp" line="50" column="9" bodyfile="v8pp/config.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2013-2016<sp/>Pavel<sp/>Medvedev.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>is<sp/>part<sp/>of<sp/>v8pp<sp/>(https://github.com/pmed/v8pp)<sp/>project.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Distributed<sp/>under<sp/>the<sp/>Boost<sp/>Software<sp/>License,<sp/>Version<sp/>1.0.<sp/>(See<sp/>accompanying</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>file<sp/>LICENSE_1_0.txt<sp/>or<sp/>copy<sp/>at<sp/>http://www.boost.org/LICENSE_1_0.txt)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>V8PP_CONFIG_HPP_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>V8PP_CONFIG_HPP_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment">//#if<sp/>!defined(V8PP_ISOLATE_DATA_SLOT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>V8PP_ISOLATE_DATA_SLOT<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor">#if<sp/>!defined(V8PP_PLUGIN_INIT_PROC_NAME)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>V8PP_PLUGIN_INIT_PROC_NAME<sp/>v8pp_module_init</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor">#if<sp/>!defined(V8PP_PLUGIN_SUFFIX)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>defined(WIN32)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>V8PP_PLUGIN_SUFFIX<sp/>&quot;.dll&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>V8PP_PLUGIN_SUFFIX<sp/>&quot;.so&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_MSC_VER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>V8PP_EXPORT<sp/>__declspec(dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>V8PP_IMPORT<sp/>__declspec(dllimport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>__GNUC__<sp/>&gt;=<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>V8PP_EXPORT<sp/>__attribute__((__visibility__(&quot;default&quot;)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>V8PP_IMPORT<sp/>V8PP_EXPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>V8PP_EXPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>V8PP_IMPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>V8PP_PLUGIN_INIT(isolate)<sp/>extern<sp/>&quot;C&quot;<sp/>V8PP_EXPORT<sp/>\</highlight></codeline>
+<codeline lineno="43"><highlight class="preprocessor">v8::Local&lt;v8::Value&gt;<sp/>V8PP_PLUGIN_INIT_PROC_NAME(isolate)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>V8PP_HEADER_ONLY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>V8PP_HEADER_ONLY<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>V8PP_HEADER_ONLY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>V8PP_IMPL<sp/>inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>V8PP_IMPL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>V8PP_CONFIG_HPP_INCLUDED</highlight></codeline>
+    </programlisting>
+    <location file="v8pp/config.hpp"/>
+  </compounddef>
+</doxygen>

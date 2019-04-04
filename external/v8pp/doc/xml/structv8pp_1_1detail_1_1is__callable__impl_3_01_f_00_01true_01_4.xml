@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::is_callable_impl&lt; F, true &gt;</compoundname>
+    <innerclass refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1check" prot="private">v8pp::detail::is_callable_impl&lt; F, true &gt;::check</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1derived" prot="private">v8pp::detail::is_callable_impl&lt; F, true &gt;::derived</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1fallback" prot="private">v8pp::detail::is_callable_impl&lt; F, true &gt;::fallback</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename F</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1abdda2ced088976883351c0e6f9e3b874" prot="private" static="no">
+        <type>decltype(test&lt; derived &gt;(0))</type>
+        <definition>using v8pp::detail::is_callable_impl&lt; F, true &gt;::type =  decltype(test&lt;derived&gt;(0))</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="166" column="1" bodyfile="v8pp/utility.hpp" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1ab18f795b6e7cfbf43daa6111ee6744c7" prot="public" static="yes" mutable="no">
+        <type>const bool</type>
+        <definition>const bool v8pp::detail::is_callable_impl&lt; F, true &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= type::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="168" column="1" bodyfile="v8pp/utility.hpp" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1a913684fa3328113c1a872e5cd79291df" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename</type>
+          </param>
+        </templateparamlist>
+        <type>std::true_type</type>
+        <definition>static std::true_type v8pp::detail::is_callable_impl&lt; F, true &gt;::test</definition>
+        <argsstring>(...)</argsstring>
+        <name>test</name>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="161" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1a1d88d5b26154ba76b34c02c4c9466b0d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename C</type>
+          </param>
+        </templateparamlist>
+        <type>std::false_type</type>
+        <definition>static std::false_type v8pp::detail::is_callable_impl&lt; F, true &gt;::test</definition>
+        <argsstring>(check&lt; void(fallback::*)(), &amp;C::operator()&gt; *)</argsstring>
+        <name>test</name>
+        <param>
+          <type>check&lt; void(fallback::*)(), &amp;C::operator()&gt; *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="164" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/utility.hpp" line="153" column="1" bodyfile="v8pp/utility.hpp" bodystart="152" bodyend="169"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1a913684fa3328113c1a872e5cd79291df" prot="private" virt="non-virtual"><scope>v8pp::detail::is_callable_impl&lt; F, true &gt;</scope><name>test</name></member>
+      <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1a1d88d5b26154ba76b34c02c4c9466b0d" prot="private" virt="non-virtual"><scope>v8pp::detail::is_callable_impl&lt; F, true &gt;</scope><name>test</name></member>
+      <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1abdda2ced088976883351c0e6f9e3b874" prot="private" virt="non-virtual"><scope>v8pp::detail::is_callable_impl&lt; F, true &gt;</scope><name>type</name></member>
+      <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1ab18f795b6e7cfbf43daa6111ee6744c7" prot="public" virt="non-virtual"><scope>v8pp::detail::is_callable_impl&lt; F, true &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

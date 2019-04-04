@@ -1,0 +1,824 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacev8pp" kind="namespace" language="C++">
+    <compoundname>v8pp</compoundname>
+    <innerclass refid="structv8pp_1_1array__buffer__allocator" prot="public">v8pp::array_buffer_allocator</innerclass>
+    <innerclass refid="classv8pp_1_1class__" prot="public">v8pp::class_</innerclass>
+    <innerclass refid="classv8pp_1_1context" prot="public">v8pp::context</innerclass>
+    <innerclass refid="structv8pp_1_1convert" prot="public">v8pp::convert</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01bool_01_4" prot="public">v8pp::convert&lt; bool &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5" prot="public">v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01std_1_1array_3_01_t_00_01_n_01_4_01_4" prot="public">v8pp::convert&lt; std::array&lt; T, N &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01std_1_1basic__string_3_01_char_00_01_traits_00_01_alloc_01_4_01_4" prot="public">v8pp::convert&lt; std::basic_string&lt; Char, Traits, Alloc &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01std_1_1map_3_01_key_00_01_value_00_01_less_00_01_alloc_01_4_01_4" prot="public">v8pp::convert&lt; std::map&lt; Key, Value, Less, Alloc &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01std_1_1shared__ptr_3_01_t_01_4_00_01typename_01std_1_1enable__if_3_01iafbf46694c7e27003849e3d575e6e6c6" prot="public">v8pp::convert&lt; std::shared_ptr&lt; T &gt;, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01std_1_1vector_3_01_t_00_01_alloc_01_4_01_4" prot="public">v8pp::convert&lt; std::vector&lt; T, Alloc &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01_t_01_6_01_4" prot="public">v8pp::convert&lt; T &amp; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01_t_01_5_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_25915118c627362f414694ff4e5e030b" prot="public">v8pp::convert&lt; T *, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01_t_01const_01_6_01_4" prot="public">v8pp::convert&lt; T const &amp; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01_t_00_01ref__from__shared__ptr_01_4" prot="public">v8pp::convert&lt; T, ref_from_shared_ptr &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4" prot="public">v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4" prot="public">v8pp::convert&lt; T, typename std::enable_if&lt; std::is_enum&lt; T &gt;::value &gt;::type &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__floating__point_3_ea60aeaaa0e728f8c696fb259e8670af" prot="public">v8pp::convert&lt; T, typename std::enable_if&lt; std::is_floating_point&lt; T &gt;::value &gt;::type &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4" prot="public">v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1convert_3_01v8_1_1_local_3_01_t_01_4_01_4" prot="public">v8pp::convert&lt; v8::Local&lt; T &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1factory" prot="public">v8pp::factory</innerclass>
+    <innerclass refid="structv8pp_1_1invalid__argument" prot="public">v8pp::invalid_argument</innerclass>
+    <innerclass refid="structv8pp_1_1is__wrapped__class" prot="public">v8pp::is_wrapped_class</innerclass>
+    <innerclass refid="structv8pp_1_1is__wrapped__class_3_01std_1_1array_3_01_t_00_01_n_01_4_01_4" prot="public">v8pp::is_wrapped_class&lt; std::array&lt; T, N &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1is__wrapped__class_3_01std_1_1basic__string_3_01_char_00_01_traits_00_01_alloc_01_4_01_4" prot="public">v8pp::is_wrapped_class&lt; std::basic_string&lt; Char, Traits, Alloc &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1is__wrapped__class_3_01std_1_1map_3_01_key_00_01_value_00_01_less_00_01_alloc_01_4_01_4" prot="public">v8pp::is_wrapped_class&lt; std::map&lt; Key, Value, Less, Alloc &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1is__wrapped__class_3_01std_1_1shared__ptr_3_01_t_01_4_01_4" prot="public">v8pp::is_wrapped_class&lt; std::shared_ptr&lt; T &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1is__wrapped__class_3_01std_1_1vector_3_01_t_00_01_alloc_01_4_01_4" prot="public">v8pp::is_wrapped_class&lt; std::vector&lt; T, Alloc &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1is__wrapped__class_3_01_t_01_4" prot="public">v8pp::is_wrapped_class&lt; T &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1is__wrapped__class_3_01v8_1_1_global_3_01_t_01_4_01_4" prot="public">v8pp::is_wrapped_class&lt; v8::Global&lt; T &gt; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1is__wrapped__class_3_01v8_1_1_local_3_01_t_01_4_01_4" prot="public">v8pp::is_wrapped_class&lt; v8::Local&lt; T &gt; &gt;</innerclass>
+    <innerclass refid="classv8pp_1_1module" prot="public">v8pp::module</innerclass>
+    <innerclass refid="structv8pp_1_1persistent" prot="public">v8pp::persistent</innerclass>
+    <innerclass refid="classv8pp_1_1persistent__ptr" prot="public">v8pp::persistent_ptr</innerclass>
+    <innerclass refid="structv8pp_1_1property__" prot="public">v8pp::property_</innerclass>
+    <innerclass refid="structv8pp_1_1property___3_01_get_00_01_get_01_4" prot="public">v8pp::property_&lt; Get, Get &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1raw__ptr__traits" prot="public">v8pp::raw_ptr_traits</innerclass>
+    <innerclass refid="structv8pp_1_1ref__from__shared__ptr" prot="public">v8pp::ref_from_shared_ptr</innerclass>
+    <innerclass refid="structv8pp_1_1shared__ptr__traits" prot="public">v8pp::shared_ptr_traits</innerclass>
+    <innernamespace refid="namespacev8pp_1_1detail">v8pp::detail</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="class_8hpp_1ac1f4a08379558ca1d600a5e55dcf6eff" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1class__" kindref="compound">class_</ref>&lt; T, shared_ptr_traits &gt;</type>
+        <definition>using v8pp::shared_class = typedef class_&lt;T, shared_ptr_traits&gt;</definition>
+        <argsstring></argsstring>
+        <name>shared_class</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Interface to access C++ classes bound to V8 Objects are stored in std::shared_ptr </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="730" column="1" bodyfile="v8pp/class.hpp" bodystart="730" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="context_8cpp_1abeb325a8ca9e2196b0b7b985f77a483c" prot="public" static="yes" mutable="no">
+        <type>array_buffer_allocator</type>
+        <definition>array_buffer_allocator v8pp::array_buffer_allocator_</definition>
+        <argsstring></argsstring>
+        <name>array_buffer_allocator_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.cpp" line="165" column="1" bodyfile="v8pp/context.cpp" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="call__v8_8hpp_1ab2235c91f3d3d7dd7afeb0e19d4a5366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>v8::Local&lt; v8::Value &gt;</type>
+        <definition>v8::Local&lt;v8::Value&gt; v8pp::call_v8</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Function &gt; func, v8::Local&lt; v8::Value &gt; recv, Args &amp;&amp;... args)</argsstring>
+        <name>call_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Function &gt;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>recv</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call a V8 function, converting C++ arguments to v8::Value arguments <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isolate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>V8 isolate instance </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>func</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>V8 function to call </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>recv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>V8 object used as <computeroutput>this</computeroutput> in the function </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args...</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>C++ arguments to convert to JS arguments using to_v8 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_v8.hpp" line="24" column="1" bodyfile="v8pp/call_v8.hpp" bodystart="24" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_8hpp_1ad1c8499ee4af1e93697ad3d1f4f78502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>V8PP_IMPL void v8pp::cleanup</definition>
+        <argsstring>(v8::Isolate *isolate)</argsstring>
+        <name>cleanup</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="732" column="1" bodyfile="v8pp/class.ipp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="convert_8hpp_1a78715d199fa0bc76d3cb0b8e110fe322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto v8pp::from_v8</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Value &gt; value) -&gt; decltype(convert&lt; T &gt;::from_v8(isolate, value))</argsstring>
+        <name>from_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="627" column="1" bodyfile="v8pp/convert.hpp" bodystart="627" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="convert_8hpp_1a92ac8e5ee75fe964b08d42af24d85be6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto v8pp::from_v8</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Value &gt; value, U const &amp;default_value) -&gt; decltype(convert&lt; T &gt;::from_v8(isolate, value))</argsstring>
+        <name>from_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>U const &amp;</type>
+          <declname>default_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="634" column="1" bodyfile="v8pp/convert.hpp" bodystart="634" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="convert_8hpp_1a781ee1055ea6fe4c1fbaa402ff65bca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Local&lt; v8::String &gt;</type>
+        <definition>v8::Local&lt;v8::String&gt; v8pp::to_v8</definition>
+        <argsstring>(v8::Isolate *isolate, char const *str, size_t len)</argsstring>
+        <name>to_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>char const *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="641" column="1" bodyfile="v8pp/convert.hpp" bodystart="641" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="function" id="convert_8hpp_1ae2fc5cb3256b2b00114827aa3f6f5a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>v8::Local&lt; v8::String &gt;</type>
+        <definition>v8::Local&lt;v8::String&gt; v8pp::to_v8</definition>
+        <argsstring>(v8::Isolate *isolate, char const (&amp;str)[N], size_t len=N - 1)</argsstring>
+        <name>to_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>char const (&amp;)</type>
+          <declname>str</declname>
+          <array>[N]</array>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+          <defval>N - 1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="647" column="1" bodyfile="v8pp/convert.hpp" bodystart="647" bodyend="651"/>
+      </memberdef>
+      <memberdef kind="function" id="convert_8hpp_1a445e128978573623f503f69862d69b7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Handle&lt; v8::String &gt;</type>
+        <definition>v8::Handle&lt;v8::String&gt; v8pp::to_v8</definition>
+        <argsstring>(v8::Isolate *isolate, char16_t const *str, size_t len)</argsstring>
+        <name>to_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>char16_t const *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="653" column="1" bodyfile="v8pp/convert.hpp" bodystart="653" bodyend="656"/>
+      </memberdef>
+      <memberdef kind="function" id="convert_8hpp_1a9540a914ea16df00f748deff61331668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>v8::Handle&lt; v8::String &gt;</type>
+        <definition>v8::Handle&lt;v8::String&gt; v8pp::to_v8</definition>
+        <argsstring>(v8::Isolate *isolate, char16_t const (&amp;str)[N], size_t len=N - 1)</argsstring>
+        <name>to_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>char16_t const (&amp;)</type>
+          <declname>str</declname>
+          <array>[N]</array>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+          <defval>N - 1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="659" column="1" bodyfile="v8pp/convert.hpp" bodystart="659" bodyend="663"/>
+      </memberdef>
+      <memberdef kind="function" id="convert_8hpp_1ac084ad7f8836837606cc2ac4fd9d7d06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto v8pp::to_v8</definition>
+        <argsstring>(v8::Isolate *isolate, T const &amp;value) -&gt; decltype(convert&lt; T &gt;::to_v8(isolate, value))</argsstring>
+        <name>to_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="680" column="1" bodyfile="v8pp/convert.hpp" bodystart="680" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="convert_8hpp_1a02608a88adbf32f00836db427178915d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Iterator</type>
+          </param>
+        </templateparamlist>
+        <type>v8::Local&lt; v8::Array &gt;</type>
+        <definition>v8::Local&lt;v8::Array&gt; v8pp::to_v8</definition>
+        <argsstring>(v8::Isolate *isolate, Iterator begin, Iterator end)</argsstring>
+        <name>to_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>Iterator</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>Iterator</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="687" column="1" bodyfile="v8pp/convert.hpp" bodystart="687" bodyend="697"/>
+      </memberdef>
+      <memberdef kind="function" id="convert_8hpp_1a150f43ebcdf3d9a32a582b3bb9675041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>v8::Local&lt; v8::Array &gt;</type>
+        <definition>v8::Local&lt;v8::Array&gt; v8pp::to_v8</definition>
+        <argsstring>(v8::Isolate *isolate, std::initializer_list&lt; T &gt; const &amp;init)</argsstring>
+        <name>to_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>std::initializer_list&lt; T &gt; const &amp;</type>
+          <declname>init</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="700" column="1" bodyfile="v8pp/convert.hpp" bodystart="700" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="convert_8hpp_1a4c88d3e532776352aef2474e6390d1e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>v8::Local&lt; T &gt;</type>
+        <definition>v8::Local&lt;T&gt; v8pp::to_local</definition>
+        <argsstring>(v8::Isolate *isolate, v8::PersistentBase&lt; T &gt; const &amp;handle)</argsstring>
+        <name>to_local</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::PersistentBase&lt; T &gt; const &amp;</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="706" column="1" bodyfile="v8pp/convert.hpp" bodystart="706" bodyend="717"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1ae1e3296d508397ed800a3797e0ce0db0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>v8::Local&lt; v8::FunctionTemplate &gt;</type>
+        <definition>v8::Local&lt;v8::FunctionTemplate&gt; v8pp::wrap_function_template</definition>
+        <argsstring>(v8::Isolate *isolate, F &amp;&amp;func)</argsstring>
+        <name>wrap_function_template</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+<para>Wrap C++ function into new V8 function template. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="180" column="1" bodyfile="v8pp/function.hpp" bodystart="180" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1af2bd81b4ba5a92e2418e82fed46d0076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>v8::Local&lt; v8::Function &gt;</type>
+        <definition>v8::Local&lt;v8::Function&gt; v8pp::wrap_function</definition>
+        <argsstring>(v8::Isolate *isolate, char const *name, F &amp;&amp;func)</argsstring>
+        <name>wrap_function</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wrap C++ function into new V8 function Set nullptr or empty string for name to make the function anonymous </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="192" column="1" bodyfile="v8pp/function.hpp" bodystart="192" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="json_8hpp_1a01c553f08c3a74426611eeb5102662b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>V8PP_IMPL std::string v8pp::json_str</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>json_str</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stringify V8 value to JSON return empty string for empty value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/json.hpp" line="22" column="1" bodyfile="v8pp/json.ipp" bodystart="5" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="json_8hpp_1ad7b4b9df848eba99b6235dbbb1c5e561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>v8::Local&lt; v8::Value &gt;</type>
+        <definition>V8PP_IMPL v8::Local&lt; v8::Value &gt; v8pp::json_parse</definition>
+        <argsstring>(v8::Isolate *isolate, std::string const &amp;str)</argsstring>
+        <name>json_parse</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parse JSON string into V8 value return empty value for empty string return Error value on parse error </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/json.hpp" line="27" column="1" bodyfile="v8pp/json.ipp" bodystart="21" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="json_8hpp_1a42503aa4339b60dcce740d834e785577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>v8::Local&lt; v8::Object &gt;</type>
+        <definition>V8PP_IMPL v8::Local&lt; v8::Object &gt; v8pp::json_object</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Object &gt; object, bool with_functions=false)</argsstring>
+        <name>json_object</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Object &gt;</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>with_functions</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert wrapped C++ object to JavaScript object with properties and optionally functions set from the C++ object </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/json.hpp" line="31" column="1" bodyfile="v8pp/json.ipp" bodystart="45" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="object_8hpp_1aa67c57e3946cbc4ceb6116432449644a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool v8pp::get_option</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Object &gt; options, char const *name, T &amp;value)</argsstring>
+        <name>get_option</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Object &gt;</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get optional value from V8 object by name. Dot symbols in option name delimits subobjects name. return false if the value doesn&apos;t exist in the options object </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/object.hpp" line="24" column="1" bodyfile="v8pp/object.hpp" bodystart="24" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="object_8hpp_1a6eca98eeb277f33838b58da1f959ae93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool v8pp::set_option</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Object &gt; options, char const *name, T const &amp;value)</argsstring>
+        <name>set_option</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Object &gt;</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set named value in V8 object Dot symbols in option name delimits subobjects name. return false if the value doesn&apos;t exists in the options subobject </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/object.hpp" line="49" column="1" bodyfile="v8pp/object.hpp" bodystart="49" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="object_8hpp_1a3ac8c79eaac9841dd99bf49ff0db5869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void v8pp::set_const</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Object &gt; options, char const *name, T const &amp;value)</argsstring>
+        <name>set_const</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Object &gt;</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set named constant in V8 object Subobject names are not supported </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/object.hpp" line="67" column="1" bodyfile="v8pp/object.hpp" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="property_8hpp_1a31a79dadb8b3314cfeb96768f6c4b5d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Get</type>
+          </param>
+          <param>
+            <type>typename Set</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structv8pp_1_1property__" kindref="compound">property_</ref>&lt; Get, Set &gt;</type>
+        <definition>property_&lt;Get, Set&gt; v8pp::property</definition>
+        <argsstring>(Get get, Set set)</argsstring>
+        <name>property</name>
+        <param>
+          <type>Get</type>
+          <declname>get</declname>
+        </param>
+        <param>
+          <type>Set</type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+<para>Create read/write property from get and set member functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="391" column="1" bodyfile="v8pp/property.hpp" bodystart="391" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="property_8hpp_1a80d1ec91630c3b941cce2c8195e0f3dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Get</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structv8pp_1_1property__" kindref="compound">property_</ref>&lt; Get, Get &gt;</type>
+        <definition>property_&lt;Get, Get&gt; v8pp::property</definition>
+        <argsstring>(Get get)</argsstring>
+        <name>property</name>
+        <param>
+          <type>Get</type>
+          <declname>get</declname>
+        </param>
+        <briefdescription>
+<para>Create read-only property from a get function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="398" column="1" bodyfile="v8pp/property.hpp" bodystart="398" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="throw__ex_8hpp_1a07d545e244ed899cc485cd9913f57497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>v8::Local&lt; v8::Value &gt;</type>
+        <definition>V8PP_IMPL v8::Local&lt; v8::Value &gt; v8pp::throw_ex</definition>
+        <argsstring>(v8::Isolate *isolate, char const *str)</argsstring>
+        <name>throw_ex</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>char const *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/throw_ex.hpp" line="20" column="1" bodyfile="v8pp/throw_ex.ipp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="throw__ex_8hpp_1a93759c230d481aa97dacf2ce12f31e0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>v8::Local&lt; v8::Value &gt;</type>
+        <definition>V8PP_IMPL v8::Local&lt; v8::Value &gt; v8pp::throw_ex</definition>
+        <argsstring>(v8::Isolate *isolate, char const *str, v8::Local&lt; v8::Value &gt;(*exception_ctor)(v8::Local&lt; v8::String &gt;))</argsstring>
+        <name>throw_ex</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>char const *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;(*)(v8::Local&lt; v8::String &gt;)</type>
+          <declname>exception_ctor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/throw_ex.hpp" line="22" column="1" bodyfile="v8pp/throw_ex.ipp" bodystart="10" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="throw__ex_8hpp_1a4e6a37995f709344bf44b6cceba8e466" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Local&lt; v8::Value &gt;</type>
+        <definition>v8::Local&lt;v8::Value&gt; v8pp::throw_ex</definition>
+        <argsstring>(v8::Isolate *isolate, std::string const &amp;str)</argsstring>
+        <name>throw_ex</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/throw_ex.hpp" line="25" column="1" bodyfile="v8pp/throw_ex.hpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="throw__ex_8hpp_1a492e088daa0a5da8b649d6d6f0e6dd88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Local&lt; v8::Value &gt;</type>
+        <definition>v8::Local&lt;v8::Value&gt; v8pp::throw_ex</definition>
+        <argsstring>(v8::Isolate *isolate, std::string const &amp;str, v8::Local&lt; v8::Value &gt;(*exception_ctor)(v8::Local&lt; v8::String &gt;))</argsstring>
+        <name>throw_ex</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;(*)(v8::Local&lt; v8::String &gt;)</type>
+          <declname>exception_ctor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/throw_ex.hpp" line="30" column="1" bodyfile="v8pp/throw_ex.hpp" bodystart="30" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/call_from_v8.hpp" line="19" column="1"/>
+  </compounddef>
+</doxygen>

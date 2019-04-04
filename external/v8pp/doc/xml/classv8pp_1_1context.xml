@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classv8pp_1_1context" kind="class" language="C++" prot="public">
+    <compoundname>v8pp::context</compoundname>
+    <includes refid="context_8hpp" local="no">context.hpp</includes>
+    <innerclass refid="structv8pp_1_1context_1_1dynamic__module" prot="public">v8pp::context::dynamic_module</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classv8pp_1_1context_1aace17f991b264d39914b8874c56b08e7" prot="private" static="no">
+        <type>std::map&lt; std::string, dynamic_module &gt;</type>
+        <definition>using v8pp::context::dynamic_modules =  std::map&lt;std::string, dynamic_module&gt;</definition>
+        <argsstring></argsstring>
+        <name>dynamic_modules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="77" column="1" bodyfile="v8pp/context.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classv8pp_1_1context_1a221d202b36c85bc0cce2659ce6e0f0d6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool v8pp::context::own_isolate_</definition>
+        <argsstring></argsstring>
+        <name>own_isolate_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="72" column="1" bodyfile="v8pp/context.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classv8pp_1_1context_1a68838a601875ee584ee9d06f03d9432e" prot="private" static="no" mutable="no">
+        <type>v8::Isolate *</type>
+        <definition>v8::Isolate* v8pp::context::isolate_</definition>
+        <argsstring></argsstring>
+        <name>isolate_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="73" column="1" bodyfile="v8pp/context.hpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classv8pp_1_1context_1a245f834736f2cd8f91914da12bf2d4d7" prot="private" static="no" mutable="no">
+        <type>v8::Global&lt; v8::Context &gt;</type>
+        <definition>v8::Global&lt;v8::Context&gt; v8pp::context::impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="74" column="1" bodyfile="v8pp/context.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classv8pp_1_1context_1a939b18ce255a90810ba935487ed70fc7" prot="private" static="no" mutable="no">
+        <type>dynamic_modules</type>
+        <definition>dynamic_modules v8pp::context::modules_</definition>
+        <argsstring></argsstring>
+        <name>modules_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="82" column="1" bodyfile="v8pp/context.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classv8pp_1_1context_1ab654f6f4001a63cebc292c8121a947e9" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string v8pp::context::lib_path_</definition>
+        <argsstring></argsstring>
+        <name>lib_path_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="83" column="1" bodyfile="v8pp/context.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classv8pp_1_1context_1aad070fe2338e63b0d37b78d6c3416cbb" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::context::context</definition>
+        <argsstring>(v8::Isolate *isolate=nullptr, v8::ArrayBuffer::Allocator *allocator=nullptr, bool add_default_global_methods=true)</argsstring>
+        <name>context</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>v8::ArrayBuffer::Allocator *</type>
+          <declname>allocator</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>add_default_global_methods</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create context with optional existing v8::Isolate and v8::ArrayBuffer::Allocator, </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="33" column="1" bodyfile="v8pp/context.cpp" bodystart="167" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1context_1a935b9f67b4618f6893e3a4b47466f6c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::context::~context</definition>
+        <argsstring>()</argsstring>
+        <name>~context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="36" column="1" bodyfile="v8pp/context.cpp" bodystart="200" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1context_1ac96a75fa323d6decc0aeed8eb3a2d72b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Isolate *</type>
+        <definition>v8::Isolate* v8pp::context::isolate</definition>
+        <argsstring>()</argsstring>
+        <name>isolate</name>
+        <briefdescription>
+<para>V8 isolate associated with this context. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="39" column="1" bodyfile="v8pp/context.hpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1context_1ad41facb5bd5ff44ed6592e3aaa5dcbc2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string const  &amp;</type>
+        <definition>std::string const&amp; v8pp::context::lib_path</definition>
+        <argsstring>() const</argsstring>
+        <name>lib_path</name>
+        <briefdescription>
+<para>Library search path. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="42" column="1" bodyfile="v8pp/context.hpp" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1context_1a721c1d5cb9d88fa2bcaacaa39a60a2d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void v8pp::context::set_lib_path</definition>
+        <argsstring>(std::string const &amp;lib_path)</argsstring>
+        <name>set_lib_path</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>lib_path</declname>
+        </param>
+        <briefdescription>
+<para>Set new library search path. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="45" column="1" bodyfile="v8pp/context.hpp" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1context_1a50c5f4d0cec27044e0e3614c5193ac20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>v8::Local&lt; v8::Value &gt;</type>
+        <definition>v8::Local&lt; v8::Value &gt; v8pp::context::run_file</definition>
+        <argsstring>(std::string const &amp;filename)</argsstring>
+        <name>run_file</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Run script file, returns script result or empty handle on failure, use v8::TryCatch around it to find out why. Must be invoked in a v8::HandleScope </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="50" column="1" bodyfile="v8pp/context.cpp" bodystart="243" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1context_1ae66a196ef7afb672b571ed63ad5a360d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>v8::Local&lt; v8::Value &gt;</type>
+        <definition>v8::Local&lt; v8::Value &gt; v8pp::context::run_script</definition>
+        <argsstring>(std::string const &amp;source, std::string const &amp;filename=&quot;&quot;)</argsstring>
+        <name>run_script</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>The same as run_file but uses string as the script source. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="53" column="1" bodyfile="v8pp/context.cpp" bodystart="255" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1context_1a074ebe9a009345403e31a26ff40395f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classv8pp_1_1context" kindref="compound">context</ref> &amp;</type>
+        <definition>context &amp; v8pp::context::set</definition>
+        <argsstring>(char const *name, v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set a V8 value in the context global object with specified name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="57" column="1" bodyfile="v8pp/context.cpp" bodystart="231" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1context_1aa1b1283a32ed742b8ff0310e4f77c123" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classv8pp_1_1context" kindref="compound">context</ref> &amp;</type>
+        <definition>context &amp; v8pp::context::set</definition>
+        <argsstring>(char const *name, module &amp;m)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Set module to the context global object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="60" column="1" bodyfile="v8pp/context.cpp" bodystart="238" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1context_1a6eeeedf2b30ee4f5573b3b9aeb0cec9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename Traits</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1context" kindref="compound">context</ref> &amp;</type>
+        <definition>context&amp; v8pp::context::set</definition>
+        <argsstring>(char const *name, class_&lt; T, Traits &gt; &amp;cl)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classv8pp_1_1class__" kindref="compound">class_</ref>&lt; T, Traits &gt; &amp;</type>
+          <declname>cl</declname>
+        </param>
+        <briefdescription>
+<para>Set class to the context global object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="64" column="1" bodyfile="v8pp/context.hpp" bodystart="64" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classv8pp_1_1context_1a3850c79b6b64429dc97f7f5e460bf621" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v8pp::context::load_module</definition>
+        <argsstring>(v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args)</argsstring>
+        <name>load_module</name>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="79" column="1" bodyfile="v8pp/context.cpp" bodystart="48" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1context_1af7431662fd118e7c51165f4fa515ec78" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v8pp::context::run_file</definition>
+        <argsstring>(v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args)</argsstring>
+        <name>run_file</name>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.hpp" line="80" column="1" bodyfile="v8pp/context.cpp" bodystart="126" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>V8 isolate and context wrapper. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/context.hpp" line="28" column="1" bodyfile="v8pp/context.hpp" bodystart="27" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classv8pp_1_1context_1aad070fe2338e63b0d37b78d6c3416cbb" prot="public" virt="non-virtual"><scope>v8pp::context</scope><name>context</name></member>
+      <member refid="classv8pp_1_1context_1aace17f991b264d39914b8874c56b08e7" prot="private" virt="non-virtual"><scope>v8pp::context</scope><name>dynamic_modules</name></member>
+      <member refid="classv8pp_1_1context_1a245f834736f2cd8f91914da12bf2d4d7" prot="private" virt="non-virtual"><scope>v8pp::context</scope><name>impl_</name></member>
+      <member refid="classv8pp_1_1context_1ac96a75fa323d6decc0aeed8eb3a2d72b" prot="public" virt="non-virtual"><scope>v8pp::context</scope><name>isolate</name></member>
+      <member refid="classv8pp_1_1context_1a68838a601875ee584ee9d06f03d9432e" prot="private" virt="non-virtual"><scope>v8pp::context</scope><name>isolate_</name></member>
+      <member refid="classv8pp_1_1context_1ad41facb5bd5ff44ed6592e3aaa5dcbc2" prot="public" virt="non-virtual"><scope>v8pp::context</scope><name>lib_path</name></member>
+      <member refid="classv8pp_1_1context_1ab654f6f4001a63cebc292c8121a947e9" prot="private" virt="non-virtual"><scope>v8pp::context</scope><name>lib_path_</name></member>
+      <member refid="classv8pp_1_1context_1a3850c79b6b64429dc97f7f5e460bf621" prot="private" virt="non-virtual"><scope>v8pp::context</scope><name>load_module</name></member>
+      <member refid="classv8pp_1_1context_1a939b18ce255a90810ba935487ed70fc7" prot="private" virt="non-virtual"><scope>v8pp::context</scope><name>modules_</name></member>
+      <member refid="classv8pp_1_1context_1a221d202b36c85bc0cce2659ce6e0f0d6" prot="private" virt="non-virtual"><scope>v8pp::context</scope><name>own_isolate_</name></member>
+      <member refid="classv8pp_1_1context_1a50c5f4d0cec27044e0e3614c5193ac20" prot="public" virt="non-virtual"><scope>v8pp::context</scope><name>run_file</name></member>
+      <member refid="classv8pp_1_1context_1af7431662fd118e7c51165f4fa515ec78" prot="private" virt="non-virtual"><scope>v8pp::context</scope><name>run_file</name></member>
+      <member refid="classv8pp_1_1context_1ae66a196ef7afb672b571ed63ad5a360d" prot="public" virt="non-virtual"><scope>v8pp::context</scope><name>run_script</name></member>
+      <member refid="classv8pp_1_1context_1a074ebe9a009345403e31a26ff40395f0" prot="public" virt="non-virtual"><scope>v8pp::context</scope><name>set</name></member>
+      <member refid="classv8pp_1_1context_1aa1b1283a32ed742b8ff0310e4f77c123" prot="public" virt="non-virtual"><scope>v8pp::context</scope><name>set</name></member>
+      <member refid="classv8pp_1_1context_1a6eeeedf2b30ee4f5573b3b9aeb0cec9d" prot="public" virt="non-virtual"><scope>v8pp::context</scope><name>set</name></member>
+      <member refid="classv8pp_1_1context_1a721c1d5cb9d88fa2bcaacaa39a60a2d6" prot="public" virt="non-virtual"><scope>v8pp::context</scope><name>set_lib_path</name></member>
+      <member refid="classv8pp_1_1context_1a935b9f67b4618f6893e3a4b47466f6c0" prot="public" virt="non-virtual"><scope>v8pp::context</scope><name>~context</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

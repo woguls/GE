@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1invalid__argument" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::invalid_argument</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::invalid_argument</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structv8pp_1_1invalid__argument_1a7ec6c6588986d34de63eab7e7745a2f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::invalid_argument::invalid_argument</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Value &gt; value, char const *expected_type)</argsstring>
+        <name>invalid_argument</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>char const *</type>
+          <declname>expected_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="49" column="1" bodyfile="v8pp/convert.hpp" bodystart="719" bodyend="725"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/convert.hpp" line="48" column="1" bodyfile="v8pp/convert.hpp" bodystart="47" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1invalid__argument_1a7ec6c6588986d34de63eab7e7745a2f6" prot="public" virt="non-virtual"><scope>v8pp::invalid_argument</scope><name>invalid_argument</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

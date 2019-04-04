@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>v8pp</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ulink url="https://travis-ci.org/pmed/v8pp"></ulink> <ulink url="https://ci.appveyor.com/project/pmed/v8pp"></ulink> <ulink url="https://npmjs.com/package/v8pp"></ulink> <ulink url="https://gitter.im/pmed/v8pp?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"></ulink></para><para><heading level="1">v8pp</heading>
+</para><para>Header-only library to expose C++ classes and functions into <ulink url="https://developers.google.com/v8/">V8</ulink> to use them in JavaScript code. v8pp uses heavy template metaprogramming and variadic template parameters which requires modern compiler with C++11 support. The library has been tested on:</para><para><itemizedlist>
+<listitem><para>Microsoft Visual C++ 2015/2017 (Windows 10)</para></listitem><listitem><para>GCC 5.4.0 (Ubuntu 16.04)</para></listitem><listitem><para>Clang 5.0.0 (Ubuntu 16.04)</para></listitem></itemizedlist>
+</para><para><heading level="2">Binding example</heading>
+</para><para>v8pp supports V8 versions after 6.3 with <computeroutput>v8::Isolate</computeroutput> usage in API. There are 2 targets for binding:</para><para><itemizedlist>
+<listitem><para><computeroutput><ref refid="classv8pp_1_1module" kindref="compound">v8pp::module</ref></computeroutput>, a wrapper class around <computeroutput>v8::ObjectTemplate</computeroutput></para></listitem><listitem><para><computeroutput><ref refid="classv8pp_1_1class__" kindref="compound">v8pp::class_</ref></computeroutput>, a template class wrapper around <computeroutput>v8::FunctionTemplate</computeroutput></para></listitem></itemizedlist>
+</para><para>Both of them require a pointer to <computeroutput>v8::Isolate</computeroutput> instance. They allows to bind from C++ code such items as variables, functions, constants with a function <computeroutput>set(name, item)</computeroutput>:</para><para>```c++ v8::Isolate* isolate;</para><para>int var; int get_var() { return var + 1; } void set_var(int x) { var = x + 1; }</para><para>struct X { X(int v, bool u) : var(v) {} int var; int get() const { return var; } voi set(int x) { var = x; } };</para><para>// bind free variables and functions <ref refid="classv8pp_1_1module" kindref="compound">v8pp::module</ref> mylib(isolate); mylib // set read-only attribute .set_const(&quot;PI&quot;, 3.1415) // set variable available in JavaScript with name <computeroutput>var</computeroutput> .set(&quot;var&quot;, var) // set function get_var as <computeroutput>fun</computeroutput> .set(&quot;fun&quot;, &amp;get_var) // set property <computeroutput>prop</computeroutput> with getter get_var() and setter set_var() .set(&quot;prop&quot;, property(get_var, set_var));</para><para>// bind class v8pp::class_&lt;X&gt; X_class(isolate); X_class // specify X constructor signature .ctor&lt;int, bool&gt;() // bind variable .set(&quot;var&quot;, &amp;X::var) // bind function .set(&quot;fun&quot;, &amp;X::set) // bind read-only property .set(&quot;prop&quot;, property(&amp;X::get));</para><para>// set class into the module template mylib.set(&quot;X&quot;, X_class);</para><para>// set bindings in global object as <computeroutput>mylib</computeroutput> isolate-&gt;GetCurrentContext()-&gt;Global()-&gt;Set( v8::String::NewFromUtf8(isolate, &quot;mylib&quot;), mylib.new_instance()); <programlisting><codeline><highlight class="normal">After<sp/>that<sp/>bindings<sp/>will<sp/>be<sp/>available<sp/>in<sp/>JavaScript:</highlight></codeline>
+<codeline><highlight class="normal">```javascript</highlight></codeline>
+<codeline><highlight class="normal">mylib.var<sp/>=<sp/>mylib.PI<sp/>+<sp/>mylib.fun();</highlight></codeline>
+<codeline><highlight class="normal">var<sp/>x<sp/>=<sp/>new<sp/>mylib.X(1,<sp/>true);</highlight></codeline>
+<codeline><highlight class="normal">mylib.prop<sp/>=<sp/>x.prop<sp/>+<sp/>x.fun();</highlight></codeline>
+</programlisting></para><para><heading level="2">Node.js and io.js addons</heading>
+</para><para>The library is suitable to make <ulink url="http://nodejs.org/">Node.js</ulink> and <ulink url="https://iojs.org/">io.js</ulink> addons. See addons document.</para><para><programlisting><codeline><highlight class="normal">{c++}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>RegisterModule(v8::Handle&lt;v8::Object&gt;<sp/>exports)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>v8pp::module<sp/>addon(v8::Isolate::GetCurrent());</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>set<sp/>bindings...<sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>addon</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;fun&quot;,<sp/>&amp;function)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;cls&quot;,<sp/>my_class)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>set<sp/>bindings<sp/>as<sp/>exports<sp/>object<sp/>prototype</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>exports-&gt;SetPrototype(addon.new_instance());</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para><heading level="2">v8pp also provides</heading>
+</para><para><itemizedlist>
+<listitem><para><computeroutput>v8pp</computeroutput> - a static library to add several global functions (load/require to the v8 JavaScript context. <computeroutput>require()</computeroutput> is a system for loading plugins from shared libraries.</para></listitem><listitem><para><computeroutput>test</computeroutput> - A binary for running JavaScript files in a context which has v8pp module loading functions provided.</para></listitem></itemizedlist>
+</para><para><heading level="2">v8pp module example</heading>
+</para><para><programlisting><codeline><highlight class="normal">{c++}</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&lt;iostream&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#include<sp/>&lt;v8pp/module.hpp&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">namespace<sp/>console<sp/>{</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>log(v8::FunctionCallbackInfo&lt;v8::Value&gt;<sp/>const&amp;<sp/>args)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>v8::HandleScope<sp/>handle_scope(args.GetIsolate());</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>args.Length();<sp/>++i)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(i<sp/>&gt;<sp/>0)<sp/>std::cout<sp/>&lt;&lt;<sp/>&apos;<sp/>&apos;;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v8::String::Utf8Value<sp/>str(args[i]);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/><sp/>*str;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">v8::Handle&lt;v8::Value&gt;<sp/>init(v8::Isolate*<sp/>isolate)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>v8pp::module<sp/>m(isolate);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>m.set(&quot;log&quot;,<sp/>&amp;log);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>m.new_instance();</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">}<sp/>//<sp/>namespace<sp/>console</highlight></codeline>
+</programlisting></para><para><heading level="2">Turning a v8pp module into a v8pp plugin</heading>
+</para><para><programlisting><codeline><highlight class="normal">{c++}</highlight></codeline>
+<codeline><highlight class="normal">V8PP_PLUGIN_INIT(v8::Isolate*<sp/>isolate)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>console::init(isolate);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para><heading level="2">v8pp class binding example</heading>
+</para><para><programlisting><codeline><highlight class="normal">{c++}</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&lt;v8pp/module.hpp&gt;</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&lt;v8pp/class.hpp&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#include<sp/>&lt;fstream&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">namespace<sp/>file<sp/>{</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">bool<sp/>rename(char<sp/>const*<sp/>src,<sp/>char<sp/>const*<sp/>dest)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>std::rename(src,<sp/>dest)<sp/>==<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">class<sp/>file_base</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>is_open()<sp/>const<sp/>{<sp/>return<sp/>stream_.is_open();<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>good()<sp/>const<sp/>{<sp/>return<sp/>stream_.good();<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>eof()<sp/>const<sp/>{<sp/>return<sp/>stream_.eof();<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>close()<sp/>{<sp/>stream_.close();<sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">protected:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>std::fstream<sp/>stream_;</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">class<sp/>file_writer<sp/>:<sp/>public<sp/>file_base</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>explicit<sp/>file_writer(v8::FunctionCallbackInfo&lt;v8::Value&gt;<sp/>const&amp;<sp/>args)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(args.Length()<sp/>==<sp/>1)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v8::String::Utf8Value<sp/>str(args[0]);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>open(*str);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>open(char<sp/>const*<sp/>path)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stream_.open(path,<sp/>std::ios_base::out);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>stream_.good();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>print(v8::FunctionCallbackInfo&lt;v8::Value&gt;<sp/>const&amp;<sp/>args)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v8::HandleScope<sp/>scope(args.GetIsolate());</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>args.Length();<sp/>++i)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(i<sp/>&gt;<sp/>0)<sp/>stream_<sp/>&lt;&lt;<sp/>&apos;<sp/>&apos;;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v8::String::Utf8Value<sp/>str(args[i]);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stream_<sp/>&lt;&lt;<sp/>*str;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>println(v8::FunctionCallbackInfo&lt;v8::Value&gt;<sp/>const&amp;<sp/>args)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(args);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stream_<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">class<sp/>file_reader<sp/>:<sp/>public<sp/>file_base</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>explicit<sp/>file_reader(char<sp/>const*<sp/>path)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>open(path);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>open(const<sp/>char*<sp/>path)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stream_.open(path,<sp/>std::ios_base::in);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>stream_.good();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>v8::Handle&lt;v8::Value&gt;<sp/>getline(v8::Isolate*<sp/>isolate)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(<sp/>stream_.good()<sp/>&amp;&amp;<sp/>!<sp/>stream_.eof())</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>line;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::getline(stream_,<sp/>line);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>v8pp::to_v8(isolate,<sp/>line);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>v8::Undefined(isolate);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">v8::Handle&lt;v8::Value&gt;<sp/>init(v8::Isolate*<sp/>isolate)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>v8::EscapableHandleScope<sp/>scope(isolate);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>file_base<sp/>binding,<sp/>no<sp/>.ctor()<sp/>specified,<sp/>object<sp/>creation<sp/>disallowed<sp/>in<sp/>JavaScript</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>v8pp::class_&lt;file_base&gt;<sp/>file_base_class(isolate);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>file_base_class</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;close&quot;,<sp/>&amp;file_base::close)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;good&quot;,<sp/>&amp;file_base::good)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;is_open&quot;,<sp/>&amp;file_base::is_open)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;eof&quot;,<sp/>&amp;file_base::eof)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>.ctor&lt;&gt;<sp/>template<sp/>arguments<sp/>declares<sp/>types<sp/>of<sp/>file_writer<sp/>constructor</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>file_writer<sp/>inherits<sp/>from<sp/>file_base_class</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>v8pp::class_&lt;file_writer&gt;<sp/>file_writer_class(isolate);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>file_writer_class</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.ctor&lt;v8::FunctionCallbackInfo&lt;v8::Value&gt;<sp/>const&amp;&gt;()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.inherit&lt;file_base&gt;()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;open&quot;,<sp/>&amp;file_writer::open)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;print&quot;,<sp/>&amp;file_writer::print)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;println&quot;,<sp/>&amp;file_writer::println)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>.ctor&lt;&gt;<sp/>template<sp/>arguments<sp/>declares<sp/>types<sp/>of<sp/>file_reader<sp/>constructor.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>file_base<sp/>inherits<sp/>from<sp/>file_base_class</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>v8pp::class_&lt;file_reader&gt;<sp/>file_reader_class(isolate);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>file_reader_class</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.ctor&lt;char<sp/>const*&gt;()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.inherit&lt;file_base&gt;()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;open&quot;,<sp/>&amp;file_reader::open)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.set(&quot;getln&quot;,<sp/>&amp;file_reader::getline)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Create<sp/>a<sp/>module<sp/>to<sp/>add<sp/>classes<sp/>and<sp/>functions<sp/>to<sp/>and<sp/>return<sp/>a</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>new<sp/>instance<sp/>of<sp/>the<sp/>module<sp/>to<sp/>be<sp/>embedded<sp/>into<sp/>the<sp/>v8<sp/>context</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>v8pp::module<sp/>m(isolate);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>m.set(&quot;rename&quot;,<sp/>&amp;rename)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>.set(&quot;writer&quot;,<sp/>file_writer_class)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>.set(&quot;reader&quot;,<sp/>file_reader_class)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>scope.Escape(m.new_instance());</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">}<sp/>//<sp/>namespace<sp/>file</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">V8PP_PLUGIN_INIT(v8::Isolate*<sp/>isolate)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>file::init(isolate);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para><heading level="2">Creating a v8 context capable of using require() function</heading>
+</para><para><programlisting><codeline><highlight class="normal">{c++}</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&lt;v8pp/context.hpp&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">v8pp::context<sp/>context;</highlight></codeline>
+<codeline><highlight class="normal">context.set_lib_path(&quot;path/to/plugins/lib&quot;);</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>script<sp/>can<sp/>now<sp/>use<sp/>require()<sp/>function.<sp/>An<sp/>application</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>that<sp/>uses<sp/>v8pp::context<sp/>must<sp/>link<sp/>against<sp/>v8pp<sp/>library.</highlight></codeline>
+<codeline><highlight class="normal">v8::HandleScope<sp/>scope(context.isolate());</highlight></codeline>
+<codeline><highlight class="normal">context.run_file(&quot;some_file.js&quot;);</highlight></codeline>
+</programlisting></para><para><heading level="2">Using require() from JavaScript</heading>
+</para><para><programlisting filename=".javascript"><codeline><highlight class="normal">//<sp/>Load<sp/>the<sp/>file<sp/>module<sp/>from<sp/>the<sp/>class<sp/>binding<sp/>example<sp/>and<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>console<sp/>module.</highlight></codeline>
+<codeline><highlight class="normal">var<sp/>file<sp/><sp/><sp/><sp/>=<sp/>require(&apos;file&apos;),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>console<sp/>=<sp/>require(&apos;console&apos;)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">var<sp/>writer<sp/>=<sp/>new<sp/>file.writer(&quot;file&quot;)</highlight></codeline>
+<codeline><highlight class="normal">if<sp/>(writer.is_open())<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>writer.println(&quot;some<sp/>text&quot;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>writer.close()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(!<sp/>file.rename(&quot;file&quot;,<sp/>&quot;newfile&quot;))</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>console.log(&quot;could<sp/>not<sp/>rename<sp/>file&quot;)</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">else<sp/>console.log(&quot;could<sp/>not<sp/>open<sp/>`file&apos;&quot;)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">console.log(&quot;exit&quot;)</highlight></codeline>
+</programlisting></para><para><heading level="2">Create a handle to an externally referenced C++ class.</heading>
+</para><para><programlisting><codeline><highlight class="normal">{c++}</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Memory<sp/>for<sp/>C++<sp/>class<sp/>will<sp/>remain<sp/>when<sp/>JavaScript<sp/>object<sp/>is<sp/>deleted.</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Useful<sp/>for<sp/>classes<sp/>you<sp/>only<sp/>wish<sp/>to<sp/>inject.</highlight></codeline>
+<codeline><highlight class="normal">typedef<sp/>v8pp::class_&lt;my_class&gt;<sp/>my_class_wrapper(isolate);</highlight></codeline>
+<codeline><highlight class="normal">v8::Handle&lt;v8::Value&gt;<sp/>val<sp/>=<sp/>my_class_wrapper::reference_external(&amp;my_class::instance());</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Assuming<sp/>my_class::instance()<sp/>returns<sp/>reference<sp/>to<sp/>class</highlight></codeline>
+</programlisting></para><para><heading level="2">Import externally created C++ class into v8pp.</heading>
+</para><para><programlisting><codeline><highlight class="normal">{c++}</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Memory<sp/>for<sp/>c++<sp/>object<sp/>will<sp/>be<sp/>reclaimed<sp/>by<sp/>JavaScript<sp/>using<sp/>&quot;delete&quot;<sp/>when</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>JavaScript<sp/>class<sp/>is<sp/>deleted.</highlight></codeline>
+<codeline><highlight class="normal">typedef<sp/>v8pp::class_&lt;my_class&gt;<sp/>my_class_wrapper(isolate);</highlight></codeline>
+<codeline><highlight class="normal">v8::Handle&lt;v8::Value&gt;<sp/>val<sp/>=<sp/>my_class_wrapper::import_external(new<sp/>my_class);</highlight></codeline>
+</programlisting></para><para><heading level="2">Compile-time configuration</heading>
+</para><para>The library uses several preprocessor macros, defined in <computeroutput><ref refid="config_8hpp_source" kindref="compound">v8pp/config.hpp</ref></computeroutput> file:</para><para><itemizedlist>
+<listitem><para><computeroutput>V8PP_ISOLATE_DATA_SLOT</computeroutput> - A v8::Isolate data slot number, used to store v8pp internal data</para></listitem><listitem><para><computeroutput>V8PP_PLUGIN_INIT_PROC_NAME</computeroutput> - Plugin initialization procedure name that should be exported from a v8pp plugin.</para></listitem><listitem><para><computeroutput>V8PP_PLUGIN_SUFFIX</computeroutput> - Plugin filename suffix that would be added if the plugin name used in <computeroutput>require()</computeroutput> doesn&apos;t end with it.</para></listitem><listitem><para><computeroutput>V8PP_HEADER_ONLY</computeroutput> - Use header-only implemenation, enabled by default.</para></listitem></itemizedlist>
+</para><para><heading level="2">v8pp alternatives</heading>
+</para><para><itemizedlist>
+<listitem><para><ulink url="https://github.com/charto/nbind">nbind</ulink></para></listitem><listitem><para><ulink url="https://github.com/tsa/vu8">vu8</ulink>, abandoned</para></listitem><listitem><para><ulink url="http://code.google.com/p/v8-juice/">v8-juice</ulink>, abandoned</para></listitem><listitem><para>Script bindng in <ulink url="https://github.com/cpgf/cpgf">cpgf</ulink> </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

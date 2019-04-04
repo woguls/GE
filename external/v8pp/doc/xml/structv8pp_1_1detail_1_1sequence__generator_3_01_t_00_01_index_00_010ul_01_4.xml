@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1sequence__generator_3_01_t_00_01_index_00_010ul_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::sequence_generator&lt; T, Index, 0ul &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>T</type>
+        <declname>Index</declname>
+        <defname>Index</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structv8pp_1_1detail_1_1sequence__generator_3_01_t_00_01_index_00_010ul_01_4_1ac1d2d4819f250383b2ef562733c82343" prot="public" static="no">
+        <type>integer_sequence&lt; T &gt;</type>
+        <definition>using v8pp::detail::sequence_generator&lt; T, Index, 0ul &gt;::type =  integer_sequence&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="204" column="1" bodyfile="v8pp/utility.hpp" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/utility.hpp" line="203" column="1" bodyfile="v8pp/utility.hpp" bodystart="202" bodyend="205"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1sequence__generator_3_01_t_00_01_index_00_010ul_01_4_1ac1d2d4819f250383b2ef562733c82343" prot="public" virt="non-virtual"><scope>v8pp::detail::sequence_generator&lt; T, Index, 0ul &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

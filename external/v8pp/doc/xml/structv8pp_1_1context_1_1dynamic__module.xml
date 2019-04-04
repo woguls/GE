@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1context_1_1dynamic__module" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::context::dynamic_module</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structv8pp_1_1context_1_1dynamic__module_1a83f2bc8c4d914489074e644bd1f7407e" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* v8pp::context::dynamic_module::handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.cpp" line="34" column="1" bodyfile="v8pp/context.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structv8pp_1_1context_1_1dynamic__module_1a4ff3ece4637665644a2c274e1b6cc1b3" prot="public" static="no" mutable="no">
+        <type>v8::Global&lt; v8::Value &gt;</type>
+        <definition>v8::Global&lt;v8::Value&gt; v8pp::context::dynamic_module::exports</definition>
+        <argsstring></argsstring>
+        <name>exports</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.cpp" line="35" column="1" bodyfile="v8pp/context.cpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structv8pp_1_1context_1_1dynamic__module_1abb293c43d9efa12508770a43f69d3932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::context::dynamic_module::dynamic_module</definition>
+        <argsstring>()=default</argsstring>
+        <name>dynamic_module</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.cpp" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1context_1_1dynamic__module_1a0c505d517524279305d8e899e8c2447c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::context::dynamic_module::dynamic_module</definition>
+        <argsstring>(dynamic_module &amp;&amp;other)</argsstring>
+        <name>dynamic_module</name>
+        <param>
+          <type>dynamic_module &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.cpp" line="38" column="1" bodyfile="v8pp/context.cpp" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1context_1_1dynamic__module_1a7a72418a0a4e929c716519b9cad011a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::context::dynamic_module::dynamic_module</definition>
+        <argsstring>(dynamic_module const &amp;)=delete</argsstring>
+        <name>dynamic_module</name>
+        <param>
+          <type>dynamic_module const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.cpp" line="45" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/context.cpp" line="33" column="1" bodyfile="v8pp/context.cpp" bodystart="32" bodyend="46"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1context_1_1dynamic__module_1abb293c43d9efa12508770a43f69d3932" prot="public" virt="non-virtual"><scope>v8pp::context::dynamic_module</scope><name>dynamic_module</name></member>
+      <member refid="structv8pp_1_1context_1_1dynamic__module_1a0c505d517524279305d8e899e8c2447c" prot="public" virt="non-virtual"><scope>v8pp::context::dynamic_module</scope><name>dynamic_module</name></member>
+      <member refid="structv8pp_1_1context_1_1dynamic__module_1a7a72418a0a4e929c716519b9cad011a9" prot="public" virt="non-virtual"><scope>v8pp::context::dynamic_module</scope><name>dynamic_module</name></member>
+      <member refid="structv8pp_1_1context_1_1dynamic__module_1a4ff3ece4637665644a2c274e1b6cc1b3" prot="public" virt="non-virtual"><scope>v8pp::context::dynamic_module</scope><name>exports</name></member>
+      <member refid="structv8pp_1_1context_1_1dynamic__module_1a83f2bc8c4d914489074e644bd1f7407e" prot="public" virt="non-virtual"><scope>v8pp::context::dynamic_module</scope><name>handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

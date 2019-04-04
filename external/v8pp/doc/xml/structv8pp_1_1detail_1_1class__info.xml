@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1class__info" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::class_info</compoundname>
+    <derivedcompoundref refid="classv8pp_1_1detail_1_1object__registry" prot="public" virt="non-virtual">v8pp::detail::object_registry&lt; Traits &gt;</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structv8pp_1_1detail_1_1class__info_1a89f02ec728326fbd297ea57d0727457a" prot="public" static="no" mutable="no">
+        <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref> const</type>
+        <definition>type_info const v8pp::detail::class_info::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="33" column="1" bodyfile="v8pp/class.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structv8pp_1_1detail_1_1class__info_1a442361911b331fe82fe7afced75990fb" prot="public" static="no" mutable="no">
+        <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref> const</type>
+        <definition>type_info const v8pp::detail::class_info::traits</definition>
+        <argsstring></argsstring>
+        <name>traits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="34" column="1" bodyfile="v8pp/class.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1class__info_1a9df410fa0112c0fb0dc194c676ea8ca7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>V8PP_IMPL v8pp::detail::class_info::class_info</definition>
+        <argsstring>(type_info const &amp;type, type_info const &amp;traits)</argsstring>
+        <name>class_info</name>
+        <param>
+          <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref> const &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref> const &amp;</type>
+          <declname>traits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="36" column="1" bodyfile="v8pp/class.ipp" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1class__info_1ab7c6b18610519e42ce829b79a68f7fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual v8pp::detail::class_info::~class_info</definition>
+        <argsstring>()=default</argsstring>
+        <name>~class_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1class__info_1a714940cb5f547e970663173cbe8be217" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>V8PP_IMPL std::string v8pp::detail::class_info::class_name</definition>
+        <argsstring>() const</argsstring>
+        <name>class_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="40" column="1" bodyfile="v8pp/class.ipp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="11">
+        <label>v8pp::detail::class_info</label>
+        <childnode refid="12" relation="usage">
+          <edgelabel>traits</edgelabel>
+          <edgelabel>type</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>v8pp::detail::type_info</label>
+        <link refid="classv8pp_1_1detail_1_1type__info"/>
+      </node>
+    </collaborationgraph>
+    <location file="v8pp/class.hpp" line="32" column="1" bodyfile="v8pp/class.hpp" bodystart="31" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1class__info_1a9df410fa0112c0fb0dc194c676ea8ca7" prot="public" virt="non-virtual"><scope>v8pp::detail::class_info</scope><name>class_info</name></member>
+      <member refid="structv8pp_1_1detail_1_1class__info_1a714940cb5f547e970663173cbe8be217" prot="public" virt="non-virtual"><scope>v8pp::detail::class_info</scope><name>class_name</name></member>
+      <member refid="structv8pp_1_1detail_1_1class__info_1a442361911b331fe82fe7afced75990fb" prot="public" virt="non-virtual"><scope>v8pp::detail::class_info</scope><name>traits</name></member>
+      <member refid="structv8pp_1_1detail_1_1class__info_1a89f02ec728326fbd297ea57d0727457a" prot="public" virt="non-virtual"><scope>v8pp::detail::class_info</scope><name>type</name></member>
+      <member refid="structv8pp_1_1detail_1_1class__info_1ab7c6b18610519e42ce829b79a68f7fca" prot="public" virt="virtual"><scope>v8pp::detail::class_info</scope><name>~class_info</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

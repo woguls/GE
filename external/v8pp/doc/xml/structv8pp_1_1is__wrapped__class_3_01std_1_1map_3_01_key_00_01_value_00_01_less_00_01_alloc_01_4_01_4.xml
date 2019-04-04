@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1is__wrapped__class_3_01std_1_1map_3_01_key_00_01_value_00_01_less_00_01_alloc_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::is_wrapped_class&lt; std::map&lt; Key, Value, Less, Alloc &gt; &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">false_type</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Key</type>
+      </param>
+      <param>
+        <type>typename Value</type>
+      </param>
+      <param>
+        <type>typename Less</type>
+      </param>
+      <param>
+        <type>typename Alloc</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/convert.hpp" line="496" column="1" bodyfile="v8pp/convert.hpp" bodystart="496" bodyend="496"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

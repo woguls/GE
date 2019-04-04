@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a20d71d88f4c0d27cc63da996ebc9529d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@0</name>
+        <enumvalue id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a20d71d88f4c0d27cc63da996ebc9529da222005febf17780d02250aee785b1a14" prot="public">
+          <name>bits</name>
+          <initializer>= sizeof(T) * CHAR_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a20d71d88f4c0d27cc63da996ebc9529da746896c687f63047c220f1a86b6e9c1e" prot="public">
+          <name>is_signed</name>
+          <initializer>= std::is_signed&lt;T&gt;::value</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="197" column="1" bodyfile="v8pp/convert.hpp" bodystart="197" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a5357f838bb58248748b7271f7c17b650" prot="public" static="no">
+        <type>T</type>
+        <definition>using v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;::from_type =  T</definition>
+        <argsstring></argsstring>
+        <name>from_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="194" column="1" bodyfile="v8pp/convert.hpp" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a72a6b7824c5854564db9a4c66f379b79" prot="public" static="no">
+        <type>v8::Local&lt; v8::Number &gt;</type>
+        <definition>using v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;::to_type =  v8::Local&lt;v8::Number&gt;</definition>
+        <argsstring></argsstring>
+        <name>to_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="195" column="1" bodyfile="v8pp/convert.hpp" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a3ccf19ae357e9bd7566a9a9513645cdd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;::is_valid</definition>
+        <argsstring>(v8::Isolate *, v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>is_valid</name>
+        <param>
+          <type>v8::Isolate *</type>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="199" column="1" bodyfile="v8pp/convert.hpp" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a629f31a525f5efa823c94b5a29d65ef3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>from_type</type>
+        <definition>static from_type v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;::from_v8</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>from_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="204" column="1" bodyfile="v8pp/convert.hpp" bodystart="204" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1aa8f33965e4250e2d90c3bdc3cd84cb90" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>to_type</type>
+        <definition>static to_type v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;::to_v8</definition>
+        <argsstring>(v8::Isolate *isolate, T value)</argsstring>
+        <name>to_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="228" column="1" bodyfile="v8pp/convert.hpp" bodystart="228" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/convert.hpp" line="193" column="1" bodyfile="v8pp/convert.hpp" bodystart="192" bodyend="249"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a20d71d88f4c0d27cc63da996ebc9529da222005febf17780d02250aee785b1a14" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;</scope><name>bits</name></member>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a5357f838bb58248748b7271f7c17b650" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;</scope><name>from_type</name></member>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a629f31a525f5efa823c94b5a29d65ef3" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;</scope><name>from_v8</name></member>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a20d71d88f4c0d27cc63da996ebc9529da746896c687f63047c220f1a86b6e9c1e" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;</scope><name>is_signed</name></member>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a3ccf19ae357e9bd7566a9a9513645cdd" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;</scope><name>is_valid</name></member>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a72a6b7824c5854564db9a4c66f379b79" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;</scope><name>to_type</name></member>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1aa8f33965e4250e2d90c3bdc3cd84cb90" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;</scope><name>to_v8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

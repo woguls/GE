@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a07672193d4b3465967777c326cf399e1" prot="public" static="no">
+        <type>T &amp;</type>
+        <definition>using v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;::from_type =  T&amp;</definition>
+        <argsstring></argsstring>
+        <name>from_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="531" column="1" bodyfile="v8pp/convert.hpp" bodystart="531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a0b81012c1a6d92a3aac1ab001d0104b7" prot="public" static="no">
+        <type>v8::Local&lt; v8::Object &gt;</type>
+        <definition>using v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;::to_type =  v8::Local&lt;v8::Object&gt;</definition>
+        <argsstring></argsstring>
+        <name>to_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="532" column="1" bodyfile="v8pp/convert.hpp" bodystart="532" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a187bbc17099306b6f93f94ff82a06889" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;::is_valid</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>is_valid</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="534" column="1" bodyfile="v8pp/convert.hpp" bodystart="534" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a9a238ac6800a846b6ede1f0b1f816142" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>from_type</type>
+        <definition>static from_type v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;::from_v8</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>from_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="539" column="1" bodyfile="v8pp/convert.hpp" bodystart="539" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a19f095e1bea11f03b1c1bdfd9f86d03f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>to_type</type>
+        <definition>static to_type v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;::to_v8</definition>
+        <argsstring>(v8::Isolate *isolate, T const &amp;value)</argsstring>
+        <name>to_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="552" column="1" bodyfile="v8pp/convert.hpp" bodystart="552" bodyend="557"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/convert.hpp" line="530" column="1" bodyfile="v8pp/convert.hpp" bodystart="529" bodyend="558"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a07672193d4b3465967777c326cf399e1" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</scope><name>from_type</name></member>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a9a238ac6800a846b6ede1f0b1f816142" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</scope><name>from_v8</name></member>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a187bbc17099306b6f93f94ff82a06889" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</scope><name>is_valid</name></member>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a0b81012c1a6d92a3aac1ab001d0104b7" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</scope><name>to_type</name></member>
+      <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a19f095e1bea11f03b1c1bdfd9f86d03f" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</scope><name>to_v8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

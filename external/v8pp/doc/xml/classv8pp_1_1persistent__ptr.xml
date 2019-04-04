@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classv8pp_1_1persistent__ptr" kind="class" language="C++" prot="public">
+    <compoundname>v8pp::persistent_ptr</compoundname>
+    <includes refid="persistent_8hpp" local="no">persistent.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classv8pp_1_1persistent__ptr_1a9cd19ce6e452344ffcac704dd895c34d" prot="public" static="no">
+        <type>T *<ref refid="classv8pp_1_1persistent__ptr" kindref="compound">persistent_ptr</ref>&lt; T &gt;::*</type>
+        <definition>typedef T*persistent_ptr&lt;T&gt;::* v8pp::persistent_ptr&lt; T &gt;::unspecfied_bool_type</definition>
+        <argsstring></argsstring>
+        <name>unspecfied_bool_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="134" column="1" bodyfile="v8pp/persistent.hpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classv8pp_1_1persistent__ptr_1a28452777752ddb343e0e0e4e4b08aa1c" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* v8pp::persistent_ptr&lt; T &gt;::value_</definition>
+        <argsstring></argsstring>
+        <name>value_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="164" column="1" bodyfile="v8pp/persistent.hpp" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classv8pp_1_1persistent__ptr_1ab8674528bea9887265ddc89f72ad02e2" prot="private" static="no" mutable="no">
+        <type>v8::Global&lt; v8::Value &gt;</type>
+        <definition>v8::Global&lt;v8::Value&gt; v8pp::persistent_ptr&lt; T &gt;::handle_</definition>
+        <argsstring></argsstring>
+        <name>handle_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="165" column="1" bodyfile="v8pp/persistent.hpp" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1acbee0a0c076e8a20bc1a00b0de77dc68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::persistent_ptr&lt; T &gt;::persistent_ptr</definition>
+        <argsstring>()</argsstring>
+        <name>persistent_ptr</name>
+        <briefdescription>
+<para>Create an empty persistent pointer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="70" column="1" bodyfile="v8pp/persistent.hpp" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1ac8c6253b014cb05b771f6482df70cce8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::persistent_ptr&lt; T &gt;::persistent_ptr</definition>
+        <argsstring>(v8::Isolate *isolate, T *value)</argsstring>
+        <name>persistent_ptr</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a persistent pointer from a pointer to a wrapped object, store persistent handle to it </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="78" column="1" bodyfile="v8pp/persistent.hpp" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a36d7bcfc61caff5f8ded11afd5418581" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::persistent_ptr&lt; T &gt;::persistent_ptr</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Value &gt; handle)</argsstring>
+        <name>persistent_ptr</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+<para>Create a persistent pointer from V8 Value, store persistent handle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="85" column="1" bodyfile="v8pp/persistent.hpp" bodystart="85" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a28e58fe43c1018d3bc6cd9cef423bac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::persistent_ptr&lt; T &gt;::persistent_ptr</definition>
+        <argsstring>(persistent_ptr &amp;&amp;src)</argsstring>
+        <name>persistent_ptr</name>
+        <param>
+          <type><ref refid="classv8pp_1_1persistent__ptr" kindref="compound">persistent_ptr</ref> &amp;&amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="91" column="1" bodyfile="v8pp/persistent.hpp" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1aaa81ac4721f9125e4437fc146f120d5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classv8pp_1_1persistent__ptr" kindref="compound">persistent_ptr</ref> &amp;</type>
+        <definition>persistent_ptr&amp; v8pp::persistent_ptr&lt; T &gt;::operator=</definition>
+        <argsstring>(persistent_ptr &amp;&amp;src)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classv8pp_1_1persistent__ptr" kindref="compound">persistent_ptr</ref> &amp;&amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="99" column="1" bodyfile="v8pp/persistent.hpp" bodystart="99" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a0c0199c9738d1a198488998683e9e782" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::persistent_ptr&lt; T &gt;::~persistent_ptr</definition>
+        <argsstring>()</argsstring>
+        <name>~persistent_ptr</name>
+        <briefdescription>
+<para>On destroy dispose persistent handle only. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="111" column="1" bodyfile="v8pp/persistent.hpp" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1afaff53e35b4f6fb2a7ceabe5964978ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void v8pp::persistent_ptr&lt; T &gt;::reset</definition>
+        <argsstring>(v8::Isolate *isolate, T *value)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Reset with a new pointer to wrapped C++ object, replace persistent handle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="114" column="1" bodyfile="v8pp/persistent.hpp" bodystart="114" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a810c65c727bd77f51f531236472bad90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void v8pp::persistent_ptr&lt; T &gt;::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="128" column="1" bodyfile="v8pp/persistent.hpp" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a8fe81805fbad6076d87253b055728c54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* v8pp::persistent_ptr&lt; T &gt;::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <briefdescription>
+<para>Get pointer to the wrapped C++ object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="131" column="1" bodyfile="v8pp/persistent.hpp" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a11662e21fda907c085da675b9b5ff47b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T const  *</type>
+        <definition>T const* v8pp::persistent_ptr&lt; T &gt;::get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="132" column="1" bodyfile="v8pp/persistent.hpp" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a9e81728df89bab4d171167156f3da79f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::persistent_ptr&lt; T &gt;::operator unspecfied_bool_type</definition>
+        <argsstring>() const</argsstring>
+        <name>operator unspecfied_bool_type</name>
+        <briefdescription>
+<para>Safe bool cast. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="137" column="1" bodyfile="v8pp/persistent.hpp" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a1e96ba2a232cbb8b4ca40db3f89f0f09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T&amp; v8pp::persistent_ptr&lt; T &gt;::operator*</definition>
+        <argsstring>()</argsstring>
+        <name>operator*</name>
+        <briefdescription>
+<para>Dereference pointer, valid if <ref refid="classv8pp_1_1persistent__ptr_1a8fe81805fbad6076d87253b055728c54" kindref="member">get()</ref> != nullptr. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="143" column="1" bodyfile="v8pp/persistent.hpp" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a6e67a7329324e9e94b9dc17995bbf490" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T const  &amp;</type>
+        <definition>T const&amp; v8pp::persistent_ptr&lt; T &gt;::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="144" column="1" bodyfile="v8pp/persistent.hpp" bodystart="144" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1acd86f75b88d7ef5cf93f82cad8c5e685" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* v8pp::persistent_ptr&lt; T &gt;::operator-&gt;</definition>
+        <argsstring>()</argsstring>
+        <name>operator-&gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="146" column="1" bodyfile="v8pp/persistent.hpp" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a71cebde7fccdbc56a9aea04e6d21a5bc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T const  *</type>
+        <definition>T const* v8pp::persistent_ptr&lt; T &gt;::operator-&gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator-&gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="147" column="1" bodyfile="v8pp/persistent.hpp" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a899841aaea08f918b2d4179dd1834ddb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool v8pp::persistent_ptr&lt; T &gt;::operator==</definition>
+        <argsstring>(persistent_ptr const &amp;rhs) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classv8pp_1_1persistent__ptr" kindref="compound">persistent_ptr</ref> const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="149" column="1" bodyfile="v8pp/persistent.hpp" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a0a476895c4d2cbd2d79b7f37c3ec112c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool v8pp::persistent_ptr&lt; T &gt;::operator!=</definition>
+        <argsstring>(persistent_ptr const &amp;rhs) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classv8pp_1_1persistent__ptr" kindref="compound">persistent_ptr</ref> const &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="150" column="1" bodyfile="v8pp/persistent.hpp" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1persistent__ptr_1a2c1eba9cc255867db8d298c379aa2f61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void v8pp::persistent_ptr&lt; T &gt;::swap</definition>
+        <argsstring>(persistent_ptr &amp;rhs)</argsstring>
+        <name>swap</name>
+        <param>
+          <type><ref refid="classv8pp_1_1persistent__ptr" kindref="compound">persistent_ptr</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="152" column="1" bodyfile="v8pp/persistent.hpp" bodystart="152" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classv8pp_1_1persistent__ptr_1a9fffc4cfe6d391e84b3715c5d9a2693c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>friend void</type>
+        <definition>void swap</definition>
+        <argsstring>(persistent_ptr &amp;lhs, persistent_ptr &amp;rhs)</argsstring>
+        <name>swap</name>
+        <param>
+          <type><ref refid="classv8pp_1_1persistent__ptr" kindref="compound">persistent_ptr</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="classv8pp_1_1persistent__ptr" kindref="compound">persistent_ptr</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/persistent.hpp" line="158" column="1" bodyfile="v8pp/persistent.hpp" bodystart="158" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Pointer to C++ object wrapped in V8 with v8::Global handle. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/persistent.hpp" line="67" column="1" bodyfile="v8pp/persistent.hpp" bodystart="66" bodyend="166"/>
+    <listofallmembers>
+      <member refid="classv8pp_1_1persistent__ptr_1a8fe81805fbad6076d87253b055728c54" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>get</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a11662e21fda907c085da675b9b5ff47b" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>get</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1ab8674528bea9887265ddc89f72ad02e2" prot="private" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>handle_</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a9e81728df89bab4d171167156f3da79f" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>operator unspecfied_bool_type</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a0a476895c4d2cbd2d79b7f37c3ec112c" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>operator!=</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a1e96ba2a232cbb8b4ca40db3f89f0f09" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>operator*</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a6e67a7329324e9e94b9dc17995bbf490" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>operator*</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1acd86f75b88d7ef5cf93f82cad8c5e685" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>operator-&gt;</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a71cebde7fccdbc56a9aea04e6d21a5bc" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>operator-&gt;</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1aaa81ac4721f9125e4437fc146f120d5d" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>operator=</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a899841aaea08f918b2d4179dd1834ddb" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>operator==</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1acbee0a0c076e8a20bc1a00b0de77dc68" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>persistent_ptr</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1ac8c6253b014cb05b771f6482df70cce8" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>persistent_ptr</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a36d7bcfc61caff5f8ded11afd5418581" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>persistent_ptr</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a28e58fe43c1018d3bc6cd9cef423bac3" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>persistent_ptr</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1afaff53e35b4f6fb2a7ceabe5964978ad" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>reset</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a810c65c727bd77f51f531236472bad90" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>reset</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a2c1eba9cc255867db8d298c379aa2f61" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>swap</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a9fffc4cfe6d391e84b3715c5d9a2693c" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>swap</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a9cd19ce6e452344ffcac704dd895c34d" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>unspecfied_bool_type</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a28452777752ddb343e0e0e4e4b08aa1c" prot="private" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>value_</name></member>
+      <member refid="classv8pp_1_1persistent__ptr_1a0c0199c9738d1a198488998683e9e782" prot="public" virt="non-virtual"><scope>v8pp::persistent_ptr</scope><name>~persistent_ptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

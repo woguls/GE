@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="throw__ex_8ipp" kind="file" language="C++">
+    <compoundname>throw_ex.ipp</compoundname>
+    <includes refid="throw__ex_8hpp" local="yes">v8pp/throw_ex.hpp</includes>
+    <includedby refid="throw__ex_8cpp" local="yes">v8pp/throw_ex.cpp</includedby>
+    <incdepgraph>
+      <node id="346">
+        <label>v8.h</label>
+      </node>
+      <node id="347">
+        <label>v8pp/config.hpp</label>
+        <link refid="config_8hpp_source"/>
+      </node>
+      <node id="344">
+        <label>v8pp/throw_ex.hpp</label>
+        <link refid="throw__ex_8hpp_source"/>
+        <childnode refid="345" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="347" relation="include">
+        </childnode>
+      </node>
+      <node id="345">
+        <label>string</label>
+      </node>
+      <node id="343">
+        <label>v8pp/throw_ex.ipp</label>
+        <link refid="throw__ex_8ipp"/>
+        <childnode refid="344" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacev8pp">v8pp</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;v8pp/throw_ex.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacev8pp" kindref="compound">v8pp</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">V8PP_IMPL<sp/>v8::Local&lt;v8::Value&gt;<sp/>throw_ex(v8::Isolate*<sp/>isolate,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/>str)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isolate-&gt;ThrowException(v8::String::NewFromUtf8(isolate,<sp/>str));</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">V8PP_IMPL<sp/>v8::Local&lt;v8::Value&gt;<sp/>throw_ex(v8::Isolate*<sp/>isolate,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">*<sp/>str,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>v8::Local&lt;v8::Value&gt;<sp/>(*exception_ctor)(v8::Local&lt;v8::String&gt;))</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isolate-&gt;ThrowException(exception_ctor(v8::String::NewFromUtf8(isolate,<sp/>str)));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>v8pp</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="v8pp/throw_ex.ipp"/>
+  </compounddef>
+</doxygen>

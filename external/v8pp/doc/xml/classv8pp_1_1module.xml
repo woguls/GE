@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classv8pp_1_1module" kind="class" language="C++" prot="public">
+    <compoundname>v8pp::module</compoundname>
+    <includes refid="module_8hpp" local="no">module.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classv8pp_1_1module_1a615fade8537110ebcdecfeb54c56c6a5" prot="private" static="no" mutable="no">
+        <type>v8::Isolate *</type>
+        <definition>v8::Isolate* v8pp::module::isolate_</definition>
+        <argsstring></argsstring>
+        <name>isolate_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="165" column="1" bodyfile="v8pp/module.hpp" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classv8pp_1_1module_1abd7bbd367438340b1366a8cacb5660dd" prot="private" static="no" mutable="no">
+        <type>v8::Local&lt; v8::ObjectTemplate &gt;</type>
+        <definition>v8::Local&lt;v8::ObjectTemplate&gt; v8pp::module::obj_</definition>
+        <argsstring></argsstring>
+        <name>obj_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="166" column="1" bodyfile="v8pp/module.hpp" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classv8pp_1_1module_1a5f3bb84fd424f69a09a051ca9dbecf52" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::module::module</definition>
+        <argsstring>(v8::Isolate *isolate)</argsstring>
+        <name>module</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <briefdescription>
+<para>Create new module in the specified V8 isolate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="27" column="1" bodyfile="v8pp/module.hpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1a85551fbbb5984d966d964cf4f4020b14" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::module::module</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::ObjectTemplate &gt; obj)</argsstring>
+        <name>module</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::ObjectTemplate &gt;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Create new module in the specified V8 isolate for existing ObjectTemplate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="34" column="1" bodyfile="v8pp/module.hpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1acfd495ebd3c4ac254927e54cce60d707" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Isolate *</type>
+        <definition>v8::Isolate* v8pp::module::isolate</definition>
+        <argsstring>()</argsstring>
+        <name>isolate</name>
+        <briefdescription>
+<para>v8::Isolate where the module belongs </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="41" column="1" bodyfile="v8pp/module.hpp" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1a4cb7bb6ca59fc1d1f96a41c362ffaea2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Data</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp;</type>
+        <definition>module&amp; v8pp::module::set</definition>
+        <argsstring>(char const *name, v8::Local&lt; Data &gt; value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; Data &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set a V8 value in the module with specified name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="45" column="1" bodyfile="v8pp/module.hpp" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1a0e614278e061cb191c44fa66417d51e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp;</type>
+        <definition>module&amp; v8pp::module::set</definition>
+        <argsstring>(char const *name, module &amp;m)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Set another module in the module with specified name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="52" column="1" bodyfile="v8pp/module.hpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1a9ba714deaccbf4dfabc6e3f1ac265395" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename Traits</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp;</type>
+        <definition>module&amp; v8pp::module::set</definition>
+        <argsstring>(char const *name, class_&lt; T, Traits &gt; &amp;cl)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classv8pp_1_1class__" kindref="compound">class_</ref>&lt; T, Traits &gt; &amp;</type>
+          <declname>cl</declname>
+        </param>
+        <briefdescription>
+<para>Set wrapped C++ class in the module with specified name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="59" column="1" bodyfile="v8pp/module.hpp" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1a065121c7d5412e4fca7cfc11a3f4a068" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Function</type>
+          </param>
+          <param>
+            <type>typename Fun</type>
+            <defval>typename std::decay&lt;Function&gt;::type</defval>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt; detail::is_callable&lt; Fun &gt;::value, <ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp; &gt;::type</type>
+        <definition>std::enable_if&lt;detail::is_callable&lt;Fun&gt;::value, module&amp;&gt;::type v8pp::module::set</definition>
+        <argsstring>(char const *name, Function &amp;&amp;func)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Function &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+<para>Set a C++ function in the module with specified name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="70" column="1" bodyfile="v8pp/module.hpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1afc0af72f36ad81caf753503ae5c2f615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Variable</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt;!detail::is_callable&lt; Variable &gt;::value, <ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp; &gt;::type</type>
+        <definition>std::enable_if&lt;!detail::is_callable&lt;Variable&gt;::value, module&amp;&gt;::type v8pp::module::set</definition>
+        <argsstring>(char const *name, Variable &amp;var, bool readonly=false)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Variable &amp;</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>readonly</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Set a C++ variable in the module with specified name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="78" column="1" bodyfile="v8pp/module.hpp" bodystart="78" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1a240017740722b316314f11470b205c69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename GetFunction</type>
+          </param>
+          <param>
+            <type>typename SetFunction</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp;</type>
+        <definition>module&amp; v8pp::module::set</definition>
+        <argsstring>(char const *name, property_&lt; GetFunction, SetFunction &gt; &amp;&amp;property)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="structv8pp_1_1property__" kindref="compound">property_</ref>&lt; GetFunction, SetFunction &gt; &amp;&amp;</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+<para>Set v8pp::property in the module with specified name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="97" column="1" bodyfile="v8pp/module.hpp" bodystart="97" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1a75c189fac958be993832e0a3e507e595" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp;</type>
+        <definition>module&amp; v8pp::module::set_const</definition>
+        <argsstring>(char const *name, module &amp;m)</argsstring>
+        <name>set_const</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Set another module as a read-only property. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="118" column="1" bodyfile="v8pp/module.hpp" bodystart="118" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1a1ef947eac88f9239d23c776430921a10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Value</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1module" kindref="compound">module</ref> &amp;</type>
+        <definition>module&amp; v8pp::module::set_const</definition>
+        <argsstring>(char const *name, Value const &amp;value)</argsstring>
+        <name>set_const</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Value const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set a value convertible to JavaScript as a read-only property. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="129" column="1" bodyfile="v8pp/module.hpp" bodystart="129" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1a2bd3c258003d9c1afd8f0c79c2c462a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Local&lt; v8::Object &gt;</type>
+        <definition>v8::Local&lt;v8::Object&gt; v8pp::module::new_instance</definition>
+        <argsstring>()</argsstring>
+        <name>new_instance</name>
+        <briefdescription>
+<para>Create a new module instance in V8. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="139" column="1" bodyfile="v8pp/module.hpp" bodystart="139" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classv8pp_1_1module_1a0fbe03a7259081054d36d9e85eefa560" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Variable</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void v8pp::module::var_get</definition>
+        <argsstring>(v8::Local&lt; v8::String &gt;, v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;info)</argsstring>
+        <name>var_get</name>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="146" column="1" bodyfile="v8pp/module.hpp" bodystart="146" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1module_1a19b18dec2302a25b65c73f3bf819733b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Variable</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void v8pp::module::var_set</definition>
+        <argsstring>(v8::Local&lt; v8::String &gt;, v8::Local&lt; v8::Value &gt; value, v8::PropertyCallbackInfo&lt; void &gt; const &amp;info)</argsstring>
+        <name>var_set</name>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; void &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/module.hpp" line="156" column="1" bodyfile="v8pp/module.hpp" bodystart="156" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Module (similar to v8::ObjectTemplate) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/module.hpp" line="24" column="1" bodyfile="v8pp/module.hpp" bodystart="23" bodyend="167"/>
+    <listofallmembers>
+      <member refid="classv8pp_1_1module_1acfd495ebd3c4ac254927e54cce60d707" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>isolate</name></member>
+      <member refid="classv8pp_1_1module_1a615fade8537110ebcdecfeb54c56c6a5" prot="private" virt="non-virtual"><scope>v8pp::module</scope><name>isolate_</name></member>
+      <member refid="classv8pp_1_1module_1a5f3bb84fd424f69a09a051ca9dbecf52" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>module</name></member>
+      <member refid="classv8pp_1_1module_1a85551fbbb5984d966d964cf4f4020b14" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>module</name></member>
+      <member refid="classv8pp_1_1module_1a2bd3c258003d9c1afd8f0c79c2c462a1" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>new_instance</name></member>
+      <member refid="classv8pp_1_1module_1abd7bbd367438340b1366a8cacb5660dd" prot="private" virt="non-virtual"><scope>v8pp::module</scope><name>obj_</name></member>
+      <member refid="classv8pp_1_1module_1a4cb7bb6ca59fc1d1f96a41c362ffaea2" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>set</name></member>
+      <member refid="classv8pp_1_1module_1a0e614278e061cb191c44fa66417d51e3" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>set</name></member>
+      <member refid="classv8pp_1_1module_1a9ba714deaccbf4dfabc6e3f1ac265395" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>set</name></member>
+      <member refid="classv8pp_1_1module_1a065121c7d5412e4fca7cfc11a3f4a068" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>set</name></member>
+      <member refid="classv8pp_1_1module_1afc0af72f36ad81caf753503ae5c2f615" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>set</name></member>
+      <member refid="classv8pp_1_1module_1a240017740722b316314f11470b205c69" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>set</name></member>
+      <member refid="classv8pp_1_1module_1a75c189fac958be993832e0a3e507e595" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>set_const</name></member>
+      <member refid="classv8pp_1_1module_1a1ef947eac88f9239d23c776430921a10" prot="public" virt="non-virtual"><scope>v8pp::module</scope><name>set_const</name></member>
+      <member refid="classv8pp_1_1module_1a0fbe03a7259081054d36d9e85eefa560" prot="private" virt="non-virtual"><scope>v8pp::module</scope><name>var_get</name></member>
+      <member refid="classv8pp_1_1module_1a19b18dec2302a25b65c73f3bf819733b" prot="private" virt="non-virtual"><scope>v8pp::module</scope><name>var_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

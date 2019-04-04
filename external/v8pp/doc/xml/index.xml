@@ -1,0 +1,678 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="structv8pp_1_1array__buffer__allocator" kind="struct"><name>v8pp::array_buffer_allocator</name>
+    <member refid="structv8pp_1_1array__buffer__allocator_1a6c8f579fc9aa13a6ba2fcd4001a5fcbf" kind="function"><name>Allocate</name></member>
+    <member refid="structv8pp_1_1array__buffer__allocator_1a1ac029fc24c1278d90e1b9ac60ce7f1e" kind="function"><name>AllocateUninitialized</name></member>
+    <member refid="structv8pp_1_1array__buffer__allocator_1a3d383b3b06e9fd9c86a5bc12fb5db677" kind="function"><name>Free</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1object__registry_1_1base__class__info" kind="struct"><name>v8pp::detail::object_registry::base_class_info</name>
+    <member refid="structv8pp_1_1detail_1_1object__registry_1_1base__class__info_1af82952bd79448c656e4f8b066a1c5347" kind="variable"><name>info</name></member>
+    <member refid="structv8pp_1_1detail_1_1object__registry_1_1base__class__info_1a3e2d1a94bc15d4a4ab73026d528051b4" kind="variable"><name>cast</name></member>
+    <member refid="structv8pp_1_1detail_1_1object__registry_1_1base__class__info_1a9e93e12a4c786f6271935abf8740cd73" kind="function"><name>base_class_info</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1call__from__v8__traits" kind="struct"><name>v8pp::detail::call_from_v8_traits</name>
+    <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1abe48c2f12587653555f13a2d401f5ddd" kind="typedef"><name>arguments</name></member>
+    <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1ae14b48a8514a1b58a293a240e3e285be" kind="typedef"><name>arg_type</name></member>
+    <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1abbecf0dc3db36f00cc6a00eff35aaebb" kind="typedef"><name>arg_convert</name></member>
+    <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1a4f7a769fc4457141219a6bb959707d39" kind="variable"><name>is_mem_fun</name></member>
+    <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1a075344cf21aafa47ed8b367eba5da0bb" kind="variable"><name>arg_count</name></member>
+    <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1a9c534c1024aa055c4a5168812ce73b48" kind="variable"><name>arg_from_v8</name></member>
+    <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1ad4c77da99950cceb6b72b3a5ec843297" kind="function"><name>check</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1check" kind="struct"><name>v8pp::detail::is_callable_impl&lt; F, true &gt;::check</name>
+  </compound>
+  <compound refid="classv8pp_1_1class__" kind="class"><name>v8pp::class_</name>
+    <member refid="classv8pp_1_1class___1a1efcaac7f064b6de024399b588f38c93" kind="typedef"><name>object_registry</name></member>
+    <member refid="classv8pp_1_1class___1a5ef704ea9b4ce4f7b534d17a9f8b1a8a" kind="typedef"><name>object_id</name></member>
+    <member refid="classv8pp_1_1class___1af7612ec72679db528a9e89bab69b230c" kind="typedef"><name>pointer_type</name></member>
+    <member refid="classv8pp_1_1class___1ac0f613f4204e2fd7b72c6b35602d27dd" kind="typedef"><name>const_pointer_type</name></member>
+    <member refid="classv8pp_1_1class___1a80eadbea1099b9bfb3dd92a04968af44" kind="typedef"><name>object_pointer_type</name></member>
+    <member refid="classv8pp_1_1class___1aed3857ce04581a7f88447e15687cfd44" kind="typedef"><name>object_const_pointer_type</name></member>
+    <member refid="classv8pp_1_1class___1af01dc6d1a607de4241049f5798483424" kind="typedef"><name>ctor_function</name></member>
+    <member refid="classv8pp_1_1class___1a8ac03d57341194079860071f1289d7c0" kind="typedef"><name>dtor_function</name></member>
+    <member refid="classv8pp_1_1class___1a773a7bc010b16db16edcec7e30c13381" kind="variable"><name>class_info_</name></member>
+    <member refid="classv8pp_1_1class___1acb3be84d721e24da482a95537d4b3c18" kind="function"><name>class_</name></member>
+    <member refid="classv8pp_1_1class___1a4e2856a849217ac87bc115d60f43e693" kind="function"><name>ctor</name></member>
+    <member refid="classv8pp_1_1class___1a7fdcd530180d7a859bc03b8163fe9041" kind="function"><name>inherit</name></member>
+    <member refid="classv8pp_1_1class___1a2614839914cb2b9ffb0a2d9f483cc547" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1class___1aa8d717a6dedb7ef8a46bc21cb675a23c" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1class___1a3eb3ce7841abd150c49714d1c0cb125b" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1class___1aabaeebb9cdf140d7fd3fd91e0975583e" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1class___1a525c074dee50ab80b19d680270652426" kind="function"><name>set_const</name></member>
+    <member refid="classv8pp_1_1class___1aca94e6285b94a62fc076904aa9a56264" kind="function"><name>set_static</name></member>
+    <member refid="classv8pp_1_1class___1a1112898adbc24af832c5a003944381fc" kind="function"><name>isolate</name></member>
+    <member refid="classv8pp_1_1class___1a000d2104a0f74309d2795fb1d899c32b" kind="function"><name>class_function_template</name></member>
+    <member refid="classv8pp_1_1class___1af90dcf6d63910e1d95a9419ad1140047" kind="function"><name>js_function_template</name></member>
+    <member refid="classv8pp_1_1class___1a39107d4e080a8683a7f75d2abe441faa" kind="function"><name>reference_external</name></member>
+    <member refid="classv8pp_1_1class___1aa3f99a8dc30981969235f8848669bcf4" kind="function"><name>unreference_external</name></member>
+    <member refid="classv8pp_1_1class___1a042d5e4c7919c10bfea325d28eb53b1c" kind="function"><name>import_external</name></member>
+    <member refid="classv8pp_1_1class___1ad66edf0ca71584f58193f75aa84dc1f1" kind="function"><name>unwrap_object</name></member>
+    <member refid="classv8pp_1_1class___1a8a3b2da69020bd2aa0d2379b43a7495a" kind="function"><name>create_object</name></member>
+    <member refid="classv8pp_1_1class___1a9938ce983d4303f02169342bb5ea55f3" kind="function"><name>find_object</name></member>
+    <member refid="classv8pp_1_1class___1a20d09eb2bab1f0b546b943f85236d746" kind="function"><name>destroy_object</name></member>
+    <member refid="classv8pp_1_1class___1a7db2af2bf2319d9f1edb25b5318e047f" kind="function"><name>destroy_objects</name></member>
+    <member refid="classv8pp_1_1class___1aafda8f1d8073203e416a084564dd9fa4" kind="function"><name>destroy</name></member>
+    <member refid="classv8pp_1_1class___1a01a6c8905680c209bdabd662435303e8" kind="function"><name>member_get</name></member>
+    <member refid="classv8pp_1_1class___1aa14ac33d1d82d24e21bd3e123598207f" kind="function"><name>member_set</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1class__info" kind="struct"><name>v8pp::detail::class_info</name>
+    <member refid="structv8pp_1_1detail_1_1class__info_1a89f02ec728326fbd297ea57d0727457a" kind="variable"><name>type</name></member>
+    <member refid="structv8pp_1_1detail_1_1class__info_1a442361911b331fe82fe7afced75990fb" kind="variable"><name>traits</name></member>
+    <member refid="structv8pp_1_1detail_1_1class__info_1a9df410fa0112c0fb0dc194c676ea8ca7" kind="function"><name>class_info</name></member>
+    <member refid="structv8pp_1_1detail_1_1class__info_1ab7c6b18610519e42ce829b79a68f7fca" kind="function"><name>~class_info</name></member>
+    <member refid="structv8pp_1_1detail_1_1class__info_1a714940cb5f547e970663173cbe8be217" kind="function"><name>class_name</name></member>
+  </compound>
+  <compound refid="classv8pp_1_1detail_1_1classes" kind="class"><name>v8pp::detail::classes</name>
+    <member refid="classv8pp_1_1detail_1_1classes_1aa469acd7147a8f8e7a3352fc1f7472a3" kind="enum"><name>operation</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1aa469acd7147a8f8e7a3352fc1f7472a3ab5eda0a74558a342cf659187f06f746f" kind="enumvalue"><name>get</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1aa469acd7147a8f8e7a3352fc1f7472a3a34ec78fcc91ffb1e54cd85e4a0924332" kind="enumvalue"><name>add</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1aa469acd7147a8f8e7a3352fc1f7472a3a0f6969d7052da9261e31ddb6e88c136e" kind="enumvalue"><name>remove</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1a1999e025673deb1808e885ca06ed589d" kind="typedef"><name>classes_info</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1ae7fdd09690c181ce750ff45ea92493ee" kind="variable"><name>classes_</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1aa783d6ca1853773b27e1712f5f1f1186" kind="function"><name>add</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1ab54e071d61e170128e76af22cd3c37e4" kind="function"><name>remove</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1ae063dd9b6ed23b6d23fc4a3cb60ad70a" kind="function"><name>find</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1a5f7dbf2481bf8dc9b733c3f3725300d3" kind="function"><name>remove_all</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1a7ba1b2558c829bed08552b674e4a74ed" kind="function"><name>find</name></member>
+    <member refid="classv8pp_1_1detail_1_1classes_1a49e18cb20ec456653e3497b389468536" kind="function"><name>instance</name></member>
+  </compound>
+  <compound refid="classv8pp_1_1context" kind="class"><name>v8pp::context</name>
+    <member refid="classv8pp_1_1context_1aace17f991b264d39914b8874c56b08e7" kind="typedef"><name>dynamic_modules</name></member>
+    <member refid="classv8pp_1_1context_1a221d202b36c85bc0cce2659ce6e0f0d6" kind="variable"><name>own_isolate_</name></member>
+    <member refid="classv8pp_1_1context_1a68838a601875ee584ee9d06f03d9432e" kind="variable"><name>isolate_</name></member>
+    <member refid="classv8pp_1_1context_1a245f834736f2cd8f91914da12bf2d4d7" kind="variable"><name>impl_</name></member>
+    <member refid="classv8pp_1_1context_1a939b18ce255a90810ba935487ed70fc7" kind="variable"><name>modules_</name></member>
+    <member refid="classv8pp_1_1context_1ab654f6f4001a63cebc292c8121a947e9" kind="variable"><name>lib_path_</name></member>
+    <member refid="classv8pp_1_1context_1aad070fe2338e63b0d37b78d6c3416cbb" kind="function"><name>context</name></member>
+    <member refid="classv8pp_1_1context_1a935b9f67b4618f6893e3a4b47466f6c0" kind="function"><name>~context</name></member>
+    <member refid="classv8pp_1_1context_1ac96a75fa323d6decc0aeed8eb3a2d72b" kind="function"><name>isolate</name></member>
+    <member refid="classv8pp_1_1context_1ad41facb5bd5ff44ed6592e3aaa5dcbc2" kind="function"><name>lib_path</name></member>
+    <member refid="classv8pp_1_1context_1a721c1d5cb9d88fa2bcaacaa39a60a2d6" kind="function"><name>set_lib_path</name></member>
+    <member refid="classv8pp_1_1context_1a50c5f4d0cec27044e0e3614c5193ac20" kind="function"><name>run_file</name></member>
+    <member refid="classv8pp_1_1context_1ae66a196ef7afb672b571ed63ad5a360d" kind="function"><name>run_script</name></member>
+    <member refid="classv8pp_1_1context_1a074ebe9a009345403e31a26ff40395f0" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1context_1aa1b1283a32ed742b8ff0310e4f77c123" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1context_1a6eeeedf2b30ee4f5573b3b9aeb0cec9d" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1context_1a3850c79b6b64429dc97f7f5e460bf621" kind="function"><name>load_module</name></member>
+    <member refid="classv8pp_1_1context_1af7431662fd118e7c51165f4fa515ec78" kind="function"><name>run_file</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert" kind="struct"><name>v8pp::convert</name>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01bool_01_4" kind="struct"><name>v8pp::convert&lt; bool &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01bool_01_4_1a0af8182d787dc04d8183c986da975486" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01bool_01_4_1a024dc36b11cd15398038508e9ee107a3" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01bool_01_4_1a3759be5239eff241d1d702a4384df32b" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01bool_01_4_1ad9037df63c1df69ffcedbd8f5cfcb1c6" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01bool_01_4_1a76f803be7a42c1abeb676e100db156ef" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5" kind="struct"><name>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a7d388b1266dc7e729b9b7724a308acc5" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a4b9e326127d1a5cf96d1e50115fef0e7" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1ab08a628909a823fc14e3923844f94f17" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a3f93c48557d493c1f8c20724ef93b654" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a32ce92694cb137f77ad995a880ad14e6" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01std_1_1array_3_01_t_00_01_n_01_4_01_4" kind="struct"><name>v8pp::convert&lt; std::array&lt; T, N &gt; &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01std_1_1array_3_01_t_00_01_n_01_4_01_4_1aee6aee929312ebb3629d0372a2476146" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1array_3_01_t_00_01_n_01_4_01_4_1a429c6fe6779d28bb2a251d9d9f35df41" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1array_3_01_t_00_01_n_01_4_01_4_1a63885024dc747b039fc24493ccaf4afe" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1array_3_01_t_00_01_n_01_4_01_4_1a126fa8f2ba8b6e20a9e1896fe69355ff" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1array_3_01_t_00_01_n_01_4_01_4_1ac52d633860883ae0738d07d3e3cbff19" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01std_1_1basic__string_3_01_char_00_01_traits_00_01_alloc_01_4_01_4" kind="struct"><name>v8pp::convert&lt; std::basic_string&lt; Char, Traits, Alloc &gt; &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01std_1_1basic__string_3_01_char_00_01_traits_00_01_alloc_01_4_01_4_1a364ccc302334a42407be924270daa76f" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1basic__string_3_01_char_00_01_traits_00_01_alloc_01_4_01_4_1ac4c0a8cba5496c963c95dad23e9f0527" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1basic__string_3_01_char_00_01_traits_00_01_alloc_01_4_01_4_1aeffd2a493452d63d3ea5982b925e682a" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1basic__string_3_01_char_00_01_traits_00_01_alloc_01_4_01_4_1a1330f7d4918d8ecb14b09a80ac26dcd6" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1basic__string_3_01_char_00_01_traits_00_01_alloc_01_4_01_4_1a818e6994b2c9258bedb6fc9561be0d91" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01std_1_1map_3_01_key_00_01_value_00_01_less_00_01_alloc_01_4_01_4" kind="struct"><name>v8pp::convert&lt; std::map&lt; Key, Value, Less, Alloc &gt; &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01std_1_1map_3_01_key_00_01_value_00_01_less_00_01_alloc_01_4_01_4_1a634402b9de3af4ea044263e54cbea9ee" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1map_3_01_key_00_01_value_00_01_less_00_01_alloc_01_4_01_4_1a80811fa9de823da5bd2a7023458d1b9a" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1map_3_01_key_00_01_value_00_01_less_00_01_alloc_01_4_01_4_1adadb6976dbbc322c9559f2871d03ac33" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1map_3_01_key_00_01_value_00_01_less_00_01_alloc_01_4_01_4_1a56af47d0f55e34ff8637a7d281ea25b3" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1map_3_01_key_00_01_value_00_01_less_00_01_alloc_01_4_01_4_1adfd9376b593f6c013b979d613a142b5d" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01std_1_1shared__ptr_3_01_t_01_4_00_01typename_01std_1_1enable__if_3_01iafbf46694c7e27003849e3d575e6e6c6" kind="struct"><name>v8pp::convert&lt; std::shared_ptr&lt; T &gt;, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01std_1_1shared__ptr_3_01_t_01_4_00_01typename_01std_1_1enable__if_3_01iafbf46694c7e27003849e3d575e6e6c6_1a1e3b1069eb9ca88394ef727f06ae53ee" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1shared__ptr_3_01_t_01_4_00_01typename_01std_1_1enable__if_3_01iafbf46694c7e27003849e3d575e6e6c6_1ac5a32a9e61b6d342e06a263ff9721f3d" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1shared__ptr_3_01_t_01_4_00_01typename_01std_1_1enable__if_3_01iafbf46694c7e27003849e3d575e6e6c6_1a722d9233438e069e0cb085328517ff51" kind="typedef"><name>class_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1shared__ptr_3_01_t_01_4_00_01typename_01std_1_1enable__if_3_01iafbf46694c7e27003849e3d575e6e6c6_1aa17f14ba96fd1e8de87d44cb8f7a1adf" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1shared__ptr_3_01_t_01_4_00_01typename_01std_1_1enable__if_3_01iafbf46694c7e27003849e3d575e6e6c6_1aea05b2c247aede1c2f22443b7d87eca4" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1shared__ptr_3_01_t_01_4_00_01typename_01std_1_1enable__if_3_01iafbf46694c7e27003849e3d575e6e6c6_1a1edbe097f823f85fb30ea9dd8649f6f4" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01std_1_1vector_3_01_t_00_01_alloc_01_4_01_4" kind="struct"><name>v8pp::convert&lt; std::vector&lt; T, Alloc &gt; &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01std_1_1vector_3_01_t_00_01_alloc_01_4_01_4_1a29c60296a8416ce603a06d7a8822d81d" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1vector_3_01_t_00_01_alloc_01_4_01_4_1ac2f2663b63a3285fbc54ad41a603a23c" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1vector_3_01_t_00_01_alloc_01_4_01_4_1a87be9e47b0cd480e49df21dcfe0565da" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1vector_3_01_t_00_01_alloc_01_4_01_4_1a70bb63f8b59bc4156e3ce7a39b30bd47" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01std_1_1vector_3_01_t_00_01_alloc_01_4_01_4_1a216e8a50ab8758367941b8533ad423a4" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01_t_01_6_01_4" kind="struct"><name>v8pp::convert&lt; T &amp; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01_t_01_5_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_25915118c627362f414694ff4e5e030b" kind="struct"><name>v8pp::convert&lt; T *, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01_t_01_5_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_25915118c627362f414694ff4e5e030b_1a09e74f36e06e4093bd85dffb8b010222" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_01_5_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_25915118c627362f414694ff4e5e030b_1a9cc695efc8d28366ab63b87fe5d67747" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_01_5_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_25915118c627362f414694ff4e5e030b_1a6f558b87c4fbe99c3f32f6cb2555aa9d" kind="typedef"><name>class_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_01_5_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_25915118c627362f414694ff4e5e030b_1afc0c2441f61866c15acfdf0b89cb2201" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_01_5_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_25915118c627362f414694ff4e5e030b_1ae1bad775e330f22723741699d5ae41aa" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_01_5_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_25915118c627362f414694ff4e5e030b_1a9af6926f9a8c4732276856312f4e01e9" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01_t_01const_01_6_01_4" kind="struct"><name>v8pp::convert&lt; T const &amp; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01_t_00_01ref__from__shared__ptr_01_4" kind="struct"><name>v8pp::convert&lt; T, ref_from_shared_ptr &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01ref__from__shared__ptr_01_4_1a019cc64a5e5f15e2ac05433e76f41adf" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01ref__from__shared__ptr_01_4_1a6529b51f06c52812826d62d7e22ec54f" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01ref__from__shared__ptr_01_4_1a4366bb394abc97f167e73980d2d1fb4e" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01ref__from__shared__ptr_01_4_1a1c3440223b52a270b33d758954879623" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01ref__from__shared__ptr_01_4_1ae8bd5ef40a5931aa64e243b6ddebd0a0" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4" kind="struct"><name>v8pp::convert&lt; T, typename std::enable_if&lt; is_wrapped_class&lt; T &gt;::value &gt;::type &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a07672193d4b3465967777c326cf399e1" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a0b81012c1a6d92a3aac1ab001d0104b7" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a187bbc17099306b6f93f94ff82a06889" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a9a238ac6800a846b6ede1f0b1f816142" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01is__wrapped__class_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a19f095e1bea11f03b1c1bdfd9f86d03f" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4" kind="struct"><name>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_enum&lt; T &gt;::value &gt;::type &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a71bffb06b97eb7400c2b8e0f3aa01575" kind="typedef"><name>underlying_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1ad250afb891f0e4d658cd44470802254f" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a3bb42755f1e7209b27571de615a61b31" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1ae859625297a8efd1cc4cd66cdcbb029f" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1aec55044ba16490da11512ab965138cf3" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__enum_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a345e2ab96e9ab125a368b463047a280e" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__floating__point_3_ea60aeaaa0e728f8c696fb259e8670af" kind="struct"><name>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_floating_point&lt; T &gt;::value &gt;::type &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__floating__point_3_ea60aeaaa0e728f8c696fb259e8670af_1aa8c34a29c8da29f921c61e47e3e7d164" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__floating__point_3_ea60aeaaa0e728f8c696fb259e8670af_1a6a7eaba58ed22178bd843123605a7c45" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__floating__point_3_ea60aeaaa0e728f8c696fb259e8670af_1a404912848112eaf1bfb14fc0bcc21a28" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__floating__point_3_ea60aeaaa0e728f8c696fb259e8670af_1a66e21fdb3477bc2c79299c3150d896a6" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__floating__point_3_ea60aeaaa0e728f8c696fb259e8670af_1ac4f44a9a2fc58c0834a6b91a7da27687" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4" kind="struct"><name>v8pp::convert&lt; T, typename std::enable_if&lt; std::is_integral&lt; T &gt;::value &gt;::type &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a20d71d88f4c0d27cc63da996ebc9529d" kind="enum"><name>@0</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a20d71d88f4c0d27cc63da996ebc9529da222005febf17780d02250aee785b1a14" kind="enumvalue"><name>bits</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a20d71d88f4c0d27cc63da996ebc9529da746896c687f63047c220f1a86b6e9c1e" kind="enumvalue"><name>is_signed</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a5357f838bb58248748b7271f7c17b650" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a72a6b7824c5854564db9a4c66f379b79" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a3ccf19ae357e9bd7566a9a9513645cdd" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1a629f31a525f5efa823c94b5a29d65ef3" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01_t_00_01typename_01std_1_1enable__if_3_01std_1_1is__integral_3_01_t_01_4_1_1value_01_4_1_1type_01_4_1aa8f33965e4250e2d90c3bdc3cd84cb90" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01v8_1_1_local_3_01_t_01_4_01_4" kind="struct"><name>v8pp::convert&lt; v8::Local&lt; T &gt; &gt;</name>
+    <member refid="structv8pp_1_1convert_3_01v8_1_1_local_3_01_t_01_4_01_4_1addcc6b2ecbfdb2e172a64a61f3cec687" kind="typedef"><name>from_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01v8_1_1_local_3_01_t_01_4_01_4_1a820556c4bfc8176f60f0807dca75c802" kind="typedef"><name>to_type</name></member>
+    <member refid="structv8pp_1_1convert_3_01v8_1_1_local_3_01_t_01_4_01_4_1a1ba061531b1709dde3bd5d383f11ad1e" kind="function"><name>is_valid</name></member>
+    <member refid="structv8pp_1_1convert_3_01v8_1_1_local_3_01_t_01_4_01_4_1aea368c2cc39223e76eececb9c96db857" kind="function"><name>from_v8</name></member>
+    <member refid="structv8pp_1_1convert_3_01v8_1_1_local_3_01_t_01_4_01_4_1a39e5ac368802952e9e2836901f84a0d9" kind="function"><name>to_v8</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__saa8f614317e972bbcca46cae1be023885" kind="struct"><name>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::convertible_string</name>
+    <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__saa8f614317e972bbcca46cae1be023885_1a1b8912be408951fe705e9d439d093eaa" kind="function"><name>convertible_string</name></member>
+    <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__saa8f614317e972bbcca46cae1be023885_1a1e4741bddd5bab811aa8fa3571c5cc7c" kind="function"><name>operator Char const *</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1derived" kind="struct"><name>v8pp::detail::is_callable_impl&lt; F, true &gt;::derived</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1direct__getter__tag" kind="struct"><name>v8pp::detail::direct_getter_tag</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1direct__setter__tag" kind="struct"><name>v8pp::detail::direct_setter_tag</name>
+  </compound>
+  <compound refid="structv8pp_1_1context_1_1dynamic__module" kind="struct"><name>v8pp::context::dynamic_module</name>
+    <member refid="structv8pp_1_1context_1_1dynamic__module_1a83f2bc8c4d914489074e644bd1f7407e" kind="variable"><name>handle</name></member>
+    <member refid="structv8pp_1_1context_1_1dynamic__module_1a4ff3ece4637665644a2c274e1b6cc1b3" kind="variable"><name>exports</name></member>
+    <member refid="structv8pp_1_1context_1_1dynamic__module_1abb293c43d9efa12508770a43f69d3932" kind="function"><name>dynamic_module</name></member>
+    <member refid="structv8pp_1_1context_1_1dynamic__module_1a0c505d517524279305d8e899e8c2447c" kind="function"><name>dynamic_module</name></member>
+    <member refid="structv8pp_1_1context_1_1dynamic__module_1a7a72418a0a4e929c716519b9cad011a9" kind="function"><name>dynamic_module</name></member>
+  </compound>
+  <compound refid="classv8pp_1_1detail_1_1external__data" kind="class"><name>v8pp::detail::external_data</name>
+    <member refid="classv8pp_1_1detail_1_1external__data_1aae60880b8d89763b4d49d4419812f734" kind="typedef"><name>data_storage</name></member>
+    <member refid="classv8pp_1_1detail_1_1external__data_1a0a7189f26740afc29c96337c459950d5" kind="variable"><name>storage_</name></member>
+    <member refid="classv8pp_1_1detail_1_1external__data_1a1c4f7ac82d9e1569d9cd2df94be67e2a" kind="variable"><name>pext_</name></member>
+    <member refid="classv8pp_1_1detail_1_1external__data_1a97db5fffd6964da205c399c3539b8341" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1detail_1_1external__data_1a74a7980949315f1d36ee578b7047da27" kind="function"><name>get</name></member>
+    <member refid="classv8pp_1_1detail_1_1external__data_1a3f0edb27be8c45a532f5024b0b2c07a8" kind="function"><name>storage</name></member>
+    <member refid="classv8pp_1_1detail_1_1external__data_1a76822b1400089efc6d383468367af66f" kind="function"><name>~external_data</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1factory" kind="struct"><name>v8pp::factory</name>
+    <member refid="structv8pp_1_1factory_1a0e5f1bbbc267bfed7754e8db0bf71d14" kind="typedef"><name>object_pointer_type</name></member>
+    <member refid="structv8pp_1_1factory_1a5dfe4cbd35a2699caae7edb843647838" kind="function"><name>create</name></member>
+    <member refid="structv8pp_1_1factory_1aeb51cd80b62b905a8b9ccda4f18413a0" kind="function"><name>destroy</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1class___1_1factory__create" kind="struct"><name>v8pp::class_::factory_create</name>
+    <member refid="structv8pp_1_1class___1_1factory__create_1aea3cacd17c01d992014914abd1642c65" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1fallback" kind="struct"><name>v8pp::detail::is_callable_impl&lt; F, true &gt;::fallback</name>
+    <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1fallback_1ab2f631e14a286368fa1540c52d8178b7" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits" kind="struct"><name>v8pp::detail::function_traits</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_1a529af43ec6bff5234f1ffefc296956e4" kind="typedef"><name>callable_traits</name></member>
+    <member refid="structv8pp_1_1detail_1_1function__traits_1a5322ca8d120b420e04d6e7eebfe14796" kind="typedef"><name>return_type</name></member>
+    <member refid="structv8pp_1_1detail_1_1function__traits_1a23a47d733ecc34c2b4a9c07efcc3ae21" kind="typedef"><name>arguments</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01const_01_r_07_c_1_1_5_08_4" kind="struct"><name>v8pp::detail::function_traits&lt; const R(C::*)&gt;</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01const_01_r_07_c_1_1_5_08_4_1aeee8d4d6a7c5953fa5eebfad546b9c61" kind="typedef"><name>pointer_type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01const_01volatile_01_r_07_c_1_1_5_08_4" kind="struct"><name>v8pp::detail::function_traits&lt; const volatile R(C::*)&gt;</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01const_01volatile_01_r_07_c_1_1_5_08_4_1a64e283f2f8b0d0e331ce18039d94996a" kind="typedef"><name>pointer_type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01_f_01_6_01_4" kind="struct"><name>v8pp::detail::function_traits&lt; F &amp; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01_f_01_6_6_01_4" kind="struct"><name>v8pp::detail::function_traits&lt; F &amp;&amp; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_5_08_07_args_8_8_8_08_4" kind="struct"><name>v8pp::detail::function_traits&lt; R(*)(Args...)&gt;</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_5_08_07_args_8_8_8_08_4_1a344a5f5dc739b8c6bf5925d2c658e402" kind="typedef"><name>pointer_type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_args_8_8_8_08_4" kind="struct"><name>v8pp::detail::function_traits&lt; R(Args...)&gt;</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_args_8_8_8_08_4_1af5d4d3378903e661ee7dc1cf62a5b763" kind="typedef"><name>return_type</name></member>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_args_8_8_8_08_4_1a2314e3681aa21178f4f5dea13b4940f2" kind="typedef"><name>arguments</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01const_01_4" kind="struct"><name>v8pp::detail::function_traits&lt; R(C::*)(Args...) const &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01const_01_4_1a682c1a36de01056c774fba65dc3ce75b" kind="typedef"><name>pointer_type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01const_01volatile_01_4" kind="struct"><name>v8pp::detail::function_traits&lt; R(C::*)(Args...) const volatile &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01const_01volatile_01_4_1abdbb35053b227f6dc65294018811584d" kind="typedef"><name>pointer_type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01volatile_01_4" kind="struct"><name>v8pp::detail::function_traits&lt; R(C::*)(Args...) volatile &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01volatile_01_4_1ad8463de6f05b540730e863f2f9132d2f" kind="typedef"><name>pointer_type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_4" kind="struct"><name>v8pp::detail::function_traits&lt; R(C::*)(Args...)&gt;</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_4_1a254a74e3c2bf93d8328301aa9edbe3ef" kind="typedef"><name>pointer_type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_4" kind="struct"><name>v8pp::detail::function_traits&lt; R(C::*)&gt;</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_4_1aaa532163eadd887706ef7a66d934c487" kind="typedef"><name>pointer_type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1function__traits_3_01volatile_01_r_07_c_1_1_5_08_4" kind="struct"><name>v8pp::detail::function_traits&lt; volatile R(C::*)&gt;</name>
+    <member refid="structv8pp_1_1detail_1_1function__traits_3_01volatile_01_r_07_c_1_1_5_08_4_1a667e2491e56af5aa2a557f6a0dee75f5" kind="typedef"><name>pointer_type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1getter__tag" kind="struct"><name>v8pp::detail::getter_tag</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1integer__sequence" kind="struct"><name>v8pp::detail::integer_sequence</name>
+    <member refid="structv8pp_1_1detail_1_1integer__sequence_1a72cef3e523b591d0527ced78e4e15bd4" kind="typedef"><name>type</name></member>
+    <member refid="structv8pp_1_1detail_1_1integer__sequence_1a564694dc7f7a456b0cb94aee6f102fff" kind="typedef"><name>append</name></member>
+    <member refid="structv8pp_1_1detail_1_1integer__sequence_1ad5c7ce83fbaabc9124721f0b054b39b9" kind="typedef"><name>next</name></member>
+    <member refid="structv8pp_1_1detail_1_1integer__sequence_1a3ca26acdb5b8f0f439ae5b54b3104325" kind="function"><name>size</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1invalid__argument" kind="struct"><name>v8pp::invalid_argument</name>
+    <member refid="structv8pp_1_1invalid__argument_1a7ec6c6588986d34de63eab7e7745a2f6" kind="function"><name>invalid_argument</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1is__callable__impl" kind="struct"><name>v8pp::detail::is_callable_impl</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4" kind="struct"><name>v8pp::detail::is_callable_impl&lt; F, true &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1abdda2ced088976883351c0e6f9e3b874" kind="typedef"><name>type</name></member>
+    <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1ab18f795b6e7cfbf43daa6111ee6744c7" kind="variable"><name>value</name></member>
+    <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1a913684fa3328113c1a872e5cd79291df" kind="function"><name>test</name></member>
+    <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1a1d88d5b26154ba76b34c02c4c9466b0d" kind="function"><name>test</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1is__wrapped__class" kind="struct"><name>v8pp::is_wrapped_class</name>
+  </compound>
+  <compound refid="structv8pp_1_1is__wrapped__class_3_01std_1_1array_3_01_t_00_01_n_01_4_01_4" kind="struct"><name>v8pp::is_wrapped_class&lt; std::array&lt; T, N &gt; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1is__wrapped__class_3_01std_1_1basic__string_3_01_char_00_01_traits_00_01_alloc_01_4_01_4" kind="struct"><name>v8pp::is_wrapped_class&lt; std::basic_string&lt; Char, Traits, Alloc &gt; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1is__wrapped__class_3_01std_1_1map_3_01_key_00_01_value_00_01_less_00_01_alloc_01_4_01_4" kind="struct"><name>v8pp::is_wrapped_class&lt; std::map&lt; Key, Value, Less, Alloc &gt; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1is__wrapped__class_3_01std_1_1shared__ptr_3_01_t_01_4_01_4" kind="struct"><name>v8pp::is_wrapped_class&lt; std::shared_ptr&lt; T &gt; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1is__wrapped__class_3_01std_1_1vector_3_01_t_00_01_alloc_01_4_01_4" kind="struct"><name>v8pp::is_wrapped_class&lt; std::vector&lt; T, Alloc &gt; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1is__wrapped__class_3_01_t_01_4" kind="struct"><name>v8pp::is_wrapped_class&lt; T &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1is__wrapped__class_3_01v8_1_1_global_3_01_t_01_4_01_4" kind="struct"><name>v8pp::is_wrapped_class&lt; v8::Global&lt; T &gt; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1is__wrapped__class_3_01v8_1_1_local_3_01_t_01_4_01_4" kind="struct"><name>v8pp::is_wrapped_class&lt; v8::Local&lt; T &gt; &gt;</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1isolate__getter__tag" kind="struct"><name>v8pp::detail::isolate_getter_tag</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1isolate__setter__tag" kind="struct"><name>v8pp::detail::isolate_setter_tag</name>
+  </compound>
+  <compound refid="classv8pp_1_1module" kind="class"><name>v8pp::module</name>
+    <member refid="classv8pp_1_1module_1a615fade8537110ebcdecfeb54c56c6a5" kind="variable"><name>isolate_</name></member>
+    <member refid="classv8pp_1_1module_1abd7bbd367438340b1366a8cacb5660dd" kind="variable"><name>obj_</name></member>
+    <member refid="classv8pp_1_1module_1a5f3bb84fd424f69a09a051ca9dbecf52" kind="function"><name>module</name></member>
+    <member refid="classv8pp_1_1module_1a85551fbbb5984d966d964cf4f4020b14" kind="function"><name>module</name></member>
+    <member refid="classv8pp_1_1module_1acfd495ebd3c4ac254927e54cce60d707" kind="function"><name>isolate</name></member>
+    <member refid="classv8pp_1_1module_1a4cb7bb6ca59fc1d1f96a41c362ffaea2" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1module_1a0e614278e061cb191c44fa66417d51e3" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1module_1a9ba714deaccbf4dfabc6e3f1ac265395" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1module_1a065121c7d5412e4fca7cfc11a3f4a068" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1module_1afc0af72f36ad81caf753503ae5c2f615" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1module_1a240017740722b316314f11470b205c69" kind="function"><name>set</name></member>
+    <member refid="classv8pp_1_1module_1a75c189fac958be993832e0a3e507e595" kind="function"><name>set_const</name></member>
+    <member refid="classv8pp_1_1module_1a1ef947eac88f9239d23c776430921a10" kind="function"><name>set_const</name></member>
+    <member refid="classv8pp_1_1module_1a2bd3c258003d9c1afd8f0c79c2c462a1" kind="function"><name>new_instance</name></member>
+    <member refid="classv8pp_1_1module_1a0fbe03a7259081054d36d9e85eefa560" kind="function"><name>var_get</name></member>
+    <member refid="classv8pp_1_1module_1a19b18dec2302a25b65c73f3bf819733b" kind="function"><name>var_set</name></member>
+  </compound>
+  <compound refid="classv8pp_1_1detail_1_1object__registry" kind="class"><name>v8pp::detail::object_registry</name>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a77cf5edc378754a3043b3d39392fbac6" kind="typedef"><name>pointer_type</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a9d36946c35cc685c7ed467460576b71e" kind="typedef"><name>const_pointer_type</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a4e6ad82b5c341d857e450ed588420bfb" kind="typedef"><name>object_id</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a4c4a21d2843292724eea39ff77ad6ea0" kind="typedef"><name>ctor_function</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a692272b52025536fffb09dbd5ed2f53c" kind="typedef"><name>dtor_function</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a85069ad3dea12aabe9512098af2a6673" kind="typedef"><name>cast_function</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1ac54e3efe59c060c4a68c6d12dbcf01bd" kind="variable"><name>bases_</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1ac1be060abb56422449344c01b61e4f0f" kind="variable"><name>derivatives_</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1aeb1d6422cf14273045e28db80a49437c" kind="variable"><name>objects_</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a61f6e840788d42d17c7d92aba8ebabe5" kind="variable"><name>isolate_</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a41ba518bf8134ee1bb7a0eb304ad85fd" kind="variable"><name>func_</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a768cbc919f454a59d7e2a330cebb9632" kind="variable"><name>js_func_</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a3a2825620ddc76ad05a794ffe341c2ac" kind="variable"><name>ctor_</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a565d057304864d03a82822d822abc7cb" kind="variable"><name>dtor_</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1af8e887d59b43d988943cb85d1643698c" kind="function"><name>object_registry</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a02711b90b1e0a55843a4c3b3015d4778" kind="function"><name>object_registry</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a77e2fb7602f0055f951ca2afdfcb4b05" kind="function"><name>object_registry</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a0de2ab193da18f55dd9def1b21bd8ca2" kind="function"><name>operator=</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1ac94eca97c5a12a33b56c647afbe15d69" kind="function"><name>operator=</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a218fccee5120c102b08518060141964f" kind="function"><name>~object_registry</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a97e030a649a43cef7a9b15b52853290c" kind="function"><name>isolate</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1ac0ba47d509d14537255854f98871dc40" kind="function"><name>class_function_template</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1af284c2279f6c378b00791ceaf888cd19" kind="function"><name>js_function_template</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a9ba53b6a9594cd16cc513b968fe49d38" kind="function"><name>set_ctor</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a1ad72430a5f5739e924aec70fd1c04f8" kind="function"><name>add_base</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a7409f63abcdb1b180437bb6dda95d325" kind="function"><name>cast</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a5999d102e31454d7fb3a425258d2e802" kind="function"><name>remove_object</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a43d4d3f32d5e360296308844d7173050" kind="function"><name>remove_objects</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1af1e00fcba2add9fa44254a56dc95a44a" kind="function"><name>find_object</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a5ab2c3e50f21a3832787d26202adca60" kind="function"><name>find_v8_object</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a87b521106be3748f04a50c28a5fa4e92" kind="function"><name>wrap_object</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1ad0ceacef709f13d99fb6684a7c12fcfd" kind="function"><name>wrap_object</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a17f4579a94daca7b6535a5d5282603a9" kind="function"><name>unwrap_object</name></member>
+    <member refid="classv8pp_1_1detail_1_1object__registry_1a733b807cf31058c4f51b0947c2f08bd5" kind="function"><name>reset_object</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1persistent" kind="struct"><name>v8pp::persistent</name>
+    <member refid="structv8pp_1_1persistent_1affa587a6445f98022313bf89cb014ac2" kind="typedef"><name>base_class</name></member>
+    <member refid="structv8pp_1_1persistent_1a845dda40ba53e454b36144034f3d7c2c" kind="function"><name>persistent</name></member>
+    <member refid="structv8pp_1_1persistent_1a6f50caea3f3909eb59679375b185fe33" kind="function"><name>persistent</name></member>
+    <member refid="structv8pp_1_1persistent_1a2bbdd4f4b4749d8af96b173ec4feffb0" kind="function"><name>persistent</name></member>
+    <member refid="structv8pp_1_1persistent_1a9592d6a97f13d2b862fb4633e1c1c5b1" kind="function"><name>persistent</name></member>
+    <member refid="structv8pp_1_1persistent_1ab40fa92d68515afd6eb2254175a9cae7" kind="function"><name>operator=</name></member>
+    <member refid="structv8pp_1_1persistent_1a7435c32ed18bd760d04bc43e990433b0" kind="function"><name>persistent</name></member>
+    <member refid="structv8pp_1_1persistent_1a4c3bde8e0c93e32bb3ea3d0fc46ff83f" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="classv8pp_1_1persistent__ptr" kind="class"><name>v8pp::persistent_ptr</name>
+    <member refid="classv8pp_1_1persistent__ptr_1a9cd19ce6e452344ffcac704dd895c34d" kind="typedef"><name>unspecfied_bool_type</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a28452777752ddb343e0e0e4e4b08aa1c" kind="variable"><name>value_</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1ab8674528bea9887265ddc89f72ad02e2" kind="variable"><name>handle_</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1acbee0a0c076e8a20bc1a00b0de77dc68" kind="function"><name>persistent_ptr</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1ac8c6253b014cb05b771f6482df70cce8" kind="function"><name>persistent_ptr</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a36d7bcfc61caff5f8ded11afd5418581" kind="function"><name>persistent_ptr</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a28e58fe43c1018d3bc6cd9cef423bac3" kind="function"><name>persistent_ptr</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1aaa81ac4721f9125e4437fc146f120d5d" kind="function"><name>operator=</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a0c0199c9738d1a198488998683e9e782" kind="function"><name>~persistent_ptr</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1afaff53e35b4f6fb2a7ceabe5964978ad" kind="function"><name>reset</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a810c65c727bd77f51f531236472bad90" kind="function"><name>reset</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a8fe81805fbad6076d87253b055728c54" kind="function"><name>get</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a11662e21fda907c085da675b9b5ff47b" kind="function"><name>get</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a9e81728df89bab4d171167156f3da79f" kind="function"><name>operator unspecfied_bool_type</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a1e96ba2a232cbb8b4ca40db3f89f0f09" kind="function"><name>operator*</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a6e67a7329324e9e94b9dc17995bbf490" kind="function"><name>operator*</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1acd86f75b88d7ef5cf93f82cad8c5e685" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a71cebde7fccdbc56a9aea04e6d21a5bc" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a899841aaea08f918b2d4179dd1834ddb" kind="function"><name>operator==</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a0a476895c4d2cbd2d79b7f37c3ec112c" kind="function"><name>operator!=</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a2c1eba9cc255867db8d298c379aa2f61" kind="function"><name>swap</name></member>
+    <member refid="classv8pp_1_1persistent__ptr_1a9fffc4cfe6d391e84b3715c5d9a2693c" kind="friend"><name>swap</name></member>
+  </compound>
+  <compound refid="unionv8pp_1_1detail_1_1pointer__cast" kind="union"><name>v8pp::detail::pointer_cast</name>
+    <member refid="unionv8pp_1_1detail_1_1pointer__cast_1a67f2bc32540078f17e2dea5bb8879d4a" kind="variable"><name>ptr</name></member>
+    <member refid="unionv8pp_1_1detail_1_1pointer__cast_1a16d438865d4de231820388cdd3f6a8ab" kind="variable"><name>value</name></member>
+    <member refid="unionv8pp_1_1detail_1_1pointer__cast_1ad5b186da7ecb9f329c4ec2d6d809a333" kind="function"><name>pointer_cast</name></member>
+    <member refid="unionv8pp_1_1detail_1_1pointer__cast_1ae2e2dc60b7a3286c32c425e7ac7ee952" kind="function"><name>pointer_cast</name></member>
+    <member refid="unionv8pp_1_1detail_1_1pointer__cast_1ab21197c95f455d36f4344087005e03ad" kind="function"><name>operator void *</name></member>
+    <member refid="unionv8pp_1_1detail_1_1pointer__cast_1a110e980f0b498bd085b18baace9773c4" kind="function"><name>operator T</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1property__" kind="struct"><name>v8pp::property_</name>
+    <member refid="structv8pp_1_1property___1a54ab88cd3b5ac11c4b18a8eca4c59042" kind="enum"><name>@1</name></member>
+    <member refid="structv8pp_1_1property___1a54ab88cd3b5ac11c4b18a8eca4c59042acbdb6a13d343dd969e0865a025084e82" kind="enumvalue"><name>is_readonly</name></member>
+    <member refid="structv8pp_1_1property___1a9bc41d5799e380cb692c78b405da549d" kind="variable"><name>getter</name></member>
+    <member refid="structv8pp_1_1property___1af02e076bd0a47869ea19a01136b8a0fa" kind="variable"><name>setter</name></member>
+    <member refid="structv8pp_1_1property___1a68522117d8e14a67e2b7e177f2d7e74a" kind="function"><name>property_</name></member>
+    <member refid="structv8pp_1_1property___1a78f9c6da41f09054e414d019e831f984" kind="function"><name>property_</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1property___3_01_get_00_01_get_01_4" kind="struct"><name>v8pp::property_&lt; Get, Get &gt;</name>
+    <member refid="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a593b081b4290ede5f99004de4e56b04d" kind="enum"><name>@2</name></member>
+    <member refid="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a593b081b4290ede5f99004de4e56b04dae6595470bf9fe38362a248571f3b1710" kind="enumvalue"><name>is_readonly</name></member>
+    <member refid="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a141d73100eec2e5dd4c999342895819b" kind="variable"><name>getter</name></member>
+    <member refid="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a618eadd752b331cac6d6272859505c12" kind="function"><name>property_</name></member>
+    <member refid="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a8bbe128719d925bbfd8acc55f5e6e8bc" kind="function"><name>property_</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1r__property__impl" kind="struct"><name>v8pp::detail::r_property_impl</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4" kind="struct"><name>v8pp::detail::r_property_impl&lt; Get, Set, false &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1a679773c437c48daf0bb61d37914dd174" kind="typedef"><name>property_type</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1adbfaead5843d20767427346f080a450d" kind="function"><name>get_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1a2f4d251cb0793890a2818f61a5376809" kind="function"><name>get_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1aac4594fd913ca93b88ef8baceb95d7ff" kind="function"><name>get_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1ab940386dbd54cca6cab5a1af92a9f017" kind="function"><name>get</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1a5b372c2eb6414168d6c7f69fafe67265" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01true_01_4" kind="struct"><name>v8pp::detail::r_property_impl&lt; Get, Set, true &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01true_01_4_1a900e953d5205941b64eb8b773e1dd23e" kind="typedef"><name>property_type</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01true_01_4_1ae438279911e03a00d044f0f93fae6683" kind="typedef"><name>class_type</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01true_01_4_1a5c98e6b69fa675966f06e348fce02704" kind="function"><name>get_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01true_01_4_1ac2c90f300630b58875ca38f95970ffcd" kind="function"><name>get_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01true_01_4_1a7feddcd2713dc8ea701aa23463ab2f31" kind="function"><name>get_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01true_01_4_1aec595e646e037a45b7b5f82bd70ad9a1" kind="function"><name>get</name></member>
+    <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01true_01_4_1aa786923a4915f5d42a4fb6f3a8a47f67" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1raw__ptr__traits" kind="struct"><name>v8pp::raw_ptr_traits</name>
+    <member refid="structv8pp_1_1raw__ptr__traits_1a87a02ce40c9c4319f8b844d82b02f48b" kind="typedef"><name>pointer_type</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1a8eb927d43215fe22d65729de543e269e" kind="typedef"><name>const_pointer_type</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1af9cee35d6899757d5d797c0d95f35be5" kind="typedef"><name>object_pointer_type</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1a30759530a458e25fd28a1fafbdf8dd0e" kind="typedef"><name>object_const_pointer_type</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1a47b1bbb5c1a2d374981430d6e4ee16e5" kind="typedef"><name>object_id</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1a4d6b46f882a187d599655e4b20c3a54a" kind="typedef"><name>convert_ptr</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1ae368e03fa7b746b1f62e7e154fc73126" kind="typedef"><name>convert_ref</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1a710905b370cb1482dbbfef66929d0625" kind="function"><name>pointer_id</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1af18d4941dc6109f55fa4941c1ffc3c81" kind="function"><name>key</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1a90963e778e4a43e7ea054947425036ab" kind="function"><name>const_pointer_cast</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1a577713be8422c9069931c15cf659b4cd" kind="function"><name>static_pointer_cast</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1af71df91af134d5dd63c8492c7ebf7773" kind="function"><name>create</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1ab5b269e1b3355c5e978fdd0239cf0557" kind="function"><name>destroy</name></member>
+    <member refid="structv8pp_1_1raw__ptr__traits_1a6fbbc63eea7c3ca07c2f98533b952af3" kind="function"><name>object_size</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1ref__from__shared__ptr" kind="struct"><name>v8pp::ref_from_shared_ptr</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1rw__property__impl" kind="struct"><name>v8pp::detail::rw_property_impl</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4" kind="struct"><name>v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1a220dfe39604c41a54c8cd7d57c40624b" kind="typedef"><name>property_type</name></member>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1a3b2181d508356b1288d09420367bb88d" kind="function"><name>set_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1af4f43b7e55b4ca33b6d775a98c67bbb9" kind="function"><name>set_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1a8e4933aa6e8cc1a74294f75f18993122" kind="function"><name>set_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1aa7580af5d3a43010c899663eec9cf4df" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01true_01_4" kind="struct"><name>v8pp::detail::rw_property_impl&lt; Get, Set, true &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01true_01_4_1abe9104a6b5c9ff0589a2da5292fa6e93" kind="typedef"><name>property_type</name></member>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01true_01_4_1ae35076d9dab65d6279f8c590313f0c92" kind="typedef"><name>class_type</name></member>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01true_01_4_1a18f9e179af5fc0b7e080d3ac15eaee6e" kind="function"><name>set_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01true_01_4_1a453a7546b799cabbafa4a819d217f9ee" kind="function"><name>set_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01true_01_4_1a6b6ca1f3d6d46e38921b50766729822b" kind="function"><name>set_impl</name></member>
+    <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01true_01_4_1a9cc0a45cdae0ef472cd8b1a8bb6178a9" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1sequence__generator" kind="struct"><name>v8pp::detail::sequence_generator</name>
+    <member refid="structv8pp_1_1detail_1_1sequence__generator_1abbfb7ea0d6449e237fa97e99a858e7f2" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1sequence__generator_3_01_t_00_01_index_00_010ul_01_4" kind="struct"><name>v8pp::detail::sequence_generator&lt; T, Index, 0ul &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1sequence__generator_3_01_t_00_01_index_00_010ul_01_4_1ac1d2d4819f250383b2ef562733c82343" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1setter__tag" kind="struct"><name>v8pp::detail::setter_tag</name>
+  </compound>
+  <compound refid="structv8pp_1_1shared__ptr__traits" kind="struct"><name>v8pp::shared_ptr_traits</name>
+    <member refid="structv8pp_1_1shared__ptr__traits_1a532947a1c3b75dbc77a68dc500bfeef6" kind="typedef"><name>pointer_type</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1ac46a345e2ca6659e9100b195b020e73d" kind="typedef"><name>const_pointer_type</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1a6f2d49a686336ae1c29a8d464e825ab5" kind="typedef"><name>object_pointer_type</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1a71bf52eed956c0bda7f337a152d32e1e" kind="typedef"><name>object_const_pointer_type</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1ab87f9876710541fb19ce90651f06117a" kind="typedef"><name>object_id</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1a7bd4a2dfcddf7dbf55ef901312808507" kind="typedef"><name>convert_ptr</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1adc79db6f0d0229ac23ca705df1c043d3" kind="typedef"><name>convert_ref</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1a4dec01a64cf416edc27a049cbf8d3f07" kind="function"><name>pointer_id</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1a37dd106cf52acdd5521aa3e51ca7f834" kind="function"><name>key</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1a4cf5104edaa7d3bdcf63d3cefa790ae0" kind="function"><name>const_pointer_cast</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1a7639f32930b23c52b8d13eadc882c538" kind="function"><name>static_pointer_cast</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1a409c3263d45dcf91ce90708b13ee2936" kind="function"><name>create</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1aaeebd04c669558a6a610be83ad0a8742" kind="function"><name>destroy</name></member>
+    <member refid="structv8pp_1_1shared__ptr__traits_1adb19c16d225366a4841017f8cf0da132" kind="function"><name>object_size</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1call__from__v8__traits_1_1tuple__element" kind="struct"><name>v8pp::detail::call_from_v8_traits::tuple_element</name>
+    <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1_1tuple__element_1ae1ce54117d38456112c343b0e971da16" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1call__from__v8__traits_1_1tuple__element_3_01_index_00_01false_01_4" kind="struct"><name>v8pp::detail::call_from_v8_traits::tuple_element&lt; Index, false &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1_1tuple__element_3_01_index_00_01false_01_4_1a979d0dcdfc64265697d6efe89b6ab279" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1tuple__tail" kind="struct"><name>v8pp::detail::tuple_tail</name>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1tuple__tail_3_01std_1_1tuple_3_01_head_00_01_tail_8_8_8_01_4_01_4" kind="struct"><name>v8pp::detail::tuple_tail&lt; std::tuple&lt; Head, Tail... &gt; &gt;</name>
+    <member refid="structv8pp_1_1detail_1_1tuple__tail_3_01std_1_1tuple_3_01_head_00_01_tail_8_8_8_01_4_01_4_1a224c76210457b55de9606738df253321" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="classv8pp_1_1detail_1_1type__info" kind="class"><name>v8pp::detail::type_info</name>
+    <member refid="classv8pp_1_1detail_1_1type__info_1a2133aab369585a89b6bfd606c852483c" kind="variable"><name>name_</name></member>
+    <member refid="classv8pp_1_1detail_1_1type__info_1aa3e611f5636b24ae0cf4677fd0a6ffdd" kind="function"><name>name</name></member>
+    <member refid="classv8pp_1_1detail_1_1type__info_1ad89ba7cc6df7cf19278a41664b82eef1" kind="function"><name>operator==</name></member>
+    <member refid="classv8pp_1_1detail_1_1type__info_1aafad85db432b4088c6ec430186ba100a" kind="function"><name>operator!=</name></member>
+    <member refid="classv8pp_1_1detail_1_1type__info_1a0541a36aec4d37b6ac378fbe3155f64a" kind="friend"><name>type_id</name></member>
+    <member refid="classv8pp_1_1detail_1_1type__info_1adf416ac370717b1ce727761a58824bdf" kind="function"><name>type_info</name></member>
+  </compound>
+  <compound refid="structv8pp_1_1detail_1_1v8__args__call__traits" kind="struct"><name>v8pp::detail::v8_args_call_traits</name>
+    <member refid="structv8pp_1_1detail_1_1v8__args__call__traits_1afb560f0a9bab499e25b719905576d8c1" kind="function"><name>arg_from_v8</name></member>
+    <member refid="structv8pp_1_1detail_1_1v8__args__call__traits_1adb945e35048d2bc08ac11ee82eb01400" kind="function"><name>check</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespacev8pp" kind="namespace"><name>v8pp</name>
+    <member refid="class_8hpp_1ac1f4a08379558ca1d600a5e55dcf6eff" kind="typedef"><name>shared_class</name></member>
+    <member refid="context_8cpp_1abeb325a8ca9e2196b0b7b985f77a483c" kind="variable"><name>array_buffer_allocator_</name></member>
+    <member refid="call__v8_8hpp_1ab2235c91f3d3d7dd7afeb0e19d4a5366" kind="function"><name>call_v8</name></member>
+    <member refid="class_8hpp_1ad1c8499ee4af1e93697ad3d1f4f78502" kind="function"><name>cleanup</name></member>
+    <member refid="convert_8hpp_1a78715d199fa0bc76d3cb0b8e110fe322" kind="function"><name>from_v8</name></member>
+    <member refid="convert_8hpp_1a92ac8e5ee75fe964b08d42af24d85be6" kind="function"><name>from_v8</name></member>
+    <member refid="convert_8hpp_1a781ee1055ea6fe4c1fbaa402ff65bca0" kind="function"><name>to_v8</name></member>
+    <member refid="convert_8hpp_1ae2fc5cb3256b2b00114827aa3f6f5a2f" kind="function"><name>to_v8</name></member>
+    <member refid="convert_8hpp_1a445e128978573623f503f69862d69b7a" kind="function"><name>to_v8</name></member>
+    <member refid="convert_8hpp_1a9540a914ea16df00f748deff61331668" kind="function"><name>to_v8</name></member>
+    <member refid="convert_8hpp_1ac084ad7f8836837606cc2ac4fd9d7d06" kind="function"><name>to_v8</name></member>
+    <member refid="convert_8hpp_1a02608a88adbf32f00836db427178915d" kind="function"><name>to_v8</name></member>
+    <member refid="convert_8hpp_1a150f43ebcdf3d9a32a582b3bb9675041" kind="function"><name>to_v8</name></member>
+    <member refid="convert_8hpp_1a4c88d3e532776352aef2474e6390d1e3" kind="function"><name>to_local</name></member>
+    <member refid="function_8hpp_1ae1e3296d508397ed800a3797e0ce0db0" kind="function"><name>wrap_function_template</name></member>
+    <member refid="function_8hpp_1af2bd81b4ba5a92e2418e82fed46d0076" kind="function"><name>wrap_function</name></member>
+    <member refid="json_8hpp_1a01c553f08c3a74426611eeb5102662b3" kind="function"><name>json_str</name></member>
+    <member refid="json_8hpp_1ad7b4b9df848eba99b6235dbbb1c5e561" kind="function"><name>json_parse</name></member>
+    <member refid="json_8hpp_1a42503aa4339b60dcce740d834e785577" kind="function"><name>json_object</name></member>
+    <member refid="object_8hpp_1aa67c57e3946cbc4ceb6116432449644a" kind="function"><name>get_option</name></member>
+    <member refid="object_8hpp_1a6eca98eeb277f33838b58da1f959ae93" kind="function"><name>set_option</name></member>
+    <member refid="object_8hpp_1a3ac8c79eaac9841dd99bf49ff0db5869" kind="function"><name>set_const</name></member>
+    <member refid="property_8hpp_1a31a79dadb8b3314cfeb96768f6c4b5d9" kind="function"><name>property</name></member>
+    <member refid="property_8hpp_1a80d1ec91630c3b941cce2c8195e0f3dd" kind="function"><name>property</name></member>
+    <member refid="throw__ex_8hpp_1a07d545e244ed899cc485cd9913f57497" kind="function"><name>throw_ex</name></member>
+    <member refid="throw__ex_8hpp_1a93759c230d481aa97dacf2ce12f31e0f" kind="function"><name>throw_ex</name></member>
+    <member refid="throw__ex_8hpp_1a4e6a37995f709344bf44b6cceba8e466" kind="function"><name>throw_ex</name></member>
+    <member refid="throw__ex_8hpp_1a492e088daa0a5da8b649d6d6f0e6dd88" kind="function"><name>throw_ex</name></member>
+  </compound>
+  <compound refid="namespacev8pp_1_1detail" kind="namespace"><name>v8pp::detail</name>
+    <member refid="call__from__v8_8hpp_1ae78bffd2e228cae651f73d1a628dcae4" kind="typedef"><name>isolate_arg_call_traits</name></member>
+    <member refid="call__from__v8_8hpp_1aa0c45fe7d94cf79b146f11fc8ca7fce6" kind="typedef"><name>isolate_v8_args_call_traits</name></member>
+    <member refid="call__from__v8_8hpp_1a73934596bd42f5e603fa1db2829ad6d5" kind="typedef"><name>is_direct_args</name></member>
+    <member refid="call__from__v8_8hpp_1ab680957200a5fb46967c28f461d34a93" kind="typedef"><name>is_first_arg_isolate</name></member>
+    <member refid="call__from__v8_8hpp_1a1b326ce9773f074f4837f9f8179e0af4" kind="typedef"><name>select_call_traits</name></member>
+    <member refid="function_8hpp_1a196edc86e0857784954754d428c58fac" kind="typedef"><name>is_pointer_cast_allowed</name></member>
+    <member refid="property_8hpp_1a7c41cfd24e78ef98192ac209353ed019" kind="typedef"><name>is_getter</name></member>
+    <member refid="property_8hpp_1a41d061bde0e47ac4cbc66def5815bb88" kind="typedef"><name>is_direct_getter</name></member>
+    <member refid="property_8hpp_1a6f38bdf8b5951143a82198fbf0d3f275" kind="typedef"><name>is_isolate_getter</name></member>
+    <member refid="property_8hpp_1a763e3a2ae0cca36809e890ea9c839e1c" kind="typedef"><name>is_setter</name></member>
+    <member refid="property_8hpp_1a794443d7ff7f7732f294331c5def9e72" kind="typedef"><name>is_direct_setter</name></member>
+    <member refid="property_8hpp_1a85750123d01419252ca6e61e852eaa6d" kind="typedef"><name>is_isolate_setter</name></member>
+    <member refid="property_8hpp_1ae5f140f611b118628ee1d03a542177fa" kind="typedef"><name>select_getter_tag</name></member>
+    <member refid="property_8hpp_1a20cc2f25a1d6b63228e8de8c91a1e145" kind="typedef"><name>select_setter_tag</name></member>
+    <member refid="utility_8hpp_1a9835be3cc2f349cb14288a40dd57febd" kind="typedef"><name>is_void_return</name></member>
+    <member refid="utility_8hpp_1aacf386c44d00c6d7652a1bbd3779218a" kind="typedef"><name>is_callable</name></member>
+    <member refid="utility_8hpp_1a92abdccb5aee42cb1480c6dfebe056b3" kind="typedef"><name>index_sequence</name></member>
+    <member refid="utility_8hpp_1a265c8d96010f12563cdd104b311311a6" kind="typedef"><name>make_integer_sequence</name></member>
+    <member refid="utility_8hpp_1a578cc6a3fcb96e482cf6f4bbadc3a9db" kind="typedef"><name>make_index_sequence</name></member>
+    <member refid="call__from__v8_8hpp_1af28b9728bad905f0d56ed248cf0f6636" kind="function"><name>call_from_v8_impl</name></member>
+    <member refid="call__from__v8_8hpp_1abfe7f671c1d38c2e92e3278dffb218bc" kind="function"><name>call_from_v8_impl</name></member>
+    <member refid="call__from__v8_8hpp_1af1dacf1756b542bc8a051537da5468e5" kind="function"><name>call_from_v8_impl</name></member>
+    <member refid="call__from__v8_8hpp_1ab47853b518dbfcfb0950c5098e29661b" kind="function"><name>call_from_v8_impl</name></member>
+    <member refid="call__from__v8_8hpp_1af5a9684f88bee3350c55e9335cc2e81f" kind="function"><name>call_from_v8_impl</name></member>
+    <member refid="call__from__v8_8hpp_1ad4e0939c7fc2b13bc7e5c74a9bd9763d" kind="function"><name>call_from_v8_impl</name></member>
+    <member refid="call__from__v8_8hpp_1a0f796ccbfb7a6e7707a92520711f5c45" kind="function"><name>call_from_v8</name></member>
+    <member refid="call__from__v8_8hpp_1a34c8eeabd8e3b986a5d1c7eb654bc3ca" kind="function"><name>call_from_v8</name></member>
+    <member refid="class_8hpp_1a1af305837313fbf833c4595f380eaac0" kind="function"><name>pointer_str</name></member>
+    <member refid="function_8hpp_1a082d71b197b98e3c17936dbe76314967" kind="function"><name>set_external_data</name></member>
+    <member refid="function_8hpp_1aa8c105af93a34a5dcce04a0f3dd8e25f" kind="function"><name>set_external_data</name></member>
+    <member refid="function_8hpp_1adab016e9457b9392fd6bf5cebd13dab7" kind="function"><name>get_external_data</name></member>
+    <member refid="function_8hpp_1aaa25d2fc7470dfab6d9178512340bbfb" kind="function"><name>get_external_data</name></member>
+    <member refid="function_8hpp_1ae9ae6ad7dff64688ec2e14de5b67ff24" kind="function"><name>invoke</name></member>
+    <member refid="function_8hpp_1a6278a1f838d8792a6a132ad9326f68da" kind="function"><name>invoke</name></member>
+    <member refid="function_8hpp_1a660660b22bd4dd58c885a71fd5c80fa3" kind="function"><name>forward_ret</name></member>
+    <member refid="function_8hpp_1ae8bb3f70b8b6ee9ef0e7093343f2c7aa" kind="function"><name>forward_ret</name></member>
+    <member refid="function_8hpp_1ad5f1ef5fad919d474ce61538bed29b46" kind="function"><name>forward_function</name></member>
+    <member refid="utility_8hpp_1aaf63e2f5d3719a35a15e3d951953fb64" kind="function"><name>type_id</name></member>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="call__from__v8_8hpp" kind="file"><name>call_from_v8.hpp</name>
+  </compound>
+  <compound refid="call__v8_8hpp" kind="file"><name>call_v8.hpp</name>
+  </compound>
+  <compound refid="class_8cpp" kind="file"><name>class.cpp</name>
+  </compound>
+  <compound refid="class_8hpp" kind="file"><name>class.hpp</name>
+  </compound>
+  <compound refid="class_8ipp" kind="file"><name>class.ipp</name>
+  </compound>
+  <compound refid="config_8hpp" kind="file"><name>config.hpp</name>
+    <member refid="config_8hpp_1a2b4189b5db7016940c0978eb72b5c6e8" kind="define"><name>V8PP_PLUGIN_INIT_PROC_NAME</name></member>
+    <member refid="config_8hpp_1a0ab2171e32c0d225d43b3a2bc36cb86a" kind="define"><name>V8PP_PLUGIN_SUFFIX</name></member>
+    <member refid="config_8hpp_1a8c9960399a0e5be9e67451296247b9c2" kind="define"><name>V8PP_EXPORT</name></member>
+    <member refid="config_8hpp_1a7b2b22ac0b92bb203534f5a0c5317ec8" kind="define"><name>V8PP_IMPORT</name></member>
+    <member refid="config_8hpp_1ac926c891226a41dd76c19fe6306f0735" kind="define"><name>V8PP_PLUGIN_INIT</name></member>
+    <member refid="config_8hpp_1a8e68365e2d3ba3ebf8df3739f147afee" kind="define"><name>V8PP_HEADER_ONLY</name></member>
+    <member refid="config_8hpp_1a4da4ca5d9cf993a2e3939fe4c0fce365" kind="define"><name>V8PP_IMPL</name></member>
+  </compound>
+  <compound refid="context_8cpp" kind="file"><name>context.cpp</name>
+    <member refid="context_8cpp_1a30d26964995580586ac787c24b82b2c3" kind="define"><name>STRINGIZE</name></member>
+    <member refid="context_8cpp_1abd2db09c98d66762598d4987d4e87d80" kind="define"><name>STRINGIZE0</name></member>
+    <member refid="context_8cpp_1a04a936c3c65e7005f287c192d69405fe" kind="variable"><name>path_sep</name></member>
+  </compound>
+  <compound refid="context_8hpp" kind="file"><name>context.hpp</name>
+  </compound>
+  <compound refid="convert_8cpp" kind="file"><name>convert.cpp</name>
+  </compound>
+  <compound refid="convert_8hpp" kind="file"><name>convert.hpp</name>
+  </compound>
+  <compound refid="factory_8hpp" kind="file"><name>factory.hpp</name>
+  </compound>
+  <compound refid="function_8hpp" kind="file"><name>function.hpp</name>
+  </compound>
+  <compound refid="json_8cpp" kind="file"><name>json.cpp</name>
+  </compound>
+  <compound refid="json_8hpp" kind="file"><name>json.hpp</name>
+  </compound>
+  <compound refid="json_8ipp" kind="file"><name>json.ipp</name>
+  </compound>
+  <compound refid="module_8hpp" kind="file"><name>module.hpp</name>
+  </compound>
+  <compound refid="object_8hpp" kind="file"><name>object.hpp</name>
+  </compound>
+  <compound refid="persistent_8hpp" kind="file"><name>persistent.hpp</name>
+  </compound>
+  <compound refid="property_8hpp" kind="file"><name>property.hpp</name>
+  </compound>
+  <compound refid="ptr__traits_8hpp" kind="file"><name>ptr_traits.hpp</name>
+  </compound>
+  <compound refid="throw__ex_8cpp" kind="file"><name>throw_ex.cpp</name>
+  </compound>
+  <compound refid="throw__ex_8hpp" kind="file"><name>throw_ex.hpp</name>
+  </compound>
+  <compound refid="throw__ex_8ipp" kind="file"><name>throw_ex.ipp</name>
+  </compound>
+  <compound refid="utility_8hpp" kind="file"><name>utility.hpp</name>
+    <member refid="utility_8hpp_1a383a647d47fc58541d4bf5cc6ee9d3b1" kind="define"><name>V8PP_PRETTY_FUNCTION_LEN</name></member>
+    <member refid="utility_8hpp_1a9115a22694d037ac64cc07cbf6063b68" kind="define"><name>V8PP_PRETTY_FUNCTION_PREFIX_LEN</name></member>
+    <member refid="utility_8hpp_1ac2571271ff56078bf2fbfbcfb0a34d54" kind="define"><name>V8PP_PRETTY_FUNCTION_SUFFIX_LEN</name></member>
+  </compound>
+  <compound refid="dir_60ce16b8f727b09d8e6f1e5f5b6d10b8" kind="dir"><name>v8pp</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

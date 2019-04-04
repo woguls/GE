@@ -1,0 +1,722 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classv8pp_1_1class__" kind="class" language="C++" prot="public">
+    <compoundname>v8pp::class_</compoundname>
+    <includes refid="class_8hpp" local="no">class.hpp</includes>
+    <innerclass refid="structv8pp_1_1class___1_1factory__create" prot="public">v8pp::class_::factory_create</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>Traits</declname>
+        <defname>Traits</defname>
+        <defval>raw_ptr_traits</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classv8pp_1_1class___1a1efcaac7f064b6de024399b588f38c93" prot="private" static="no">
+        <type>detail::object_registry&lt; Traits &gt;</type>
+        <definition>using v8pp::class_&lt; T, Traits &gt;::object_registry =  detail::object_registry&lt;Traits&gt;</definition>
+        <argsstring></argsstring>
+        <name>object_registry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="432" column="1" bodyfile="v8pp/class.hpp" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classv8pp_1_1class___1a5ef704ea9b4ce4f7b534d17a9f8b1a8a" prot="private" static="no">
+        <type>typename object_registry::object_id</type>
+        <definition>using v8pp::class_&lt; T, Traits &gt;::object_id =  typename object_registry::object_id</definition>
+        <argsstring></argsstring>
+        <name>object_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="435" column="1" bodyfile="v8pp/class.hpp" bodystart="435" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classv8pp_1_1class___1af7612ec72679db528a9e89bab69b230c" prot="private" static="no">
+        <type>typename object_registry::pointer_type</type>
+        <definition>using v8pp::class_&lt; T, Traits &gt;::pointer_type =  typename object_registry::pointer_type</definition>
+        <argsstring></argsstring>
+        <name>pointer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="436" column="1" bodyfile="v8pp/class.hpp" bodystart="436" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classv8pp_1_1class___1ac0f613f4204e2fd7b72c6b35602d27dd" prot="private" static="no">
+        <type>typename object_registry::const_pointer_type</type>
+        <definition>using v8pp::class_&lt; T, Traits &gt;::const_pointer_type =  typename object_registry::const_pointer_type</definition>
+        <argsstring></argsstring>
+        <name>const_pointer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="437" column="1" bodyfile="v8pp/class.hpp" bodystart="437" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classv8pp_1_1class___1a80eadbea1099b9bfb3dd92a04968af44" prot="public" static="no">
+        <type>typename Traits::template object_pointer_type&lt; T &gt;</type>
+        <definition>using v8pp::class_&lt; T, Traits &gt;::object_pointer_type =  typename Traits::template object_pointer_type&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>object_pointer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="440" column="1" bodyfile="v8pp/class.hpp" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classv8pp_1_1class___1aed3857ce04581a7f88447e15687cfd44" prot="public" static="no">
+        <type>typename Traits::template object_const_pointer_type&lt; T &gt;</type>
+        <definition>using v8pp::class_&lt; T, Traits &gt;::object_const_pointer_type =  typename Traits::template object_const_pointer_type&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>object_const_pointer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="441" column="1" bodyfile="v8pp/class.hpp" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classv8pp_1_1class___1af01dc6d1a607de4241049f5798483424" prot="public" static="no">
+        <type>std::function&lt; object_pointer_type(v8::FunctionCallbackInfo&lt; v8::Value &gt; const  &amp;args)&gt;</type>
+        <definition>using v8pp::class_&lt; T, Traits &gt;::ctor_function =  std::function&lt;object_pointer_type (v8::FunctionCallbackInfo&lt;v8::Value&gt; const&amp; args)&gt;</definition>
+        <argsstring></argsstring>
+        <name>ctor_function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="453" column="1" bodyfile="v8pp/class.hpp" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classv8pp_1_1class___1a8ac03d57341194079860071f1289d7c0" prot="public" static="no">
+        <type>std::function&lt; void(v8::Isolate *<ref refid="classv8pp_1_1class___1a1112898adbc24af832c5a003944381fc" kindref="member">isolate</ref>, object_pointer_type const  &amp;obj)&gt;</type>
+        <definition>using v8pp::class_&lt; T, Traits &gt;::dtor_function =  std::function&lt;void (v8::Isolate* isolate, object_pointer_type const&amp; obj)&gt;</definition>
+        <argsstring></argsstring>
+        <name>dtor_function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="454" column="1" bodyfile="v8pp/class.hpp" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classv8pp_1_1class___1a773a7bc010b16db16edcec7e30c13381" prot="private" static="no" mutable="no">
+        <type>object_registry &amp;</type>
+        <definition>object_registry&amp; v8pp::class_&lt; T, Traits &gt;::class_info_</definition>
+        <argsstring></argsstring>
+        <name>class_info_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="433" column="1" bodyfile="v8pp/class.hpp" bodystart="433" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classv8pp_1_1class___1acb3be84d721e24da482a95537d4b3c18" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::class_&lt; T, Traits &gt;::class_</definition>
+        <argsstring>(v8::Isolate *isolate, dtor_function destroy=&amp;factory&lt; T, Traits &gt;::destroy)</argsstring>
+        <name>class_</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>dtor_function</type>
+          <declname>destroy</declname>
+          <defval>&amp;factory&lt; T, Traits &gt;::<ref refid="classv8pp_1_1class___1aafda8f1d8073203e416a084564dd9fa4" kindref="member">destroy</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="457" column="1" bodyfile="v8pp/class.hpp" bodystart="457" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a4e2856a849217ac87bc115d60f43e693" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+          <param>
+            <type>typename Create</type>
+            <defval>factory_create&lt;Args...&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1class__" kindref="compound">class_</ref> &amp;</type>
+        <definition>class_&amp; v8pp::class_&lt; T, Traits &gt;::ctor</definition>
+        <argsstring>(ctor_function create=&amp;Create::call)</argsstring>
+        <name>ctor</name>
+        <param>
+          <type>ctor_function</type>
+          <declname>create</declname>
+          <defval>&amp;Create::call</defval>
+        </param>
+        <briefdescription>
+<para>Set class constructor signature. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="468" column="1" bodyfile="v8pp/class.hpp" bodystart="468" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a7fdcd530180d7a859bc03b8163fe9041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1class__" kindref="compound">class_</ref> &amp;</type>
+        <definition>class_&amp; v8pp::class_&lt; T, Traits &gt;::inherit</definition>
+        <argsstring>()</argsstring>
+        <name>inherit</name>
+        <briefdescription>
+<para>Inhert from C++ class U. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="479" column="1" bodyfile="v8pp/class.hpp" bodystart="479" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a2614839914cb2b9ffb0a2d9f483cc547" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Method</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt; std::is_member_function_pointer&lt; Method &gt;::value, <ref refid="classv8pp_1_1class__" kindref="compound">class_</ref> &amp; &gt;::type</type>
+        <definition>std::enable_if&lt; std::is_member_function_pointer&lt;Method&gt;::value, class_&amp;&gt;::type v8pp::class_&lt; T, Traits &gt;::set</definition>
+        <argsstring>(char const *name, Method mem_func, v8::PropertyAttribute attr=v8::None)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Method</type>
+          <declname>mem_func</declname>
+        </param>
+        <param>
+          <type>v8::PropertyAttribute</type>
+          <declname>attr</declname>
+          <defval>v8::None</defval>
+        </param>
+        <briefdescription>
+<para>Set C++ class member function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="499" column="1" bodyfile="v8pp/class.hpp" bodystart="499" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1aa8d717a6dedb7ef8a46bc21cb675a23c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Function</type>
+          </param>
+          <param>
+            <type>typename Func</type>
+            <defval>typename std::decay&lt;Function&gt;::type</defval>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt; detail::is_callable&lt; Func &gt;::value, <ref refid="classv8pp_1_1class__" kindref="compound">class_</ref> &amp; &gt;::type</type>
+        <definition>std::enable_if&lt;detail::is_callable&lt;Func&gt;::value, class_&amp;&gt;::type v8pp::class_&lt; T, Traits &gt;::set</definition>
+        <argsstring>(char const *name, Function &amp;&amp;func, v8::PropertyAttribute attr=v8::None)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Function &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>v8::PropertyAttribute</type>
+          <declname>attr</declname>
+          <defval>v8::None</defval>
+        </param>
+        <briefdescription>
+<para>Set static class function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="515" column="1" bodyfile="v8pp/class.hpp" bodystart="515" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a3eb3ce7841abd150c49714d1c0cb125b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attribute</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt; std::is_member_object_pointer&lt; Attribute &gt;::value, <ref refid="classv8pp_1_1class__" kindref="compound">class_</ref> &amp; &gt;::type</type>
+        <definition>std::enable_if&lt; std::is_member_object_pointer&lt;Attribute&gt;::value, class_&amp;&gt;::type v8pp::class_&lt; T, Traits &gt;::set</definition>
+        <argsstring>(char const *name, Attribute attribute, bool readonly=false)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Attribute</type>
+          <declname>attribute</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>readonly</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Set class member data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="529" column="1" bodyfile="v8pp/class.hpp" bodystart="529" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1aabaeebb9cdf140d7fd3fd91e0975583e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename GetMethod</type>
+          </param>
+          <param>
+            <type>typename SetMethod</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt; std::is_member_function_pointer&lt; GetMethod &gt;::value &amp;&amp;std::is_member_function_pointer&lt; SetMethod &gt;::value, <ref refid="classv8pp_1_1class__" kindref="compound">class_</ref> &amp; &gt;::type</type>
+        <definition>std::enable_if&lt;std::is_member_function_pointer&lt;GetMethod&gt;::value &amp;&amp; std::is_member_function_pointer&lt;SetMethod&gt;::value, class_&amp;&gt;::type v8pp::class_&lt; T, Traits &gt;::set</definition>
+        <argsstring>(char const *name, property_&lt; GetMethod, SetMethod &gt; &amp;&amp;property)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="structv8pp_1_1property__" kindref="compound">property_</ref>&lt; GetMethod, SetMethod &gt; &amp;&amp;</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+<para>Set read/write class property with getter and setter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="555" column="1" bodyfile="v8pp/class.hpp" bodystart="555" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a525c074dee50ab80b19d680270652426" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Value</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1class__" kindref="compound">class_</ref> &amp;</type>
+        <definition>class_&amp; v8pp::class_&lt; T, Traits &gt;::set_const</definition>
+        <argsstring>(char const *name, Value const &amp;value)</argsstring>
+        <name>set_const</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Value const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set value as a read-only property. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="581" column="1" bodyfile="v8pp/class.hpp" bodystart="581" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1aca94e6285b94a62fc076904aa9a56264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Value</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1class__" kindref="compound">class_</ref> &amp;</type>
+        <definition>class_&amp; v8pp::class_&lt; T, Traits &gt;::set_static</definition>
+        <argsstring>(char const *name, Value const &amp;value, bool readonly=false)</argsstring>
+        <name>set_static</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Value const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>readonly</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Set a static value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="593" column="1" bodyfile="v8pp/class.hpp" bodystart="593" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a1112898adbc24af832c5a003944381fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Isolate *</type>
+        <definition>v8::Isolate* v8pp::class_&lt; T, Traits &gt;::isolate</definition>
+        <argsstring>()</argsstring>
+        <name>isolate</name>
+        <briefdescription>
+<para>v8::Isolate where the class bindings belongs </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="605" column="1" bodyfile="v8pp/class.hpp" bodystart="605" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a000d2104a0f74309d2795fb1d899c32b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Local&lt; v8::FunctionTemplate &gt;</type>
+        <definition>v8::Local&lt;v8::FunctionTemplate&gt; v8pp::class_&lt; T, Traits &gt;::class_function_template</definition>
+        <argsstring>()</argsstring>
+        <name>class_function_template</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="607" column="1" bodyfile="v8pp/class.hpp" bodystart="607" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1af90dcf6d63910e1d95a9419ad1140047" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Local&lt; v8::FunctionTemplate &gt;</type>
+        <definition>v8::Local&lt;v8::FunctionTemplate&gt; v8pp::class_&lt; T, Traits &gt;::js_function_template</definition>
+        <argsstring>()</argsstring>
+        <name>js_function_template</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="612" column="1" bodyfile="v8pp/class.hpp" bodystart="612" bodyend="615"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classv8pp_1_1class___1a39107d4e080a8683a7f75d2abe441faa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Local&lt; v8::Object &gt;</type>
+        <definition>static v8::Local&lt;v8::Object&gt; v8pp::class_&lt; T, Traits &gt;::reference_external</definition>
+        <argsstring>(v8::Isolate *isolate, object_pointer_type const &amp;ext)</argsstring>
+        <name>reference_external</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>object_pointer_type const &amp;</type>
+          <declname>ext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create JavaScript object which references externally created C++ class. It will not take ownership of the C++ pointer. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="619" column="1" bodyfile="v8pp/class.hpp" bodystart="619" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1aa3f99a8dc30981969235f8848669bcf4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::class_&lt; T, Traits &gt;::unreference_external</definition>
+        <argsstring>(v8::Isolate *isolate, object_pointer_type const &amp;ext)</argsstring>
+        <name>unreference_external</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>object_pointer_type const &amp;</type>
+          <declname>ext</declname>
+        </param>
+        <briefdescription>
+<para>Remove external reference from JavaScript. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="627" column="1" bodyfile="v8pp/class.hpp" bodystart="627" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a042d5e4c7919c10bfea325d28eb53b1c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Local&lt; v8::Object &gt;</type>
+        <definition>static v8::Local&lt;v8::Object&gt; v8pp::class_&lt; T, Traits &gt;::import_external</definition>
+        <argsstring>(v8::Isolate *isolate, object_pointer_type const &amp;ext)</argsstring>
+        <name>import_external</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>object_pointer_type const &amp;</type>
+          <declname>ext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>As reference_external but delete memory for C++ object when JavaScript object is deleted. You must use <computeroutput>factory&lt;T&gt;::create()</computeroutput> to allocate <computeroutput>ext</computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="636" column="1" bodyfile="v8pp/class.hpp" bodystart="636" bodyend="640"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1ad66edf0ca71584f58193f75aa84dc1f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object_pointer_type</type>
+        <definition>static object_pointer_type v8pp::class_&lt; T, Traits &gt;::unwrap_object</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>unwrap_object</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Get wrapped object from V8 value, may return nullptr on fail. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="643" column="1" bodyfile="v8pp/class.hpp" bodystart="643" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a8a3b2da69020bd2aa0d2379b43a7495a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>v8::Local&lt; v8::Object &gt;</type>
+        <definition>static v8::Local&lt;v8::Object&gt; v8pp::class_&lt; T, Traits &gt;::create_object</definition>
+        <argsstring>(v8::Isolate *isolate, Args... args)</argsstring>
+        <name>create_object</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>Args...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Create a wrapped C++ object and import it into JavaScript. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="652" column="1" bodyfile="v8pp/class.hpp" bodystart="652" bodyend="656"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a9938ce983d4303f02169342bb5ea55f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Local&lt; v8::Object &gt;</type>
+        <definition>static v8::Local&lt;v8::Object&gt; v8pp::class_&lt; T, Traits &gt;::find_object</definition>
+        <argsstring>(v8::Isolate *isolate, object_const_pointer_type const &amp;obj)</argsstring>
+        <name>find_object</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>object_const_pointer_type const &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Find V8 object handle for a wrapped C++ object, may return empty handle on fail. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="659" column="1" bodyfile="v8pp/class.hpp" bodystart="659" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a20d09eb2bab1f0b546b943f85236d746" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::class_&lt; T, Traits &gt;::destroy_object</definition>
+        <argsstring>(v8::Isolate *isolate, object_pointer_type const &amp;obj)</argsstring>
+        <name>destroy_object</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>object_pointer_type const &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Destroy wrapped C++ object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="668" column="1" bodyfile="v8pp/class.hpp" bodystart="668" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1a7db2af2bf2319d9f1edb25b5318e047f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::class_&lt; T, Traits &gt;::destroy_objects</definition>
+        <argsstring>(v8::Isolate *isolate)</argsstring>
+        <name>destroy_objects</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <briefdescription>
+<para>Destroy all wrapped C++ objects of this class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="675" column="1" bodyfile="v8pp/class.hpp" bodystart="675" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1aafda8f1d8073203e416a084564dd9fa4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::class_&lt; T, Traits &gt;::destroy</definition>
+        <argsstring>(v8::Isolate *isolate)</argsstring>
+        <name>destroy</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <briefdescription>
+<para>Destroy all wrapped C++ objects and this binding <ref refid="classv8pp_1_1class__" kindref="compound">class_</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="682" column="1" bodyfile="v8pp/class.hpp" bodystart="682" bodyend="686"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classv8pp_1_1class___1a01a6c8905680c209bdabd662435303e8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attribute</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void v8pp::class_&lt; T, Traits &gt;::member_get</definition>
+        <argsstring>(v8::Local&lt; v8::String &gt;, v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;info)</argsstring>
+        <name>member_get</name>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="690" column="1" bodyfile="v8pp/class.hpp" bodystart="690" bodyend="705"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1class___1aa14ac33d1d82d24e21bd3e123598207f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Attribute</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void v8pp::class_&lt; T, Traits &gt;::member_set</definition>
+        <argsstring>(v8::Local&lt; v8::String &gt;, v8::Local&lt; v8::Value &gt; value, v8::PropertyCallbackInfo&lt; void &gt; const &amp;info)</argsstring>
+        <name>member_set</name>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; void &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="708" column="1" bodyfile="v8pp/class.hpp" bodystart="708" bodyend="724"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interface to access C++ classes bound to V8. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/class.hpp" line="429" column="1" bodyfile="v8pp/class.hpp" bodystart="428" bodyend="725"/>
+    <listofallmembers>
+      <member refid="classv8pp_1_1class___1acb3be84d721e24da482a95537d4b3c18" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>class_</name></member>
+      <member refid="classv8pp_1_1class___1a000d2104a0f74309d2795fb1d899c32b" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>class_function_template</name></member>
+      <member refid="classv8pp_1_1class___1a773a7bc010b16db16edcec7e30c13381" prot="private" virt="non-virtual"><scope>v8pp::class_</scope><name>class_info_</name></member>
+      <member refid="classv8pp_1_1class___1ac0f613f4204e2fd7b72c6b35602d27dd" prot="private" virt="non-virtual"><scope>v8pp::class_</scope><name>const_pointer_type</name></member>
+      <member refid="classv8pp_1_1class___1a8a3b2da69020bd2aa0d2379b43a7495a" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>create_object</name></member>
+      <member refid="classv8pp_1_1class___1a4e2856a849217ac87bc115d60f43e693" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>ctor</name></member>
+      <member refid="classv8pp_1_1class___1af01dc6d1a607de4241049f5798483424" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>ctor_function</name></member>
+      <member refid="classv8pp_1_1class___1aafda8f1d8073203e416a084564dd9fa4" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>destroy</name></member>
+      <member refid="classv8pp_1_1class___1a20d09eb2bab1f0b546b943f85236d746" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>destroy_object</name></member>
+      <member refid="classv8pp_1_1class___1a7db2af2bf2319d9f1edb25b5318e047f" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>destroy_objects</name></member>
+      <member refid="classv8pp_1_1class___1a8ac03d57341194079860071f1289d7c0" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>dtor_function</name></member>
+      <member refid="classv8pp_1_1class___1a9938ce983d4303f02169342bb5ea55f3" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>find_object</name></member>
+      <member refid="classv8pp_1_1class___1a042d5e4c7919c10bfea325d28eb53b1c" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>import_external</name></member>
+      <member refid="classv8pp_1_1class___1a7fdcd530180d7a859bc03b8163fe9041" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>inherit</name></member>
+      <member refid="classv8pp_1_1class___1a1112898adbc24af832c5a003944381fc" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>isolate</name></member>
+      <member refid="classv8pp_1_1class___1af90dcf6d63910e1d95a9419ad1140047" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>js_function_template</name></member>
+      <member refid="classv8pp_1_1class___1a01a6c8905680c209bdabd662435303e8" prot="private" virt="non-virtual"><scope>v8pp::class_</scope><name>member_get</name></member>
+      <member refid="classv8pp_1_1class___1aa14ac33d1d82d24e21bd3e123598207f" prot="private" virt="non-virtual"><scope>v8pp::class_</scope><name>member_set</name></member>
+      <member refid="classv8pp_1_1class___1aed3857ce04581a7f88447e15687cfd44" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>object_const_pointer_type</name></member>
+      <member refid="classv8pp_1_1class___1a5ef704ea9b4ce4f7b534d17a9f8b1a8a" prot="private" virt="non-virtual"><scope>v8pp::class_</scope><name>object_id</name></member>
+      <member refid="classv8pp_1_1class___1a80eadbea1099b9bfb3dd92a04968af44" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>object_pointer_type</name></member>
+      <member refid="classv8pp_1_1class___1a1efcaac7f064b6de024399b588f38c93" prot="private" virt="non-virtual"><scope>v8pp::class_</scope><name>object_registry</name></member>
+      <member refid="classv8pp_1_1class___1af7612ec72679db528a9e89bab69b230c" prot="private" virt="non-virtual"><scope>v8pp::class_</scope><name>pointer_type</name></member>
+      <member refid="classv8pp_1_1class___1a39107d4e080a8683a7f75d2abe441faa" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>reference_external</name></member>
+      <member refid="classv8pp_1_1class___1a2614839914cb2b9ffb0a2d9f483cc547" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>set</name></member>
+      <member refid="classv8pp_1_1class___1aa8d717a6dedb7ef8a46bc21cb675a23c" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>set</name></member>
+      <member refid="classv8pp_1_1class___1a3eb3ce7841abd150c49714d1c0cb125b" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>set</name></member>
+      <member refid="classv8pp_1_1class___1aabaeebb9cdf140d7fd3fd91e0975583e" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>set</name></member>
+      <member refid="classv8pp_1_1class___1a525c074dee50ab80b19d680270652426" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>set_const</name></member>
+      <member refid="classv8pp_1_1class___1aca94e6285b94a62fc076904aa9a56264" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>set_static</name></member>
+      <member refid="classv8pp_1_1class___1aa3f99a8dc30981969235f8848669bcf4" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>unreference_external</name></member>
+      <member refid="classv8pp_1_1class___1ad66edf0ca71584f58193f75aa84dc1f1" prot="public" virt="non-virtual"><scope>v8pp::class_</scope><name>unwrap_object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

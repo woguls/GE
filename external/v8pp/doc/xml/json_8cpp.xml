@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="json_8cpp" kind="file" language="C++">
+    <compoundname>json.cpp</compoundname>
+    <includes refid="config_8hpp" local="yes">v8pp/config.hpp</includes>
+    <includes refid="json_8ipp" local="yes">v8pp/json.ipp</includes>
+    <incdepgraph>
+      <node id="225">
+        <label>v8pp/config.hpp</label>
+        <link refid="config_8hpp_source"/>
+      </node>
+      <node id="224">
+        <label>v8pp/json.cpp</label>
+        <link refid="json_8cpp"/>
+        <childnode refid="225" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;v8pp/config.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!V8PP_HEADER_ONLY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;v8pp/json.ipp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="v8pp/json.cpp"/>
+  </compounddef>
+</doxygen>

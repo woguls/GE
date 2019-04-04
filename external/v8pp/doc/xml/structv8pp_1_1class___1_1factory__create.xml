@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1class___1_1factory__create" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::class_::factory_create</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Args</declname>
+        <defname>Args</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structv8pp_1_1class___1_1factory__create_1aea3cacd17c01d992014914abd1642c65" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object_pointer_type</type>
+        <definition>static object_pointer_type v8pp::class_&lt; T, Traits &gt;::factory_create&lt; Args &gt;::call</definition>
+        <argsstring>(v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args)</argsstring>
+        <name>call</name>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="446" column="1" bodyfile="v8pp/class.hpp" bodystart="446" bodyend="450"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/class.hpp" line="445" column="1" bodyfile="v8pp/class.hpp" bodystart="444" bodyend="451"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1class___1_1factory__create_1aea3cacd17c01d992014914abd1642c65" prot="public" virt="non-virtual"><scope>v8pp::class_::factory_create</scope><name>call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

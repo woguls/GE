@@ -1,0 +1,1011 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacev8pp_1_1detail" kind="namespace" language="C++">
+    <compoundname>v8pp::detail</compoundname>
+    <innerclass refid="structv8pp_1_1detail_1_1call__from__v8__traits" prot="public">v8pp::detail::call_from_v8_traits</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1class__info" prot="public">v8pp::detail::class_info</innerclass>
+    <innerclass refid="classv8pp_1_1detail_1_1classes" prot="public">v8pp::detail::classes</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1direct__getter__tag" prot="public">v8pp::detail::direct_getter_tag</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1direct__setter__tag" prot="public">v8pp::detail::direct_setter_tag</innerclass>
+    <innerclass refid="classv8pp_1_1detail_1_1external__data" prot="public">v8pp::detail::external_data</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits" prot="public">v8pp::detail::function_traits</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01const_01_r_07_c_1_1_5_08_4" prot="public">v8pp::detail::function_traits&lt; const R(C::*)&gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01const_01volatile_01_r_07_c_1_1_5_08_4" prot="public">v8pp::detail::function_traits&lt; const volatile R(C::*)&gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01_f_01_6_01_4" prot="public">v8pp::detail::function_traits&lt; F &amp; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01_f_01_6_6_01_4" prot="public">v8pp::detail::function_traits&lt; F &amp;&amp; &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_5_08_07_args_8_8_8_08_4" prot="public">v8pp::detail::function_traits&lt; R(*)(Args...)&gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_args_8_8_8_08_4" prot="public">v8pp::detail::function_traits&lt; R(Args...)&gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01const_01_4" prot="public">v8pp::detail::function_traits&lt; R(C::*)(Args...) const &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01const_01volatile_01_4" prot="public">v8pp::detail::function_traits&lt; R(C::*)(Args...) const volatile &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_01volatile_01_4" prot="public">v8pp::detail::function_traits&lt; R(C::*)(Args...) volatile &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_07_args_8_8_8_08_4" prot="public">v8pp::detail::function_traits&lt; R(C::*)(Args...)&gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_4" prot="public">v8pp::detail::function_traits&lt; R(C::*)&gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1function__traits_3_01volatile_01_r_07_c_1_1_5_08_4" prot="public">v8pp::detail::function_traits&lt; volatile R(C::*)&gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1getter__tag" prot="public">v8pp::detail::getter_tag</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1integer__sequence" prot="public">v8pp::detail::integer_sequence</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1is__callable__impl" prot="public">v8pp::detail::is_callable_impl</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4" prot="public">v8pp::detail::is_callable_impl&lt; F, true &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1isolate__getter__tag" prot="public">v8pp::detail::isolate_getter_tag</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1isolate__setter__tag" prot="public">v8pp::detail::isolate_setter_tag</innerclass>
+    <innerclass refid="classv8pp_1_1detail_1_1object__registry" prot="public">v8pp::detail::object_registry</innerclass>
+    <innerclass refid="unionv8pp_1_1detail_1_1pointer__cast" prot="public">v8pp::detail::pointer_cast</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1r__property__impl" prot="public">v8pp::detail::r_property_impl</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4" prot="public">v8pp::detail::r_property_impl&lt; Get, Set, false &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01true_01_4" prot="public">v8pp::detail::r_property_impl&lt; Get, Set, true &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1rw__property__impl" prot="public">v8pp::detail::rw_property_impl</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4" prot="public">v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01true_01_4" prot="public">v8pp::detail::rw_property_impl&lt; Get, Set, true &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1sequence__generator" prot="public">v8pp::detail::sequence_generator</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1sequence__generator_3_01_t_00_01_index_00_010ul_01_4" prot="public">v8pp::detail::sequence_generator&lt; T, Index, 0ul &gt;</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1setter__tag" prot="public">v8pp::detail::setter_tag</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1tuple__tail" prot="public">v8pp::detail::tuple_tail</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1tuple__tail_3_01std_1_1tuple_3_01_head_00_01_tail_8_8_8_01_4_01_4" prot="public">v8pp::detail::tuple_tail&lt; std::tuple&lt; Head, Tail... &gt; &gt;</innerclass>
+    <innerclass refid="classv8pp_1_1detail_1_1type__info" prot="public">v8pp::detail::type_info</innerclass>
+    <innerclass refid="structv8pp_1_1detail_1_1v8__args__call__traits" prot="public">v8pp::detail::v8_args_call_traits</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="call__from__v8_8hpp_1ae78bffd2e228cae651f73d1a628dcae4" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>call_from_v8_traits&lt; F, 1 &gt;</type>
+        <definition>using v8pp::detail::isolate_arg_call_traits = typedef call_from_v8_traits&lt;F, 1&gt;</definition>
+        <argsstring></argsstring>
+        <name>isolate_arg_call_traits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="77" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="call__from__v8_8hpp_1aa0c45fe7d94cf79b146f11fc8ca7fce6" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>v8_args_call_traits&lt; F, 1 &gt;</type>
+        <definition>using v8pp::detail::isolate_v8_args_call_traits = typedef v8_args_call_traits&lt;F, 1&gt;</definition>
+        <argsstring></argsstring>
+        <name>isolate_v8_args_call_traits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="95" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="call__from__v8_8hpp_1a73934596bd42f5e603fa1db2829ad6d5" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>Offset</declname>
+            <defname>Offset</defname>
+          </param>
+        </templateparamlist>
+        <type>std::integral_constant&lt; bool, call_from_v8_traits&lt; F &gt;::arg_count==(Offset+1) &amp;&amp;std::is_same&lt; typename call_from_v8_traits&lt; F &gt;::template arg_type&lt; Offset &gt;, v8::FunctionCallbackInfo&lt; v8::Value &gt; const  &amp; &gt;::value &gt;</type>
+        <definition>using v8pp::detail::is_direct_args = typedef std::integral_constant&lt;bool, call_from_v8_traits&lt;F&gt;::arg_count == (Offset + 1) &amp;&amp; std::is_same&lt;typename call_from_v8_traits&lt;F&gt;::template arg_type&lt;Offset&gt;, v8::FunctionCallbackInfo&lt;v8::Value&gt; const&amp;&gt;::value&gt;</definition>
+        <argsstring></argsstring>
+        <name>is_direct_args</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="98" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="call__from__v8_8hpp_1ab680957200a5fb46967c28f461d34a93" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::integral_constant&lt; bool, call_from_v8_traits&lt; F &gt;::arg_count !=0 &amp;&amp;std::is_same&lt; typename call_from_v8_traits&lt; F &gt;::template arg_type&lt; 0 &gt;, v8::Isolate * &gt;::value &gt;</type>
+        <definition>using v8pp::detail::is_first_arg_isolate = typedef std::integral_constant&lt;bool, call_from_v8_traits&lt;F&gt;::arg_count != 0 &amp;&amp; std::is_same&lt;typename call_from_v8_traits&lt;F&gt;::template arg_type&lt;0&gt;, v8::Isolate*&gt;::value&gt;</definition>
+        <argsstring></argsstring>
+        <name>is_first_arg_isolate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="104" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="call__from__v8_8hpp_1a1b326ce9773f074f4837f9f8179e0af4" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>typename std::conditional&lt; is_first_arg_isolate&lt; F &gt;::value, typename std::conditional&lt; is_direct_args&lt; F, 1 &gt;::value, isolate_v8_args_call_traits&lt; F &gt;, isolate_arg_call_traits&lt; F &gt; &gt;::type, typename std::conditional&lt; is_direct_args&lt; F, 0 &gt;::value, v8_args_call_traits&lt; F &gt;, call_from_v8_traits&lt; F &gt; &gt;::type &gt;::type</type>
+        <definition>using v8pp::detail::select_call_traits = typedef typename std::conditional&lt;is_first_arg_isolate&lt;F&gt;::value, typename std::conditional&lt;is_direct_args&lt;F, 1&gt;::value, isolate_v8_args_call_traits&lt;F&gt;, isolate_arg_call_traits&lt;F&gt; &gt;::type, typename std::conditional&lt;is_direct_args&lt;F, 0&gt;::value, v8_args_call_traits&lt;F&gt;, call_from_v8_traits&lt;F&gt; &gt;::type &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>select_call_traits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="110" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="function_8hpp_1a196edc86e0857784954754d428c58fac" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::integral_constant&lt; bool, sizeof(T)&lt;=sizeof(void *) &amp;&amp;std::is_trivial&lt; T &gt;::value &gt;</type>
+        <definition>using v8pp::detail::is_pointer_cast_allowed = typedef std::integral_constant&lt;bool, sizeof(T) &lt;= sizeof(void*) &amp;&amp; std::is_trivial&lt;T&gt;::value&gt;</definition>
+        <argsstring></argsstring>
+        <name>is_pointer_cast_allowed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="25" column="1" bodyfile="v8pp/function.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="property_8hpp_1a7c41cfd24e78ef98192ac209353ed019" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::integral_constant&lt; bool, call_from_v8_traits&lt; F &gt;::arg_count==0 &amp;&amp;!is_void_return&lt; F &gt;::value &gt;</type>
+        <definition>using v8pp::detail::is_getter = typedef std::integral_constant&lt;bool, call_from_v8_traits&lt;F&gt;::arg_count == 0 &amp;&amp; !is_void_return&lt;F&gt;::value&gt;</definition>
+        <argsstring></argsstring>
+        <name>is_getter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="33" column="1" bodyfile="v8pp/property.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="property_8hpp_1a41d061bde0e47ac4cbc66def5815bb88" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::integral_constant&lt; bool, call_from_v8_traits&lt; F &gt;::arg_count==2 &amp;&amp;std::is_same&lt; typename call_from_v8_traits&lt; F &gt;::template arg_type&lt; 0 &gt;, v8::Local&lt; v8::String &gt; &gt;::value &amp;&amp;std::is_same&lt; typename call_from_v8_traits&lt; F &gt;::template arg_type&lt; 1 &gt;, v8::PropertyCallbackInfo&lt; v8::Value &gt; const  &amp; &gt;::value &amp;&amp;is_void_return&lt; F &gt;::value &gt;</type>
+        <definition>using v8pp::detail::is_direct_getter = typedef std::integral_constant&lt;bool, call_from_v8_traits&lt;F&gt;::arg_count == 2 &amp;&amp; std::is_same&lt;typename call_from_v8_traits&lt;F&gt;::template arg_type&lt;0&gt;, v8::Local&lt;v8::String&gt; &gt;::value &amp;&amp; std::is_same&lt;typename call_from_v8_traits&lt;F&gt;::template arg_type&lt;1&gt;, v8::PropertyCallbackInfo&lt;v8::Value&gt; const&amp;&gt;::value &amp;&amp; is_void_return&lt;F&gt;::value &gt;</definition>
+        <argsstring></argsstring>
+        <name>is_direct_getter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="37" column="1" bodyfile="v8pp/property.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="property_8hpp_1a6f38bdf8b5951143a82198fbf0d3f275" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::integral_constant&lt; bool, call_from_v8_traits&lt; F &gt;::arg_count==1 &amp;&amp;is_first_arg_isolate&lt; F &gt;::value &amp;&amp;!is_void_return&lt; F &gt;::value &gt;</type>
+        <definition>using v8pp::detail::is_isolate_getter = typedef std::integral_constant&lt;bool, call_from_v8_traits&lt;F&gt;::arg_count == 1 &amp;&amp; is_first_arg_isolate&lt;F&gt;::value &amp;&amp; !is_void_return&lt;F&gt;::value&gt;</definition>
+        <argsstring></argsstring>
+        <name>is_isolate_getter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="47" column="1" bodyfile="v8pp/property.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="property_8hpp_1a763e3a2ae0cca36809e890ea9c839e1c" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::integral_constant&lt; bool, call_from_v8_traits&lt; F &gt;::arg_count==1 &amp;&amp;is_void_return&lt; F &gt;::value &gt;</type>
+        <definition>using v8pp::detail::is_setter = typedef std::integral_constant&lt;bool, call_from_v8_traits&lt;F&gt;::arg_count == 1 &amp;&amp; is_void_return&lt;F&gt;::value&gt;</definition>
+        <argsstring></argsstring>
+        <name>is_setter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="53" column="1" bodyfile="v8pp/property.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="property_8hpp_1a794443d7ff7f7732f294331c5def9e72" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::integral_constant&lt; bool, call_from_v8_traits&lt; F &gt;::arg_count==3 &amp;&amp;std::is_same&lt; typename call_from_v8_traits&lt; F &gt;::template arg_type&lt; 0 &gt;, v8::Local&lt; v8::String &gt; &gt;::value &amp;&amp;std::is_same&lt; typename call_from_v8_traits&lt; F &gt;::template arg_type&lt; 1 &gt;, v8::Local&lt; v8::Value &gt; &gt;::value &amp;&amp;std::is_same&lt; typename call_from_v8_traits&lt; F &gt;::template arg_type&lt; 2 &gt;, v8::PropertyCallbackInfo&lt; void &gt; const  &amp; &gt;::value &amp;&amp;is_void_return&lt; F &gt;::value &gt;</type>
+        <definition>using v8pp::detail::is_direct_setter = typedef std::integral_constant&lt;bool, call_from_v8_traits&lt;F&gt;::arg_count == 3 &amp;&amp; std::is_same&lt;typename call_from_v8_traits&lt;F&gt;::template arg_type&lt;0&gt;, v8::Local&lt;v8::String&gt; &gt;::value &amp;&amp; std::is_same&lt;typename call_from_v8_traits&lt;F&gt;::template arg_type&lt;1&gt;, v8::Local&lt;v8::Value&gt; &gt;::value &amp;&amp; std::is_same&lt;typename call_from_v8_traits&lt;F&gt;::template arg_type&lt;2&gt;, v8::PropertyCallbackInfo&lt;void&gt; const&amp;&gt;::value &amp;&amp; is_void_return&lt;F&gt;::value &gt;</definition>
+        <argsstring></argsstring>
+        <name>is_direct_setter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="57" column="1" bodyfile="v8pp/property.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="property_8hpp_1a85750123d01419252ca6e61e852eaa6d" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::integral_constant&lt; bool, call_from_v8_traits&lt; F &gt;::arg_count==2 &amp;&amp;is_first_arg_isolate&lt; F &gt;::value &amp;&amp;is_void_return&lt; F &gt;::value &gt;</type>
+        <definition>using v8pp::detail::is_isolate_setter = typedef std::integral_constant&lt;bool, call_from_v8_traits&lt;F&gt;::arg_count == 2 &amp;&amp; is_first_arg_isolate&lt;F&gt;::value &amp;&amp; is_void_return&lt;F&gt;::value&gt;</definition>
+        <argsstring></argsstring>
+        <name>is_isolate_setter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="69" column="1" bodyfile="v8pp/property.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="property_8hpp_1ae5f140f611b118628ee1d03a542177fa" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>typename std::conditional&lt; is_direct_getter&lt; F &gt;::value, direct_getter_tag, typename std::conditional&lt; is_isolate_getter&lt; F &gt;::value, isolate_getter_tag, getter_tag &gt;::type &gt;::type</type>
+        <definition>using v8pp::detail::select_getter_tag = typedef typename std::conditional&lt;is_direct_getter&lt;F&gt;::value, direct_getter_tag, typename std::conditional&lt;is_isolate_getter&lt;F&gt;::value, isolate_getter_tag, getter_tag&gt;::type &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>select_getter_tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="75" column="1" bodyfile="v8pp/property.hpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="property_8hpp_1a20cc2f25a1d6b63228e8de8c91a1e145" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>typename std::conditional&lt; is_direct_setter&lt; F &gt;::value, direct_setter_tag, typename std::conditional&lt; is_isolate_setter&lt; F &gt;::value, isolate_setter_tag, setter_tag &gt;::type &gt;::type</type>
+        <definition>using v8pp::detail::select_setter_tag = typedef typename std::conditional&lt;is_direct_setter&lt;F&gt;::value, direct_setter_tag, typename std::conditional&lt;is_isolate_setter&lt;F&gt;::value, isolate_setter_tag, setter_tag&gt;::type &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>select_setter_tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="82" column="1" bodyfile="v8pp/property.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="utility_8hpp_1a9835be3cc2f349cb14288a40dd57febd" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::is_same&lt; void, typename function_traits&lt; F &gt;::return_type &gt;</type>
+        <definition>using v8pp::detail::is_void_return = typedef std::is_same&lt;void, typename function_traits&lt;F&gt;::return_type&gt;</definition>
+        <argsstring></argsstring>
+        <name>is_void_return</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="142" column="1" bodyfile="v8pp/utility.hpp" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="utility_8hpp_1aacf386c44d00c6d7652a1bbd3779218a" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::integral_constant&lt; bool, is_callable_impl&lt; F, std::is_class&lt; F &gt;::value &gt;::value &gt;</type>
+        <definition>using v8pp::detail::is_callable = typedef std::integral_constant&lt;bool, is_callable_impl&lt;F, std::is_class&lt;F&gt;::value&gt;::value&gt;</definition>
+        <argsstring></argsstring>
+        <name>is_callable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="172" column="1" bodyfile="v8pp/utility.hpp" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="utility_8hpp_1a92abdccb5aee42cb1480c6dfebe056b3" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>size_t...</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+        </templateparamlist>
+        <type>integer_sequence&lt; size_t, I... &gt;</type>
+        <definition>using v8pp::detail::index_sequence = typedef integer_sequence&lt;size_t, I...&gt;</definition>
+        <argsstring></argsstring>
+        <name>index_sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="208" column="1" bodyfile="v8pp/utility.hpp" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="utility_8hpp_1a265c8d96010f12563cdd104b311311a6" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>T</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>typename sequence_generator&lt; T, N, N &gt;::type</type>
+        <definition>using v8pp::detail::make_integer_sequence = typedef typename sequence_generator&lt;T, N, N&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>make_integer_sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="211" column="1" bodyfile="v8pp/utility.hpp" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="utility_8hpp_1a578cc6a3fcb96e482cf6f4bbadc3a9db" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>make_integer_sequence&lt; size_t, N &gt;</type>
+        <definition>using v8pp::detail::make_index_sequence = typedef make_integer_sequence&lt;size_t, N&gt;</definition>
+        <argsstring></argsstring>
+        <name>make_index_sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="214" column="1" bodyfile="v8pp/utility.hpp" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="call__from__v8_8hpp_1af28b9728bad905f0d56ed248cf0f6636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename CallTraits</type>
+          </param>
+          <param>
+            <type>size_t ...</type>
+            <declname>Indices</declname>
+            <defname>Indices</defname>
+          </param>
+        </templateparamlist>
+        <type>function_traits&lt; F &gt;::return_type</type>
+        <definition>function_traits&lt;F&gt;::return_type v8pp::detail::call_from_v8_impl</definition>
+        <argsstring>(F &amp;&amp;func, v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args, CallTraits, index_sequence&lt; Indices... &gt;)</argsstring>
+        <name>call_from_v8_impl</name>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>CallTraits</type>
+        </param>
+        <param>
+          <type>index_sequence&lt; Indices... &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="121" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="121" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="call__from__v8_8hpp_1abfe7f671c1d38c2e92e3278dffb218bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename CallTraits</type>
+          </param>
+          <param>
+            <type>size_t ...</type>
+            <declname>Indices</declname>
+            <defname>Indices</defname>
+          </param>
+        </templateparamlist>
+        <type>function_traits&lt; F &gt;::return_type</type>
+        <definition>function_traits&lt;F&gt;::return_type v8pp::detail::call_from_v8_impl</definition>
+        <argsstring>(T &amp;obj, F &amp;&amp;func, v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args, CallTraits, index_sequence&lt; Indices... &gt;)</argsstring>
+        <name>call_from_v8_impl</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>CallTraits</type>
+        </param>
+        <param>
+          <type>index_sequence&lt; Indices... &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="129" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="129" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="call__from__v8_8hpp_1af1dacf1756b542bc8a051537da5468e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>size_t ...</type>
+            <declname>Indices</declname>
+            <defname>Indices</defname>
+          </param>
+        </templateparamlist>
+        <type>function_traits&lt; F &gt;::return_type</type>
+        <definition>function_traits&lt;F&gt;::return_type v8pp::detail::call_from_v8_impl</definition>
+        <argsstring>(F &amp;&amp;func, v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args, isolate_arg_call_traits&lt; F &gt;, index_sequence&lt; Indices... &gt;)</argsstring>
+        <name>call_from_v8_impl</name>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>isolate_arg_call_traits&lt; F &gt;</type>
+        </param>
+        <param>
+          <type>index_sequence&lt; Indices... &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="137" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="137" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="call__from__v8_8hpp_1ab47853b518dbfcfb0950c5098e29661b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>size_t ...</type>
+            <declname>Indices</declname>
+            <defname>Indices</defname>
+          </param>
+        </templateparamlist>
+        <type>function_traits&lt; F &gt;::return_type</type>
+        <definition>function_traits&lt;F&gt;::return_type v8pp::detail::call_from_v8_impl</definition>
+        <argsstring>(T &amp;obj, F &amp;&amp;func, v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args, isolate_arg_call_traits&lt; F &gt;, index_sequence&lt; Indices... &gt;)</argsstring>
+        <name>call_from_v8_impl</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>isolate_arg_call_traits&lt; F &gt;</type>
+        </param>
+        <param>
+          <type>index_sequence&lt; Indices... &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="146" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="146" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="call__from__v8_8hpp_1af5a9684f88bee3350c55e9335cc2e81f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>size_t ...</type>
+            <declname>Indices</declname>
+            <defname>Indices</defname>
+          </param>
+        </templateparamlist>
+        <type>function_traits&lt; F &gt;::return_type</type>
+        <definition>function_traits&lt;F&gt;::return_type v8pp::detail::call_from_v8_impl</definition>
+        <argsstring>(F &amp;&amp;func, v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args, isolate_v8_args_call_traits&lt; F &gt;, index_sequence&lt; Indices... &gt;)</argsstring>
+        <name>call_from_v8_impl</name>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>isolate_v8_args_call_traits&lt; F &gt;</type>
+        </param>
+        <param>
+          <type>index_sequence&lt; Indices... &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="155" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="155" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="call__from__v8_8hpp_1ad4e0939c7fc2b13bc7e5c74a9bd9763d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>size_t ...</type>
+            <declname>Indices</declname>
+            <defname>Indices</defname>
+          </param>
+        </templateparamlist>
+        <type>function_traits&lt; F &gt;::return_type</type>
+        <definition>function_traits&lt;F&gt;::return_type v8pp::detail::call_from_v8_impl</definition>
+        <argsstring>(T &amp;obj, F &amp;&amp;func, v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args, isolate_v8_args_call_traits&lt; F &gt;, index_sequence&lt; Indices... &gt;)</argsstring>
+        <name>call_from_v8_impl</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>isolate_v8_args_call_traits&lt; F &gt;</type>
+        </param>
+        <param>
+          <type>index_sequence&lt; Indices... &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="163" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="163" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="call__from__v8_8hpp_1a0f796ccbfb7a6e7707a92520711f5c45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>function_traits&lt; F &gt;::return_type</type>
+        <definition>function_traits&lt;F&gt;::return_type v8pp::detail::call_from_v8</definition>
+        <argsstring>(F &amp;&amp;func, v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args)</argsstring>
+        <name>call_from_v8</name>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="171" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="171" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="call__from__v8_8hpp_1a34c8eeabd8e3b986a5d1c7eb654bc3ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>function_traits&lt; F &gt;::return_type</type>
+        <definition>function_traits&lt;F&gt;::return_type v8pp::detail::call_from_v8</definition>
+        <argsstring>(T &amp;obj, F &amp;&amp;func, v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args)</argsstring>
+        <name>call_from_v8</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="181" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="181" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_8hpp_1a1af305837313fbf833c4595f380eaac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>V8PP_IMPL std::string v8pp::detail::pointer_str</definition>
+        <argsstring>(void const *ptr)</argsstring>
+        <name>pointer_str</name>
+        <param>
+          <type>void const *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="29" column="1" bodyfile="v8pp/class.ipp" bodystart="9" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1a082d71b197b98e3c17936dbe76314967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt; is_pointer_cast_allowed&lt; T &gt;::value, v8::Local&lt; v8::Value &gt; &gt;::type</type>
+        <definition>std::enable_if&lt;is_pointer_cast_allowed&lt;T&gt;::value, v8::Local&lt;v8::Value&gt; &gt;::type v8pp::detail::set_external_data</definition>
+        <argsstring>(v8::Isolate *isolate, T value)</argsstring>
+        <name>set_external_data</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="95" column="1" bodyfile="v8pp/function.hpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1aa8c105af93a34a5dcce04a0f3dd8e25f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt;!is_pointer_cast_allowed&lt; T &gt;::value, v8::Local&lt; v8::Value &gt; &gt;::type</type>
+        <definition>std::enable_if&lt;!is_pointer_cast_allowed&lt;T&gt;::value, v8::Local&lt;v8::Value&gt; &gt;::type v8pp::detail::set_external_data</definition>
+        <argsstring>(v8::Isolate *isolate, T &amp;&amp;value)</argsstring>
+        <name>set_external_data</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="102" column="1" bodyfile="v8pp/function.hpp" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1adab016e9457b9392fd6bf5cebd13dab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt; is_pointer_cast_allowed&lt; T &gt;::value, T &gt;::type</type>
+        <definition>std::enable_if&lt;is_pointer_cast_allowed&lt;T&gt;::value, T&gt;::type v8pp::detail::get_external_data</definition>
+        <argsstring>(v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>get_external_data</name>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="109" column="1" bodyfile="v8pp/function.hpp" bodystart="109" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1aaa25d2fc7470dfab6d9178512340bbfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if&lt;!is_pointer_cast_allowed&lt; T &gt;::value, T &amp; &gt;::type</type>
+        <definition>std::enable_if&lt;!is_pointer_cast_allowed&lt;T&gt;::value, T&amp;&gt;::type v8pp::detail::get_external_data</definition>
+        <argsstring>(v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>get_external_data</name>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="116" column="1" bodyfile="v8pp/function.hpp" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1ae9ae6ad7dff64688ec2e14de5b67ff24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>function_traits&lt; F &gt;::return_type</type>
+        <definition>function_traits&lt;F&gt;::return_type v8pp::detail::invoke</definition>
+        <argsstring>(v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args, std::false_type)</argsstring>
+        <name>invoke</name>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>std::false_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="123" column="1" bodyfile="v8pp/function.hpp" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1a6278a1f838d8792a6a132ad9326f68da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>function_traits&lt; F &gt;::return_type</type>
+        <definition>function_traits&lt;F&gt;::return_type v8pp::detail::invoke</definition>
+        <argsstring>(v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args, std::true_type)</argsstring>
+        <name>invoke</name>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>std::true_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="130" column="1" bodyfile="v8pp/function.hpp" bodystart="130" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1a660660b22bd4dd58c885a71fd5c80fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void v8pp::detail::forward_ret</definition>
+        <argsstring>(v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args, std::true_type)</argsstring>
+        <name>forward_ret</name>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>std::true_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="145" column="1" bodyfile="v8pp/function.hpp" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1ae8bb3f70b8b6ee9ef0e7093343f2c7aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void v8pp::detail::forward_ret</definition>
+        <argsstring>(v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args, std::false_type)</argsstring>
+        <name>forward_ret</name>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>std::false_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="151" column="1" bodyfile="v8pp/function.hpp" bodystart="151" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="function_8hpp_1ad5f1ef5fad919d474ce61538bed29b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void v8pp::detail::forward_function</definition>
+        <argsstring>(v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args)</argsstring>
+        <name>forward_function</name>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="158" column="1" bodyfile="v8pp/function.hpp" bodystart="158" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="utility_8hpp_1aaf63e2f5d3719a35a15e3d951953fb64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref></type>
+        <definition>type_info v8pp::detail::type_id</definition>
+        <argsstring>()</argsstring>
+        <name>type_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get type information for type T The idea is borrowed from <ulink url="https://github.com/Manu343726/ctti">https://github.com/Manu343726/ctti</ulink> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="236" column="1" bodyfile="v8pp/utility.hpp" bodystart="236" bodyend="267"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/call_from_v8.hpp" line="19" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1property___3_01_get_00_01_get_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::property_&lt; Get, Get &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">v8pp::detail::r_property_impl&lt; Get, Get, std::is_member_function_pointer&lt; Get &gt;::value &gt;</basecompoundref>
+    <includes refid="property_8hpp" local="no">property.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Get</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a593b081b4290ede5f99004de4e56b04d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@2</name>
+        <enumvalue id="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a593b081b4290ede5f99004de4e56b04dae6595470bf9fe38362a248571f3b1710" prot="public">
+          <name>is_readonly</name>
+          <initializer>= true</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="375" column="1" bodyfile="v8pp/property.hpp" bodystart="375" bodyend="375"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a141d73100eec2e5dd4c999342895819b" prot="public" static="no" mutable="no">
+        <type>Get</type>
+        <definition>Get v8pp::property_&lt; Get, Get &gt;::getter</definition>
+        <argsstring></argsstring>
+        <name>getter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="373" column="1" bodyfile="v8pp/property.hpp" bodystart="371" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a618eadd752b331cac6d6272859505c12" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::property_&lt; Get, Get &gt;::property_</definition>
+        <argsstring>(Get getter)</argsstring>
+        <name>property_</name>
+        <param>
+          <type>Get</type>
+          <declname>getter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="377" column="1" bodyfile="v8pp/property.hpp" bodystart="377" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a8bbe128719d925bbfd8acc55f5e6e8bc" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename OtherGet</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>v8pp::property_&lt; Get, Get &gt;::property_</definition>
+        <argsstring>(property_&lt; OtherGet, OtherGet &gt; const &amp;other)</argsstring>
+        <name>property_</name>
+        <param>
+          <type><ref refid="structv8pp_1_1property__" kindref="compound">property_</ref>&lt; OtherGet, OtherGet &gt; const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="383" column="1" bodyfile="v8pp/property.hpp" bodystart="383" bodyend="386"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Read-only property class specialization for get only method. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/property.hpp" line="365" column="1" bodyfile="v8pp/property.hpp" bodystart="363" bodyend="387"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a141d73100eec2e5dd4c999342895819b" prot="public" virt="non-virtual"><scope>v8pp::property_&lt; Get, Get &gt;</scope><name>getter</name></member>
+      <member refid="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a593b081b4290ede5f99004de4e56b04dae6595470bf9fe38362a248571f3b1710" prot="public" virt="non-virtual"><scope>v8pp::property_&lt; Get, Get &gt;</scope><name>is_readonly</name></member>
+      <member refid="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a618eadd752b331cac6d6272859505c12" prot="public" virt="non-virtual"><scope>v8pp::property_&lt; Get, Get &gt;</scope><name>property_</name></member>
+      <member refid="structv8pp_1_1property___3_01_get_00_01_get_01_4_1a8bbe128719d925bbfd8acc55f5e6e8bc" prot="public" virt="non-virtual"><scope>v8pp::property_&lt; Get, Get &gt;</scope><name>property_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -46,7 +46,7 @@ _deps
 
 # development stuff
 build
-doc
+doc/*
 !doc/Doxyfile
 !doc/Doxyfile-mcss
 !doc/favicon.ico

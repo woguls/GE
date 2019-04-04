@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1rw__property__impl" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::rw_property_impl</compoundname>
+    <derivedcompoundref refid="structv8pp_1_1property__" prot="public" virt="non-virtual">v8pp::property_&lt; Get, Set &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Get</type>
+      </param>
+      <param>
+        <type>typename Set</type>
+      </param>
+      <param>
+        <type>bool</type>
+        <declname>set_is_mem_fun</declname>
+        <defname>set_is_mem_fun</defname>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="153">
+        <label>v8pp::property_&lt; Get, Set, std::is_member_function_pointer&lt; Set &gt;::value &gt;</label>
+        <link refid="structv8pp_1_1property__"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>v8pp::detail::rw_property_impl&lt; Get, Set, set_is_mem_fun &gt;</label>
+      </node>
+    </inheritancegraph>
+    <location file="v8pp/property.hpp" line="92" column="1" bodyfile="v8pp/property.hpp" bodystart="92" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

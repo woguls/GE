@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1v8__args__call__traits" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::v8_args_call_traits</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">v8pp::detail::call_from_v8_traits&lt; F, Offset &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename F</type>
+      </param>
+      <param>
+        <type>size_t</type>
+        <declname>Offset</declname>
+        <defname>Offset</defname>
+        <defval>0</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1v8__args__call__traits_1afb560f0a9bab499e25b719905576d8c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>Index</declname>
+            <defname>Index</defname>
+          </param>
+          <param>
+            <type>typename Traits</type>
+          </param>
+        </templateparamlist>
+        <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const  &amp;</type>
+        <definition>static v8::FunctionCallbackInfo&lt;v8::Value&gt; const&amp; v8pp::detail::v8_args_call_traits&lt; F, Offset &gt;::arg_from_v8</definition>
+        <argsstring>(v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;args)</argsstring>
+        <name>arg_from_v8</name>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="84" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1v8__args__call__traits_1adb945e35048d2bc08ac11ee82eb01400" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::detail::v8_args_call_traits&lt; F, Offset &gt;::check</definition>
+        <argsstring>(v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;)</argsstring>
+        <name>check</name>
+        <param>
+          <type>v8::FunctionCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/call_from_v8.hpp" line="89" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="89" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/call_from_v8.hpp" line="81" column="1" bodyfile="v8pp/call_from_v8.hpp" bodystart="80" bodyend="92"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1abbecf0dc3db36f00cc6a00eff35aaebb" prot="public" virt="non-virtual"><scope>v8pp::detail::v8_args_call_traits</scope><name>arg_convert</name></member>
+      <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1a075344cf21aafa47ed8b367eba5da0bb" prot="public" virt="non-virtual"><scope>v8pp::detail::v8_args_call_traits</scope><name>arg_count</name></member>
+      <member refid="structv8pp_1_1detail_1_1v8__args__call__traits_1afb560f0a9bab499e25b719905576d8c1" prot="public" virt="non-virtual"><scope>v8pp::detail::v8_args_call_traits</scope><name>arg_from_v8</name></member>
+      <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1a9c534c1024aa055c4a5168812ce73b48" prot="public" virt="non-virtual" ambiguityscope="v8pp::detail::call_from_v8_traits::"><scope>v8pp::detail::v8_args_call_traits</scope><name>arg_from_v8</name></member>
+      <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1ae14b48a8514a1b58a293a240e3e285be" prot="public" virt="non-virtual"><scope>v8pp::detail::v8_args_call_traits</scope><name>arg_type</name></member>
+      <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1abe48c2f12587653555f13a2d401f5ddd" prot="public" virt="non-virtual"><scope>v8pp::detail::v8_args_call_traits</scope><name>arguments</name></member>
+      <member refid="structv8pp_1_1detail_1_1v8__args__call__traits_1adb945e35048d2bc08ac11ee82eb01400" prot="public" virt="non-virtual"><scope>v8pp::detail::v8_args_call_traits</scope><name>check</name></member>
+      <member refid="structv8pp_1_1detail_1_1call__from__v8__traits_1a4f7a769fc4457141219a6bb959707d39" prot="public" virt="non-virtual"><scope>v8pp::detail::v8_args_call_traits</scope><name>is_mem_fun</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

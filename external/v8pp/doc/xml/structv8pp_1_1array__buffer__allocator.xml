@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1array__buffer__allocator" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::array_buffer_allocator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Allocator</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structv8pp_1_1array__buffer__allocator_1a6c8f579fc9aa13a6ba2fcd4001a5fcbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* v8pp::array_buffer_allocator::Allocate</definition>
+        <argsstring>(size_t length)</argsstring>
+        <name>Allocate</name>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.cpp" line="152" column="1" bodyfile="v8pp/context.cpp" bodystart="152" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1array__buffer__allocator_1a1ac029fc24c1278d90e1b9ac60ce7f1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* v8pp::array_buffer_allocator::AllocateUninitialized</definition>
+        <argsstring>(size_t length)</argsstring>
+        <name>AllocateUninitialized</name>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.cpp" line="156" column="1" bodyfile="v8pp/context.cpp" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1array__buffer__allocator_1a3d383b3b06e9fd9c86a5bc12fb5db677" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void v8pp::array_buffer_allocator::Free</definition>
+        <argsstring>(void *data, size_t length)</argsstring>
+        <name>Free</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/context.cpp" line="160" column="1" bodyfile="v8pp/context.cpp" bodystart="160" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/context.cpp" line="151" column="1" bodyfile="v8pp/context.cpp" bodystart="150" bodyend="164"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1array__buffer__allocator_1a6c8f579fc9aa13a6ba2fcd4001a5fcbf" prot="public" virt="non-virtual"><scope>v8pp::array_buffer_allocator</scope><name>Allocate</name></member>
+      <member refid="structv8pp_1_1array__buffer__allocator_1a1ac029fc24c1278d90e1b9ac60ce7f1e" prot="public" virt="non-virtual"><scope>v8pp::array_buffer_allocator</scope><name>AllocateUninitialized</name></member>
+      <member refid="structv8pp_1_1array__buffer__allocator_1a3d383b3b06e9fd9c86a5bc12fb5db677" prot="public" virt="non-virtual"><scope>v8pp::array_buffer_allocator</scope><name>Free</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1derived" kind="struct" language="C++" prot="private">
+    <compoundname>v8pp::detail::is_callable_impl&lt; F, true &gt;::derived</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">F</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">v8pp::detail::is_callable_impl&lt; F, true &gt;::fallback</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/utility.hpp" line="156" column="1" bodyfile="v8pp/utility.hpp" bodystart="156" bodyend="156"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1fallback_1ab2f631e14a286368fa1540c52d8178b7" prot="public" virt="non-virtual"><scope>v8pp::detail::is_callable_impl&lt; F, true &gt;::derived</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

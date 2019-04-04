@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="unionv8pp_1_1detail_1_1pointer__cast" kind="union" language="C++" prot="public">
+    <compoundname>v8pp::detail::pointer_cast</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="unionv8pp_1_1detail_1_1pointer__cast_1a67f2bc32540078f17e2dea5bb8879d4a" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* v8pp::detail::pointer_cast&lt; T &gt;::ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="32" column="1" bodyfile="v8pp/function.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="unionv8pp_1_1detail_1_1pointer__cast_1a16d438865d4de231820388cdd3f6a8ab" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T v8pp::detail::pointer_cast&lt; T &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="33" column="1" bodyfile="v8pp/function.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="unionv8pp_1_1detail_1_1pointer__cast_1ad5b186da7ecb9f329c4ec2d6d809a333" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::detail::pointer_cast&lt; T &gt;::pointer_cast</definition>
+        <argsstring>(void *ptr)</argsstring>
+        <name>pointer_cast</name>
+        <param>
+          <type>void *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="38" column="1" bodyfile="v8pp/function.hpp" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="unionv8pp_1_1detail_1_1pointer__cast_1ae2e2dc60b7a3286c32c425e7ac7ee952" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::detail::pointer_cast&lt; T &gt;::pointer_cast</definition>
+        <argsstring>(T value)</argsstring>
+        <name>pointer_cast</name>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="39" column="1" bodyfile="v8pp/function.hpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="unionv8pp_1_1detail_1_1pointer__cast_1ab21197c95f455d36f4344087005e03ad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::detail::pointer_cast&lt; T &gt;::operator void *</definition>
+        <argsstring>() const</argsstring>
+        <name>operator void *</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="41" column="1" bodyfile="v8pp/function.hpp" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="unionv8pp_1_1detail_1_1pointer__cast_1a110e980f0b498bd085b18baace9773c4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::detail::pointer_cast&lt; T &gt;::operator T</definition>
+        <argsstring>() const</argsstring>
+        <name>operator T</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="42" column="1" bodyfile="v8pp/function.hpp" bodystart="42" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/function.hpp" line="30" column="1" bodyfile="v8pp/function.hpp" bodystart="29" bodyend="43"/>
+    <listofallmembers>
+      <member refid="unionv8pp_1_1detail_1_1pointer__cast_1a110e980f0b498bd085b18baace9773c4" prot="public" virt="non-virtual"><scope>v8pp::detail::pointer_cast</scope><name>operator T</name></member>
+      <member refid="unionv8pp_1_1detail_1_1pointer__cast_1ab21197c95f455d36f4344087005e03ad" prot="public" virt="non-virtual"><scope>v8pp::detail::pointer_cast</scope><name>operator void *</name></member>
+      <member refid="unionv8pp_1_1detail_1_1pointer__cast_1ad5b186da7ecb9f329c4ec2d6d809a333" prot="public" virt="non-virtual"><scope>v8pp::detail::pointer_cast</scope><name>pointer_cast</name></member>
+      <member refid="unionv8pp_1_1detail_1_1pointer__cast_1ae2e2dc60b7a3286c32c425e7ac7ee952" prot="public" virt="non-virtual"><scope>v8pp::detail::pointer_cast</scope><name>pointer_cast</name></member>
+      <member refid="unionv8pp_1_1detail_1_1pointer__cast_1a67f2bc32540078f17e2dea5bb8879d4a" prot="private" virt="non-virtual"><scope>v8pp::detail::pointer_cast</scope><name>ptr</name></member>
+      <member refid="unionv8pp_1_1detail_1_1pointer__cast_1a16d438865d4de231820388cdd3f6a8ab" prot="private" virt="non-virtual"><scope>v8pp::detail::pointer_cast</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

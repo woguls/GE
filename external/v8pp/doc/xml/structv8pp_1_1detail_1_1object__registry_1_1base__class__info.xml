@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1object__registry_1_1base__class__info" kind="struct" language="C++" prot="private">
+    <compoundname>v8pp::detail::object_registry::base_class_info</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structv8pp_1_1detail_1_1object__registry_1_1base__class__info_1af82952bd79448c656e4f8b066a1c5347" prot="public" static="no" mutable="no">
+        <type>object_registry &amp;</type>
+        <definition>object_registry&amp; v8pp::detail::object_registry&lt; Traits &gt;::base_class_info::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="319" column="1" bodyfile="v8pp/class.hpp" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structv8pp_1_1detail_1_1object__registry_1_1base__class__info_1a3e2d1a94bc15d4a4ab73026d528051b4" prot="public" static="no" mutable="no">
+        <type>cast_function</type>
+        <definition>cast_function v8pp::detail::object_registry&lt; Traits &gt;::base_class_info::cast</definition>
+        <argsstring></argsstring>
+        <name>cast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="320" column="1" bodyfile="v8pp/class.hpp" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1object__registry_1_1base__class__info_1a9e93e12a4c786f6271935abf8740cd73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::detail::object_registry&lt; Traits &gt;::base_class_info::base_class_info</definition>
+        <argsstring>(object_registry &amp;info, cast_function cast)</argsstring>
+        <name>base_class_info</name>
+        <param>
+          <type>object_registry &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>cast_function</type>
+          <declname>cast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="322" column="1" bodyfile="v8pp/class.hpp" bodystart="322" bodyend="326"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/class.hpp" line="318" column="1" bodyfile="v8pp/class.hpp" bodystart="317" bodyend="327"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1object__registry_1_1base__class__info_1a9e93e12a4c786f6271935abf8740cd73" prot="public" virt="non-virtual"><scope>v8pp::detail::object_registry::base_class_info</scope><name>base_class_info</name></member>
+      <member refid="structv8pp_1_1detail_1_1object__registry_1_1base__class__info_1a3e2d1a94bc15d4a4ab73026d528051b4" prot="public" virt="non-virtual"><scope>v8pp::detail::object_registry::base_class_info</scope><name>cast</name></member>
+      <member refid="structv8pp_1_1detail_1_1object__registry_1_1base__class__info_1af82952bd79448c656e4f8b066a1c5347" prot="public" virt="non-virtual"><scope>v8pp::detail::object_registry::base_class_info</scope><name>info</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1fallback" kind="struct" language="C++" prot="private">
+    <compoundname>v8pp::detail::is_callable_impl&lt; F, true &gt;::fallback</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1fallback_1ab2f631e14a286368fa1540c52d8178b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v8pp::detail::is_callable_impl&lt; F, true &gt;::fallback::operator()</definition>
+        <argsstring>()</argsstring>
+        <name>operator()</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="155" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/utility.hpp" line="155" column="1" bodyfile="v8pp/utility.hpp" bodystart="155" bodyend="155"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1is__callable__impl_3_01_f_00_01true_01_4_1_1fallback_1ab2f631e14a286368fa1540c52d8178b7" prot="public" virt="non-virtual"><scope>v8pp::detail::is_callable_impl&lt; F, true &gt;::fallback</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

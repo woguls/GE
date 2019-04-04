@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classv8pp_1_1detail_1_1external__data" kind="class" language="C++" prot="public">
+    <compoundname>v8pp::detail::external_data</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classv8pp_1_1detail_1_1external__data_1aae60880b8d89763b4d49d4419812f734" prot="private" static="no">
+        <type>typename std::aligned_storage&lt; sizeof(T)&gt;::type</type>
+        <definition>using v8pp::detail::external_data&lt; T &gt;::data_storage =  typename std::aligned_storage&lt;sizeof(T)&gt;::type</definition>
+        <argsstring></argsstring>
+        <name>data_storage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="88" column="1" bodyfile="v8pp/function.hpp" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classv8pp_1_1detail_1_1external__data_1a0a7189f26740afc29c96337c459950d5" prot="private" static="no" mutable="no">
+        <type>data_storage</type>
+        <definition>data_storage v8pp::detail::external_data&lt; T &gt;::storage_</definition>
+        <argsstring></argsstring>
+        <name>storage_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="89" column="1" bodyfile="v8pp/function.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classv8pp_1_1detail_1_1external__data_1a1c4f7ac82d9e1569d9cd2df94be67e2a" prot="private" static="no" mutable="no">
+        <type>v8::Global&lt; v8::External &gt;</type>
+        <definition>v8::Global&lt;v8::External&gt; v8pp::detail::external_data&lt; T &gt;::pext_</definition>
+        <argsstring></argsstring>
+        <name>pext_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="90" column="1" bodyfile="v8pp/function.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1external__data_1a97db5fffd6964da205c399c3539b8341" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Local&lt; v8::External &gt;</type>
+        <definition>static v8::Local&lt;v8::External&gt; v8pp::detail::external_data&lt; T &gt;::set</definition>
+        <argsstring>(v8::Isolate *isolate, T &amp;&amp;data)</argsstring>
+        <name>set</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="49" column="1" bodyfile="v8pp/function.hpp" bodystart="49" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1external__data_1a74a7980949315f1d36ee578b7047da27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>static T&amp; v8pp::detail::external_data&lt; T &gt;::get</definition>
+        <argsstring>(v8::Local&lt; v8::External &gt; ext)</argsstring>
+        <name>get</name>
+        <param>
+          <type>v8::Local&lt; v8::External &gt;</type>
+          <declname>ext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="72" column="1" bodyfile="v8pp/function.hpp" bodystart="72" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1external__data_1a3f0edb27be8c45a532f5024b0b2c07a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* v8pp::detail::external_data&lt; T &gt;::storage</definition>
+        <argsstring>()</argsstring>
+        <name>storage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="79" column="1" bodyfile="v8pp/function.hpp" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1external__data_1a76822b1400089efc6d383468367af66f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::detail::external_data&lt; T &gt;::~external_data</definition>
+        <argsstring>()</argsstring>
+        <name>~external_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/function.hpp" line="80" column="1" bodyfile="v8pp/function.hpp" bodystart="80" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/function.hpp" line="47" column="1" bodyfile="v8pp/function.hpp" bodystart="46" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classv8pp_1_1detail_1_1external__data_1aae60880b8d89763b4d49d4419812f734" prot="private" virt="non-virtual"><scope>v8pp::detail::external_data</scope><name>data_storage</name></member>
+      <member refid="classv8pp_1_1detail_1_1external__data_1a74a7980949315f1d36ee578b7047da27" prot="public" virt="non-virtual"><scope>v8pp::detail::external_data</scope><name>get</name></member>
+      <member refid="classv8pp_1_1detail_1_1external__data_1a1c4f7ac82d9e1569d9cd2df94be67e2a" prot="private" virt="non-virtual"><scope>v8pp::detail::external_data</scope><name>pext_</name></member>
+      <member refid="classv8pp_1_1detail_1_1external__data_1a97db5fffd6964da205c399c3539b8341" prot="public" virt="non-virtual"><scope>v8pp::detail::external_data</scope><name>set</name></member>
+      <member refid="classv8pp_1_1detail_1_1external__data_1a3f0edb27be8c45a532f5024b0b2c07a8" prot="private" virt="non-virtual"><scope>v8pp::detail::external_data</scope><name>storage</name></member>
+      <member refid="classv8pp_1_1detail_1_1external__data_1a0a7189f26740afc29c96337c459950d5" prot="private" virt="non-virtual"><scope>v8pp::detail::external_data</scope><name>storage_</name></member>
+      <member refid="classv8pp_1_1detail_1_1external__data_1a76822b1400089efc6d383468367af66f" prot="private" virt="non-virtual"><scope>v8pp::detail::external_data</scope><name>~external_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

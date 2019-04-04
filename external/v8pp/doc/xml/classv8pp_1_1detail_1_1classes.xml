@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classv8pp_1_1detail_1_1classes" kind="class" language="C++" prot="public">
+    <compoundname>v8pp::detail::classes</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classv8pp_1_1detail_1_1classes_1aa469acd7147a8f8e7a3352fc1f7472a3" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>operation</name>
+        <enumvalue id="classv8pp_1_1detail_1_1classes_1aa469acd7147a8f8e7a3352fc1f7472a3ab5eda0a74558a342cf659187f06f746f" prot="private">
+          <name>get</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classv8pp_1_1detail_1_1classes_1aa469acd7147a8f8e7a3352fc1f7472a3a34ec78fcc91ffb1e54cd85e4a0924332" prot="private">
+          <name>add</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classv8pp_1_1detail_1_1classes_1aa469acd7147a8f8e7a3352fc1f7472a3a0f6969d7052da9261e31ddb6e88c136e" prot="private">
+          <name>remove</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="420" column="1" bodyfile="v8pp/class.hpp" bodystart="420" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classv8pp_1_1detail_1_1classes_1a1999e025673deb1808e885ca06ed589d" prot="private" static="no">
+        <type>std::vector&lt; std::unique_ptr&lt; class_info &gt; &gt;</type>
+        <definition>using v8pp::detail::classes::classes_info =  std::vector&lt;std::unique_ptr&lt;class_info&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>classes_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="415" column="1" bodyfile="v8pp/class.hpp" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classv8pp_1_1detail_1_1classes_1ae7fdd09690c181ce750ff45ea92493ee" prot="private" static="no" mutable="no">
+        <type>classes_info</type>
+        <definition>classes_info v8pp::detail::classes::classes_</definition>
+        <argsstring></argsstring>
+        <name>classes_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="416" column="1" bodyfile="v8pp/class.hpp" bodystart="416" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1classes_1aa783d6ca1853773b27e1712f5f1f1186" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+        </templateparamlist>
+        <type>object_registry&lt; Traits &gt; &amp;</type>
+        <definition>static object_registry&lt;Traits&gt;&amp; v8pp::detail::classes::add</definition>
+        <argsstring>(v8::Isolate *isolate, type_info const &amp;type, typename object_registry&lt; Traits &gt;::dtor_function &amp;&amp;dtor)</argsstring>
+        <name>add</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref> const &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>typename object_registry&lt; Traits &gt;::dtor_function &amp;&amp;</type>
+          <declname>dtor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="346" column="1" bodyfile="v8pp/class.hpp" bodystart="346" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1classes_1ab54e071d61e170128e76af22cd3c37e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void v8pp::detail::classes::remove</definition>
+        <argsstring>(v8::Isolate *isolate, type_info const &amp;type)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref> const &amp;</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="362" column="1" bodyfile="v8pp/class.hpp" bodystart="362" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1classes_1ae063dd9b6ed23b6d23fc4a3cb60ad70a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Traits</type>
+          </param>
+        </templateparamlist>
+        <type>object_registry&lt; Traits &gt; &amp;</type>
+        <definition>static object_registry&lt;Traits&gt;&amp; v8pp::detail::classes::find</definition>
+        <argsstring>(v8::Isolate *isolate, type_info const &amp;type)</argsstring>
+        <name>find</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref> const &amp;</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="388" column="1" bodyfile="v8pp/class.hpp" bodystart="388" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1classes_1a5f7dbf2481bf8dc9b733c3f3725300d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>V8PP_IMPL void v8pp::detail::classes::remove_all</definition>
+        <argsstring>(v8::Isolate *isolate)</argsstring>
+        <name>remove_all</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="412" column="1" bodyfile="v8pp/class.ipp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1classes_1a7ba1b2558c829bed08552b674e4a74ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>classes_info::iterator</type>
+        <definition>V8PP_IMPL classes::classes_info::iterator v8pp::detail::classes::find</definition>
+        <argsstring>(type_info const &amp;type)</argsstring>
+        <name>find</name>
+        <param>
+          <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref> const &amp;</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="418" column="1" bodyfile="v8pp/class.ipp" bodystart="38" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1classes_1a49e18cb20ec456653e3497b389468536" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>classes *</type>
+        <definition>V8PP_IMPL classes * v8pp::detail::classes::instance</definition>
+        <argsstring>(operation op, v8::Isolate *isolate)</argsstring>
+        <name>instance</name>
+        <param>
+          <type>operation</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/class.hpp" line="421" column="1" bodyfile="v8pp/class.ipp" bodystart="47" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/class.hpp" line="343" column="1" bodyfile="v8pp/class.hpp" bodystart="342" bodyend="422"/>
+    <listofallmembers>
+      <member refid="classv8pp_1_1detail_1_1classes_1aa783d6ca1853773b27e1712f5f1f1186" prot="public" virt="non-virtual"><scope>v8pp::detail::classes</scope><name>add</name></member>
+      <member refid="classv8pp_1_1detail_1_1classes_1ae7fdd09690c181ce750ff45ea92493ee" prot="private" virt="non-virtual"><scope>v8pp::detail::classes</scope><name>classes_</name></member>
+      <member refid="classv8pp_1_1detail_1_1classes_1a1999e025673deb1808e885ca06ed589d" prot="private" virt="non-virtual"><scope>v8pp::detail::classes</scope><name>classes_info</name></member>
+      <member refid="classv8pp_1_1detail_1_1classes_1ae063dd9b6ed23b6d23fc4a3cb60ad70a" prot="public" virt="non-virtual"><scope>v8pp::detail::classes</scope><name>find</name></member>
+      <member refid="classv8pp_1_1detail_1_1classes_1a7ba1b2558c829bed08552b674e4a74ed" prot="private" virt="non-virtual"><scope>v8pp::detail::classes</scope><name>find</name></member>
+      <member refid="classv8pp_1_1detail_1_1classes_1a49e18cb20ec456653e3497b389468536" prot="private" virt="non-virtual"><scope>v8pp::detail::classes</scope><name>instance</name></member>
+      <member refid="classv8pp_1_1detail_1_1classes_1aa469acd7147a8f8e7a3352fc1f7472a3" prot="private" virt="non-virtual"><scope>v8pp::detail::classes</scope><name>operation</name></member>
+      <member refid="classv8pp_1_1detail_1_1classes_1ab54e071d61e170128e76af22cd3c37e4" prot="public" virt="non-virtual"><scope>v8pp::detail::classes</scope><name>remove</name></member>
+      <member refid="classv8pp_1_1detail_1_1classes_1a5f7dbf2481bf8dc9b733c3f3725300d3" prot="public" virt="non-virtual"><scope>v8pp::detail::classes</scope><name>remove_all</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

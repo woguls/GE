@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;</compoundname>
+    <innerclass refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__saa8f614317e972bbcca46cae1be023885" prot="public">v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::convertible_string</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Char</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a7d388b1266dc7e729b9b7724a308acc5" prot="public" static="no">
+        <type>convertible_string</type>
+        <definition>using v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::from_type =  convertible_string</definition>
+        <argsstring></argsstring>
+        <name>from_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="120" column="1" bodyfile="v8pp/convert.hpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a4b9e326127d1a5cf96d1e50115fef0e7" prot="public" static="no">
+        <type>v8::Local&lt; v8::String &gt;</type>
+        <definition>using v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::to_type =  v8::Local&lt;v8::String&gt;</definition>
+        <argsstring></argsstring>
+        <name>to_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="121" column="1" bodyfile="v8pp/convert.hpp" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1ab08a628909a823fc14e3923844f94f17" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::is_valid</definition>
+        <argsstring>(v8::Isolate *, v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>is_valid</name>
+        <param>
+          <type>v8::Isolate *</type>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="123" column="1" bodyfile="v8pp/convert.hpp" bodystart="123" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a3f93c48557d493c1f8c20724ef93b654" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>from_type</type>
+        <definition>static from_type v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::from_v8</definition>
+        <argsstring>(v8::Isolate *isolate, v8::Local&lt; v8::Value &gt; value)</argsstring>
+        <name>from_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="128" column="1" bodyfile="v8pp/convert.hpp" bodystart="128" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a32ce92694cb137f77ad995a880ad14e6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>to_type</type>
+        <definition>static to_type v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::to_v8</definition>
+        <argsstring>(v8::Isolate *isolate, Char const *value, size_t len=~0)</argsstring>
+        <name>to_v8</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>Char const *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+          <defval>~0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="147" column="1" bodyfile="v8pp/convert.hpp" bodystart="147" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/convert.hpp" line="108" column="1" bodyfile="v8pp/convert.hpp" bodystart="104" bodyend="162"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a7d388b1266dc7e729b9b7724a308acc5" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;</scope><name>from_type</name></member>
+      <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a3f93c48557d493c1f8c20724ef93b654" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;</scope><name>from_v8</name></member>
+      <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1ab08a628909a823fc14e3923844f94f17" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;</scope><name>is_valid</name></member>
+      <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a4b9e326127d1a5cf96d1e50115fef0e7" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;</scope><name>to_type</name></member>
+      <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__sa167bd15c44071fad06e997620a937de5_1a32ce92694cb137f77ad995a880ad14e6" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;</scope><name>to_v8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

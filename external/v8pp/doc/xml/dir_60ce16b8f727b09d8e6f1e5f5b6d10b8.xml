@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_60ce16b8f727b09d8e6f1e5f5b6d10b8" kind="dir">
+    <compoundname>v8pp</compoundname>
+    <innerfile refid="call__from__v8_8hpp">call_from_v8.hpp</innerfile>
+    <innerfile refid="call__v8_8hpp">call_v8.hpp</innerfile>
+    <innerfile refid="class_8cpp">class.cpp</innerfile>
+    <innerfile refid="class_8hpp">class.hpp</innerfile>
+    <innerfile refid="class_8ipp">class.ipp</innerfile>
+    <innerfile refid="config_8hpp">config.hpp</innerfile>
+    <innerfile refid="context_8cpp">context.cpp</innerfile>
+    <innerfile refid="context_8hpp">context.hpp</innerfile>
+    <innerfile refid="convert_8cpp">convert.cpp</innerfile>
+    <innerfile refid="convert_8hpp">convert.hpp</innerfile>
+    <innerfile refid="factory_8hpp">factory.hpp</innerfile>
+    <innerfile refid="function_8hpp">function.hpp</innerfile>
+    <innerfile refid="json_8cpp">json.cpp</innerfile>
+    <innerfile refid="json_8hpp">json.hpp</innerfile>
+    <innerfile refid="json_8ipp">json.ipp</innerfile>
+    <innerfile refid="module_8hpp">module.hpp</innerfile>
+    <innerfile refid="object_8hpp">object.hpp</innerfile>
+    <innerfile refid="persistent_8hpp">persistent.hpp</innerfile>
+    <innerfile refid="property_8hpp">property.hpp</innerfile>
+    <innerfile refid="ptr__traits_8hpp">ptr_traits.hpp</innerfile>
+    <innerfile refid="throw__ex_8cpp">throw_ex.cpp</innerfile>
+    <innerfile refid="throw__ex_8hpp">throw_ex.hpp</innerfile>
+    <innerfile refid="throw__ex_8ipp">throw_ex.ipp</innerfile>
+    <innerfile refid="utility_8hpp">utility.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1function__traits_3_01_f_01_6_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::function_traits&lt; F &amp; &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">v8pp::detail::function_traits&lt; F &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename F</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/utility.hpp" line="136" column="1" bodyfile="v8pp/utility.hpp" bodystart="136" bodyend="136"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1function__traits_1a23a47d733ecc34c2b4a9c07efcc3ae21" prot="public" virt="non-virtual"><scope>v8pp::detail::function_traits&lt; F &amp; &gt;</scope><name>arguments</name></member>
+      <member refid="structv8pp_1_1detail_1_1function__traits_1a5322ca8d120b420e04d6e7eebfe14796" prot="public" virt="non-virtual"><scope>v8pp::detail::function_traits&lt; F &amp; &gt;</scope><name>return_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

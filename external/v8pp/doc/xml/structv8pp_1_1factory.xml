@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1factory" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::factory</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename Traits</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structv8pp_1_1factory_1a0e5f1bbbc267bfed7754e8db0bf71d14" prot="public" static="no">
+        <type>typename Traits::template object_pointer_type&lt; T &gt;</type>
+        <definition>using v8pp::factory&lt; T, Traits &gt;::object_pointer_type =  typename Traits::template object_pointer_type&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>object_pointer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/factory.hpp" line="22" column="1" bodyfile="v8pp/factory.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structv8pp_1_1factory_1a5dfe4cbd35a2699caae7edb843647838" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>object_pointer_type</type>
+        <definition>static object_pointer_type v8pp::factory&lt; T, Traits &gt;::create</definition>
+        <argsstring>(v8::Isolate *isolate, Args... args)</argsstring>
+        <name>create</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>Args...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/factory.hpp" line="25" column="1" bodyfile="v8pp/factory.hpp" bodystart="25" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1factory_1aeb51cd80b62b905a8b9ccda4f18413a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::factory&lt; T, Traits &gt;::destroy</definition>
+        <argsstring>(v8::Isolate *isolate, object_pointer_type const &amp;object)</argsstring>
+        <name>destroy</name>
+        <param>
+          <type>v8::Isolate *</type>
+          <declname>isolate</declname>
+        </param>
+        <param>
+          <type>object_pointer_type const &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/factory.hpp" line="33" column="1" bodyfile="v8pp/factory.hpp" bodystart="33" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/factory.hpp" line="21" column="1" bodyfile="v8pp/factory.hpp" bodystart="20" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1factory_1a5dfe4cbd35a2699caae7edb843647838" prot="public" virt="non-virtual"><scope>v8pp::factory</scope><name>create</name></member>
+      <member refid="structv8pp_1_1factory_1aeb51cd80b62b905a8b9ccda4f18413a0" prot="public" virt="non-virtual"><scope>v8pp::factory</scope><name>destroy</name></member>
+      <member refid="structv8pp_1_1factory_1a0e5f1bbbc267bfed7754e8db0bf71d14" prot="public" virt="non-virtual"><scope>v8pp::factory</scope><name>object_pointer_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

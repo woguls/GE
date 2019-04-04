@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1shared__ptr__traits" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::shared_ptr_traits</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structv8pp_1_1shared__ptr__traits_1a532947a1c3b75dbc77a68dc500bfeef6" prot="public" static="no">
+        <type>std::shared_ptr&lt; void &gt;</type>
+        <definition>using v8pp::shared_ptr_traits::pointer_type =  std::shared_ptr&lt;void&gt;</definition>
+        <argsstring></argsstring>
+        <name>pointer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="66" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1shared__ptr__traits_1ac46a345e2ca6659e9100b195b020e73d" prot="public" static="no">
+        <type>std::shared_ptr&lt; void const  &gt;</type>
+        <definition>using v8pp::shared_ptr_traits::const_pointer_type =  std::shared_ptr&lt;void const&gt;</definition>
+        <argsstring></argsstring>
+        <name>const_pointer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="67" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1shared__ptr__traits_1a6f2d49a686336ae1c29a8d464e825ab5" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; T &gt;</type>
+        <definition>using v8pp::shared_ptr_traits::object_pointer_type =  std::shared_ptr&lt;T&gt;</definition>
+        <argsstring></argsstring>
+        <name>object_pointer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="70" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1shared__ptr__traits_1a71bf52eed956c0bda7f337a152d32e1e" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; T const  &gt;</type>
+        <definition>using v8pp::shared_ptr_traits::object_const_pointer_type =  std::shared_ptr&lt;T const&gt;</definition>
+        <argsstring></argsstring>
+        <name>object_const_pointer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="72" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1shared__ptr__traits_1ab87f9876710541fb19ce90651f06117a" prot="public" static="no">
+        <type>void *</type>
+        <definition>using v8pp::shared_ptr_traits::object_id =  void*</definition>
+        <argsstring></argsstring>
+        <name>object_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="74" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1shared__ptr__traits_1a7bd4a2dfcddf7dbf55ef901312808507" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>convert&lt; std::shared_ptr&lt; T &gt; &gt;</type>
+        <definition>using v8pp::shared_ptr_traits::convert_ptr =  convert&lt;std::shared_ptr&lt;T&gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>convert_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="83" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1shared__ptr__traits_1adc79db6f0d0229ac23ca705df1c043d3" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>convert&lt; T, ref_from_shared_ptr &gt;</type>
+        <definition>using v8pp::shared_ptr_traits::convert_ref =  convert&lt;T, ref_from_shared_ptr&gt;</definition>
+        <argsstring></argsstring>
+        <name>convert_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="86" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structv8pp_1_1shared__ptr__traits_1a4dec01a64cf416edc27a049cbf8d3f07" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object_id</type>
+        <definition>static object_id v8pp::shared_ptr_traits::pointer_id</definition>
+        <argsstring>(pointer_type const &amp;ptr)</argsstring>
+        <name>pointer_id</name>
+        <param>
+          <type>pointer_type const &amp;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="76" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1shared__ptr__traits_1a37dd106cf52acdd5521aa3e51ca7f834" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>pointer_type</type>
+        <definition>static pointer_type v8pp::shared_ptr_traits::key</definition>
+        <argsstring>(object_id id)</argsstring>
+        <name>key</name>
+        <param>
+          <type>object_id</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="77" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1shared__ptr__traits_1a4cf5104edaa7d3bdcf63d3cefa790ae0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>pointer_type</type>
+        <definition>static pointer_type v8pp::shared_ptr_traits::const_pointer_cast</definition>
+        <argsstring>(const_pointer_type const &amp;ptr)</argsstring>
+        <name>const_pointer_cast</name>
+        <param>
+          <type>const_pointer_type const &amp;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="78" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1shared__ptr__traits_1a7639f32930b23c52b8d13eadc882c538" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; T &gt;</type>
+        <definition>static std::shared_ptr&lt;T&gt; v8pp::shared_ptr_traits::static_pointer_cast</definition>
+        <argsstring>(std::shared_ptr&lt; U &gt; const &amp;ptr)</argsstring>
+        <name>static_pointer_cast</name>
+        <param>
+          <type>std::shared_ptr&lt; U &gt; const &amp;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="80" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1shared__ptr__traits_1a409c3263d45dcf91ce90708b13ee2936" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>object_pointer_type&lt; T &gt;</type>
+        <definition>static object_pointer_type&lt;T&gt; v8pp::shared_ptr_traits::create</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>create</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="89" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1shared__ptr__traits_1aaeebd04c669558a6a610be83ad0a8742" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void v8pp::shared_ptr_traits::destroy</definition>
+        <argsstring>(object_pointer_type&lt; T &gt; const &amp;)</argsstring>
+        <name>destroy</name>
+        <param>
+          <type>object_pointer_type&lt; T &gt; const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="95" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1shared__ptr__traits_1adb19c16d225366a4841017f8cf0da132" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>size_t</type>
+        <definition>static size_t v8pp::shared_ptr_traits::object_size</definition>
+        <argsstring>(object_pointer_type&lt; T &gt; const &amp;)</argsstring>
+        <name>object_size</name>
+        <param>
+          <type>object_pointer_type&lt; T &gt; const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/ptr_traits.hpp" line="101" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="101" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/ptr_traits.hpp" line="65" column="1" bodyfile="v8pp/ptr_traits.hpp" bodystart="64" bodyend="105"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1shared__ptr__traits_1a4cf5104edaa7d3bdcf63d3cefa790ae0" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>const_pointer_cast</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1ac46a345e2ca6659e9100b195b020e73d" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>const_pointer_type</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1a7bd4a2dfcddf7dbf55ef901312808507" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>convert_ptr</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1adc79db6f0d0229ac23ca705df1c043d3" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>convert_ref</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1a409c3263d45dcf91ce90708b13ee2936" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>create</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1aaeebd04c669558a6a610be83ad0a8742" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>destroy</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1a37dd106cf52acdd5521aa3e51ca7f834" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>key</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1a71bf52eed956c0bda7f337a152d32e1e" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>object_const_pointer_type</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1ab87f9876710541fb19ce90651f06117a" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>object_id</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1a6f2d49a686336ae1c29a8d464e825ab5" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>object_pointer_type</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1adb19c16d225366a4841017f8cf0da132" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>object_size</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1a4dec01a64cf416edc27a049cbf8d3f07" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>pointer_id</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1a532947a1c3b75dbc77a68dc500bfeef6" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>pointer_type</name></member>
+      <member refid="structv8pp_1_1shared__ptr__traits_1a7639f32930b23c52b8d13eadc882c538" prot="public" virt="non-virtual"><scope>v8pp::shared_ptr_traits</scope><name>static_pointer_cast</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

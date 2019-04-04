@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1tuple__tail_3_01std_1_1tuple_3_01_head_00_01_tail_8_8_8_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::tuple_tail&lt; std::tuple&lt; Head, Tail... &gt; &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Head</type>
+      </param>
+      <param>
+        <type>typename...</type>
+        <declname>Tail</declname>
+        <defname>Tail</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structv8pp_1_1detail_1_1tuple__tail_3_01std_1_1tuple_3_01_head_00_01_tail_8_8_8_01_4_01_4_1a224c76210457b55de9606738df253321" prot="public" static="no">
+        <type>std::tuple&lt; Tail... &gt;</type>
+        <definition>using v8pp::detail::tuple_tail&lt; std::tuple&lt; Head, Tail... &gt; &gt;::type =  std::tuple&lt;Tail...&gt;</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="25" column="1" bodyfile="v8pp/utility.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/utility.hpp" line="24" column="1" bodyfile="v8pp/utility.hpp" bodystart="23" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1tuple__tail_3_01std_1_1tuple_3_01_head_00_01_tail_8_8_8_01_4_01_4_1a224c76210457b55de9606738df253321" prot="public" virt="non-virtual"><scope>v8pp::detail::tuple_tail&lt; std::tuple&lt; Head, Tail... &gt; &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

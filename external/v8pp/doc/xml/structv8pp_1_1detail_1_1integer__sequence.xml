@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1integer__sequence" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::integer_sequence</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>T...</type>
+        <declname>I</declname>
+        <defname>I</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structv8pp_1_1detail_1_1integer__sequence_1a72cef3e523b591d0527ced78e4e15bd4" prot="public" static="no">
+        <type>T</type>
+        <definition>using v8pp::detail::integer_sequence&lt; T, I &gt;::type =  T</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="186" column="1" bodyfile="v8pp/utility.hpp" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1detail_1_1integer__sequence_1a564694dc7f7a456b0cb94aee6f102fff" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>T</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>integer_sequence&lt; T, I..., N &gt;</type>
+        <definition>using v8pp::detail::integer_sequence&lt; T, I &gt;::append =  integer_sequence&lt;T, I..., N&gt;</definition>
+        <argsstring></argsstring>
+        <name>append</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="190" column="1" bodyfile="v8pp/utility.hpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structv8pp_1_1detail_1_1integer__sequence_1ad5c7ce83fbaabc9124721f0b054b39b9" prot="public" static="no">
+        <type>append&lt; sizeof...(I)&gt;</type>
+        <definition>using v8pp::detail::integer_sequence&lt; T, I &gt;::next =  append&lt;sizeof...(I)&gt;</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="192" column="1" bodyfile="v8pp/utility.hpp" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1integer__sequence_1a3ca26acdb5b8f0f439ae5b54b3104325" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>static size_t v8pp::detail::integer_sequence&lt; T, I &gt;::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="187" column="1" bodyfile="v8pp/utility.hpp" bodystart="187" bodyend="187"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/utility.hpp" line="185" column="1" bodyfile="v8pp/utility.hpp" bodystart="184" bodyend="193"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1integer__sequence_1a564694dc7f7a456b0cb94aee6f102fff" prot="public" virt="non-virtual"><scope>v8pp::detail::integer_sequence</scope><name>append</name></member>
+      <member refid="structv8pp_1_1detail_1_1integer__sequence_1ad5c7ce83fbaabc9124721f0b054b39b9" prot="public" virt="non-virtual"><scope>v8pp::detail::integer_sequence</scope><name>next</name></member>
+      <member refid="structv8pp_1_1detail_1_1integer__sequence_1a3ca26acdb5b8f0f439ae5b54b3104325" prot="public" virt="non-virtual"><scope>v8pp::detail::integer_sequence</scope><name>size</name></member>
+      <member refid="structv8pp_1_1detail_1_1integer__sequence_1a72cef3e523b591d0527ced78e4e15bd4" prot="public" virt="non-virtual"><scope>v8pp::detail::integer_sequence</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

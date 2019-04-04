@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::r_property_impl&lt; Get, Set, false &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename Get</type>
+      </param>
+      <param>
+        <type>typename Set</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1a679773c437c48daf0bb61d37914dd174" prot="public" static="no">
+        <type><ref refid="structv8pp_1_1property__" kindref="compound">property_</ref>&lt; Get, Set &gt;</type>
+        <definition>using v8pp::detail::r_property_impl&lt; Get, Set, false &gt;::property_type =  property_&lt;Get, Set&gt;</definition>
+        <argsstring></argsstring>
+        <name>property_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="164" column="1" bodyfile="v8pp/property.hpp" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1adbfaead5843d20767427346f080a450d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::detail::r_property_impl&lt; Get, Set, false &gt;::get_impl</definition>
+        <argsstring>(Get get, v8::Local&lt; v8::String &gt;, v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;info, getter_tag)</argsstring>
+        <name>get_impl</name>
+        <param>
+          <type>Get</type>
+          <declname>get</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>getter_tag</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="166" column="1" bodyfile="v8pp/property.hpp" bodystart="166" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1a2f4d251cb0793890a2818f61a5376809" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::detail::r_property_impl&lt; Get, Set, false &gt;::get_impl</definition>
+        <argsstring>(Get get, v8::Local&lt; v8::String &gt; name, v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;info, direct_getter_tag)</argsstring>
+        <name>get_impl</name>
+        <param>
+          <type>Get</type>
+          <declname>get</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>direct_getter_tag</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="172" column="1" bodyfile="v8pp/property.hpp" bodystart="172" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1aac4594fd913ca93b88ef8baceb95d7ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::detail::r_property_impl&lt; Get, Set, false &gt;::get_impl</definition>
+        <argsstring>(Get get, v8::Local&lt; v8::String &gt;, v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;info, isolate_getter_tag)</argsstring>
+        <name>get_impl</name>
+        <param>
+          <type>Get</type>
+          <declname>get</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>isolate_getter_tag</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="178" column="1" bodyfile="v8pp/property.hpp" bodystart="178" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1ab940386dbd54cca6cab5a1af92a9f017" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::detail::r_property_impl&lt; Get, Set, false &gt;::get</definition>
+        <argsstring>(v8::Local&lt; v8::String &gt; name, v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;info)</argsstring>
+        <name>get</name>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; v8::Value &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="186" column="1" bodyfile="v8pp/property.hpp" bodystart="186" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1a5b372c2eb6414168d6c7f69fafe67265" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::detail::r_property_impl&lt; Get, Set, false &gt;::set</definition>
+        <argsstring>(v8::Local&lt; v8::String &gt; name, v8::Local&lt; v8::Value &gt;, v8::PropertyCallbackInfo&lt; void &gt; const &amp;info)</argsstring>
+        <name>set</name>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; void &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="203" column="1" bodyfile="v8pp/property.hpp" bodystart="203" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/property.hpp" line="163" column="1" bodyfile="v8pp/property.hpp" bodystart="162" bodyend="210"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1ab940386dbd54cca6cab5a1af92a9f017" prot="public" virt="non-virtual"><scope>v8pp::detail::r_property_impl&lt; Get, Set, false &gt;</scope><name>get</name></member>
+      <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1adbfaead5843d20767427346f080a450d" prot="public" virt="non-virtual"><scope>v8pp::detail::r_property_impl&lt; Get, Set, false &gt;</scope><name>get_impl</name></member>
+      <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1a2f4d251cb0793890a2818f61a5376809" prot="public" virt="non-virtual"><scope>v8pp::detail::r_property_impl&lt; Get, Set, false &gt;</scope><name>get_impl</name></member>
+      <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1aac4594fd913ca93b88ef8baceb95d7ff" prot="public" virt="non-virtual"><scope>v8pp::detail::r_property_impl&lt; Get, Set, false &gt;</scope><name>get_impl</name></member>
+      <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1a679773c437c48daf0bb61d37914dd174" prot="public" virt="non-virtual"><scope>v8pp::detail::r_property_impl&lt; Get, Set, false &gt;</scope><name>property_type</name></member>
+      <member refid="structv8pp_1_1detail_1_1r__property__impl_3_01_get_00_01_set_00_01false_01_4_1a5b372c2eb6414168d6c7f69fafe67265" prot="public" virt="non-virtual"><scope>v8pp::detail::r_property_impl&lt; Get, Set, false &gt;</scope><name>set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

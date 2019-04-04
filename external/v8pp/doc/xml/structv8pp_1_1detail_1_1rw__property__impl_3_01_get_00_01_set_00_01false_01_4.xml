@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">v8pp::detail::r_property_impl&lt; Get, Set, std::is_member_function_pointer&lt; Get &gt;::value &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Get</type>
+      </param>
+      <param>
+        <type>typename Set</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1a220dfe39604c41a54c8cd7d57c40624b" prot="public" static="no">
+        <type><ref refid="structv8pp_1_1property__" kindref="compound">property_</ref>&lt; Get, Set &gt;</type>
+        <definition>using v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;::property_type =  property_&lt;Get, Set&gt;</definition>
+        <argsstring></argsstring>
+        <name>property_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="274" column="1" bodyfile="v8pp/property.hpp" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1a3b2181d508356b1288d09420367bb88d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;::set_impl</definition>
+        <argsstring>(Set set, v8::Local&lt; v8::String &gt;, v8::Local&lt; v8::Value &gt; value, v8::PropertyCallbackInfo&lt; void &gt; const &amp;info, setter_tag)</argsstring>
+        <name>set_impl</name>
+        <param>
+          <type>Set</type>
+          <declname>set</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; void &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>setter_tag</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="276" column="1" bodyfile="v8pp/property.hpp" bodystart="276" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1af4f43b7e55b4ca33b6d775a98c67bbb9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;::set_impl</definition>
+        <argsstring>(Set set, v8::Local&lt; v8::String &gt; name, v8::Local&lt; v8::Value &gt; value, v8::PropertyCallbackInfo&lt; void &gt; const &amp;info, direct_setter_tag)</argsstring>
+        <name>set_impl</name>
+        <param>
+          <type>Set</type>
+          <declname>set</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; void &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>direct_setter_tag</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="285" column="1" bodyfile="v8pp/property.hpp" bodystart="285" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1a8e4933aa6e8cc1a74294f75f18993122" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;::set_impl</definition>
+        <argsstring>(Set set, v8::Local&lt; v8::String &gt;, v8::Local&lt; v8::Value &gt; value, v8::PropertyCallbackInfo&lt; void &gt; const &amp;info, isolate_setter_tag)</argsstring>
+        <name>set_impl</name>
+        <param>
+          <type>Set</type>
+          <declname>set</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; void &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>isolate_setter_tag</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="292" column="1" bodyfile="v8pp/property.hpp" bodystart="292" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1aa7580af5d3a43010c899663eec9cf4df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;::set</definition>
+        <argsstring>(v8::Local&lt; v8::String &gt; name, v8::Local&lt; v8::Value &gt; value, v8::PropertyCallbackInfo&lt; void &gt; const &amp;info)</argsstring>
+        <name>set</name>
+        <param>
+          <type>v8::Local&lt; v8::String &gt;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>v8::Local&lt; v8::Value &gt;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>v8::PropertyCallbackInfo&lt; void &gt; const &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="303" column="1" bodyfile="v8pp/property.hpp" bodystart="303" bodyend="318"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/property.hpp" line="273" column="1" bodyfile="v8pp/property.hpp" bodystart="271" bodyend="319"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1a220dfe39604c41a54c8cd7d57c40624b" prot="public" virt="non-virtual"><scope>v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;</scope><name>property_type</name></member>
+      <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1aa7580af5d3a43010c899663eec9cf4df" prot="public" virt="non-virtual"><scope>v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;</scope><name>set</name></member>
+      <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1a3b2181d508356b1288d09420367bb88d" prot="public" virt="non-virtual"><scope>v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;</scope><name>set_impl</name></member>
+      <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1af4f43b7e55b4ca33b6d775a98c67bbb9" prot="public" virt="non-virtual"><scope>v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;</scope><name>set_impl</name></member>
+      <member refid="structv8pp_1_1detail_1_1rw__property__impl_3_01_get_00_01_set_00_01false_01_4_1a8e4933aa6e8cc1a74294f75f18993122" prot="public" virt="non-virtual"><scope>v8pp::detail::rw_property_impl&lt; Get, Set, false &gt;</scope><name>set_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1property__" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::property_</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">v8pp::detail::rw_property_impl&lt; Get, Set, std::is_member_function_pointer&lt; Set &gt;::value &gt;</basecompoundref>
+    <includes refid="property_8hpp" local="no">property.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Get</type>
+      </param>
+      <param>
+        <type>typename Set</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structv8pp_1_1property___1a54ab88cd3b5ac11c4b18a8eca4c59042" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@1</name>
+        <enumvalue id="structv8pp_1_1property___1a54ab88cd3b5ac11c4b18a8eca4c59042acbdb6a13d343dd969e0865a025084e82" prot="public">
+          <name>is_readonly</name>
+          <initializer>= false</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="345" column="1" bodyfile="v8pp/property.hpp" bodystart="345" bodyend="345"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structv8pp_1_1property___1a9bc41d5799e380cb692c78b405da549d" prot="public" static="no" mutable="no">
+        <type>Get</type>
+        <definition>Get v8pp::property_&lt; Get, Set &gt;::getter</definition>
+        <argsstring></argsstring>
+        <name>getter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="342" column="1" bodyfile="v8pp/property.hpp" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structv8pp_1_1property___1af02e076bd0a47869ea19a01136b8a0fa" prot="public" static="no" mutable="no">
+        <type>Set</type>
+        <definition>Set v8pp::property_&lt; Get, Set &gt;::setter</definition>
+        <argsstring></argsstring>
+        <name>setter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="343" column="1" bodyfile="v8pp/property.hpp" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structv8pp_1_1property___1a68522117d8e14a67e2b7e177f2d7e74a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::property_&lt; Get, Set &gt;::property_</definition>
+        <argsstring>(Get getter, Set setter)</argsstring>
+        <name>property_</name>
+        <param>
+          <type>Get</type>
+          <declname>getter</declname>
+        </param>
+        <param>
+          <type>Set</type>
+          <declname>setter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="347" column="1" bodyfile="v8pp/property.hpp" bodystart="347" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1property___1a78f9c6da41f09054e414d019e831f984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename OtherGet</type>
+          </param>
+          <param>
+            <type>typename OtherSet</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>v8pp::property_&lt; Get, Set &gt;::property_</definition>
+        <argsstring>(property_&lt; OtherGet, OtherSet &gt; const &amp;other)</argsstring>
+        <name>property_</name>
+        <param>
+          <type><ref refid="structv8pp_1_1property__" kindref="compound">property_</ref>&lt; OtherGet, OtherSet &gt; const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/property.hpp" line="354" column="1" bodyfile="v8pp/property.hpp" bodystart="354" bodyend="358"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Property with get and set functions. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/property.hpp" line="20" column="1" bodyfile="v8pp/property.hpp" bodystart="20" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1property___1a9bc41d5799e380cb692c78b405da549d" prot="public" virt="non-virtual"><scope>v8pp::property_</scope><name>getter</name></member>
+      <member refid="structv8pp_1_1property___1a54ab88cd3b5ac11c4b18a8eca4c59042acbdb6a13d343dd969e0865a025084e82" prot="public" virt="non-virtual"><scope>v8pp::property_</scope><name>is_readonly</name></member>
+      <member refid="structv8pp_1_1property___1a68522117d8e14a67e2b7e177f2d7e74a" prot="public" virt="non-virtual"><scope>v8pp::property_</scope><name>property_</name></member>
+      <member refid="structv8pp_1_1property___1a78f9c6da41f09054e414d019e831f984" prot="public" virt="non-virtual"><scope>v8pp::property_</scope><name>property_</name></member>
+      <member refid="structv8pp_1_1property___1af02e076bd0a47869ea19a01136b8a0fa" prot="public" virt="non-virtual"><scope>v8pp::property_</scope><name>setter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

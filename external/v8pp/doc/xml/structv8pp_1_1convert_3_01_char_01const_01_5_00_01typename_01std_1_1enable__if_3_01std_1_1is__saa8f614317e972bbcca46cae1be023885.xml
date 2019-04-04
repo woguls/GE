@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__saa8f614317e972bbcca46cae1be023885" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::convertible_string</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::basic_string&lt; Char &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__saa8f614317e972bbcca46cae1be023885_1a1b8912be408951fe705e9d439d093eaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::convertible_string::convertible_string</definition>
+        <argsstring>(Char const *str, size_t len)</argsstring>
+        <name>convertible_string</name>
+        <param>
+          <type>Char const *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="115" column="1" bodyfile="v8pp/convert.hpp" bodystart="115" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__saa8f614317e972bbcca46cae1be023885_1a1e4741bddd5bab811aa8fa3571c5cc7c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::convertible_string::operator Char const *</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Char const *</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/convert.hpp" line="117" column="1" bodyfile="v8pp/convert.hpp" bodystart="117" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/convert.hpp" line="114" column="1" bodyfile="v8pp/convert.hpp" bodystart="113" bodyend="118"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__saa8f614317e972bbcca46cae1be023885_1a1b8912be408951fe705e9d439d093eaa" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::convertible_string</scope><name>convertible_string</name></member>
+      <member refid="structv8pp_1_1convert_3_01_char_01const_01_5_00_01typename_01std_1_1enable__if_3_01std_1_1is__saa8f614317e972bbcca46cae1be023885_1a1e4741bddd5bab811aa8fa3571c5cc7c" prot="public" virt="non-virtual"><scope>v8pp::convert&lt; Char const *, typename std::enable_if&lt; std::is_same&lt; Char, char &gt;::value||std::is_same&lt; Char, char16_t &gt;::value||std::is_same&lt; Char, wchar_t &gt;::value &gt;::type &gt;::convertible_string</scope><name>operator Char const *</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

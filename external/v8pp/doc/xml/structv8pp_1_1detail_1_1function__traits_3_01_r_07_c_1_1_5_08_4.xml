@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_4" kind="struct" language="C++" prot="public">
+    <compoundname>v8pp::detail::function_traits&lt; R(C::*)&gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">v8pp::detail::function_traits&lt; R(C &amp;)&gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename C</type>
+      </param>
+      <param>
+        <type>typename R</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_4_1aaa532163eadd887706ef7a66d934c487" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename D</type>
+            <defval>C</defval>
+          </param>
+        </templateparamlist>
+        <type>R(D::*)</type>
+        <definition>using v8pp::detail::function_traits&lt; R(C::*)&gt;::pointer_type =  R (D::*)</definition>
+        <argsstring></argsstring>
+        <name>pointer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="92" column="1" bodyfile="v8pp/utility.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/utility.hpp" line="90" column="1" bodyfile="v8pp/utility.hpp" bodystart="88" bodyend="93"/>
+    <listofallmembers>
+      <member refid="structv8pp_1_1detail_1_1function__traits_1a23a47d733ecc34c2b4a9c07efcc3ae21" prot="public" virt="non-virtual"><scope>v8pp::detail::function_traits&lt; R(C::*)&gt;</scope><name>arguments</name></member>
+      <member refid="structv8pp_1_1detail_1_1function__traits_3_01_r_07_c_1_1_5_08_4_1aaa532163eadd887706ef7a66d934c487" prot="public" virt="non-virtual"><scope>v8pp::detail::function_traits&lt; R(C::*)&gt;</scope><name>pointer_type</name></member>
+      <member refid="structv8pp_1_1detail_1_1function__traits_1a5322ca8d120b420e04d6e7eebfe14796" prot="public" virt="non-virtual"><scope>v8pp::detail::function_traits&lt; R(C::*)&gt;</scope><name>return_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

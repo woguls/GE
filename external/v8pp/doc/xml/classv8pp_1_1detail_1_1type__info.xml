@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classv8pp_1_1detail_1_1type__info" kind="class" language="C++" prot="public">
+    <compoundname>v8pp::detail::type_info</compoundname>
+    <includes refid="utility_8hpp" local="no">utility.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classv8pp_1_1detail_1_1type__info_1a2133aab369585a89b6bfd606c852483c" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string v8pp::detail::type_info::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="230" column="1" bodyfile="v8pp/utility.hpp" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1type__info_1aa3e611f5636b24ae0cf4677fd0a6ffdd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string const  &amp;</type>
+        <definition>std::string const&amp; v8pp::detail::type_info::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="221" column="1" bodyfile="v8pp/utility.hpp" bodystart="221" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1type__info_1ad89ba7cc6df7cf19278a41664b82eef1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool v8pp::detail::type_info::operator==</definition>
+        <argsstring>(type_info const &amp;other) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="222" column="1" bodyfile="v8pp/utility.hpp" bodystart="222" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1type__info_1aafad85db432b4088c6ec430186ba100a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool v8pp::detail::type_info::operator!=</definition>
+        <argsstring>(type_info const &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="223" column="1" bodyfile="v8pp/utility.hpp" bodystart="223" bodyend="223"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classv8pp_1_1detail_1_1type__info_1a0541a36aec4d37b6ac378fbe3155f64a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>friend <ref refid="classv8pp_1_1detail_1_1type__info" kindref="compound">type_info</ref></type>
+        <definition>type_info type_id</definition>
+        <argsstring>()</argsstring>
+        <name>type_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get type information for type T The idea is borrowed from <ulink url="https://github.com/Manu343726/ctti">https://github.com/Manu343726/ctti</ulink> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="225" column="1" bodyfile="v8pp/utility.hpp" bodystart="236" bodyend="267"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classv8pp_1_1detail_1_1type__info_1adf416ac370717b1ce727761a58824bdf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8pp::detail::type_info::type_info</definition>
+        <argsstring>(char const *name, size_t size)</argsstring>
+        <name>type_info</name>
+        <param>
+          <type>char const *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="v8pp/utility.hpp" line="226" column="1" bodyfile="v8pp/utility.hpp" bodystart="226" bodyend="229"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Type information for custom RTTI. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="v8pp/utility.hpp" line="219" column="1" bodyfile="v8pp/utility.hpp" bodystart="218" bodyend="231"/>
+    <listofallmembers>
+      <member refid="classv8pp_1_1detail_1_1type__info_1aa3e611f5636b24ae0cf4677fd0a6ffdd" prot="public" virt="non-virtual"><scope>v8pp::detail::type_info</scope><name>name</name></member>
+      <member refid="classv8pp_1_1detail_1_1type__info_1a2133aab369585a89b6bfd606c852483c" prot="private" virt="non-virtual"><scope>v8pp::detail::type_info</scope><name>name_</name></member>
+      <member refid="classv8pp_1_1detail_1_1type__info_1aafad85db432b4088c6ec430186ba100a" prot="public" virt="non-virtual"><scope>v8pp::detail::type_info</scope><name>operator!=</name></member>
+      <member refid="classv8pp_1_1detail_1_1type__info_1ad89ba7cc6df7cf19278a41664b82eef1" prot="public" virt="non-virtual"><scope>v8pp::detail::type_info</scope><name>operator==</name></member>
+      <member refid="classv8pp_1_1detail_1_1type__info_1a0541a36aec4d37b6ac378fbe3155f64a" prot="private" virt="non-virtual"><scope>v8pp::detail::type_info</scope><name>type_id</name></member>
+      <member refid="classv8pp_1_1detail_1_1type__info_1adf416ac370717b1ce727761a58824bdf" prot="private" virt="non-virtual"><scope>v8pp::detail::type_info</scope><name>type_info</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

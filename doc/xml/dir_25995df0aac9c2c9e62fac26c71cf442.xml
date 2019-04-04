@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_25995df0aac9c2c9e62fac26c71cf442" kind="dir">
+    <compoundname>/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules</compoundname>
+    <innerfile refid="init__flags_8h">init_flags.h</innerfile>
+    <innerfile refid="render__flags_8h">render_flags.h</innerfile>
+    <innerfile refid="sdl__event_8h">sdl_event.h</innerfile>
+    <innerfile refid="sdl__init_8h">sdl_init.h</innerfile>
+    <innerfile refid="sdl__pixelformat_8h">sdl_pixelformat.h</innerfile>
+    <innerfile refid="sdl__rect_8h">sdl_rect.h</innerfile>
+    <innerfile refid="sdl__renderer_8h">sdl_renderer.h</innerfile>
+    <innerfile refid="sdl__surface_8h">sdl_surface.h</innerfile>
+    <innerfile refid="sdl__texture_8h">sdl_texture.h</innerfile>
+    <innerfile refid="sdl__texture__access_8h">sdl_texture_access.h</innerfile>
+    <innerfile refid="sdl__ttf_8h">sdl_ttf.h</innerfile>
+    <innerfile refid="sdl__window_8h">sdl_window.h</innerfile>
+    <innerfile refid="types_8h">types.h</innerfile>
+    <innerfile refid="window__flags_8h">window_flags.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/"/>
+  </compounddef>
+</doxygen>

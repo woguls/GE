@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classSdlTTF" kind="class" language="C++" prot="public">
+    <compoundname>SdlTTF</compoundname>
+    <basecompoundref refid="classv8Embeddable" prot="public" virt="non-virtual">v8Embeddable</basecompoundref>
+    <basecompoundref refid="classWrapPtr" prot="public" virt="non-virtual">WrapPtr&lt; TTF_Font &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSdlTTF_1af0c119b981d95aa6c5fa3296802b6aaa" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SdlTTF::SdlTTF</definition>
+        <argsstring>()</argsstring>
+        <name>SdlTTF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h" line="13" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlTTF_1ac3bba3d017f2d110432bfa0cacbb8c82" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SdlTTF::SdlTTF</definition>
+        <argsstring>(resource_reference_t &amp;ref, int ptsize)</argsstring>
+        <name>SdlTTF</name>
+        <param>
+          <type><ref refid="classWrapPtr" kindref="compound">resource_reference_t</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ptsize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlTTF_1a404ae594dc9c148dc9cdf87d7805c2db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SdlTTF::~SdlTTF</definition>
+        <argsstring>()</argsstring>
+        <name>~SdlTTF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h" line="17" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlTTF_1a6aea0cc75e0e3edb933e6623fb6aba75" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SdlTTF::Init</definition>
+        <argsstring>(v8pp::module &amp;m) override</argsstring>
+        <name>Init</name>
+        <reimplements refid="classv8Embeddable_1a89d438986a9ff37489b6bcd4ebec7845">Init</reimplements>
+        <param>
+          <type>v8pp::module &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="84">
+        <label>v8Embeddable</label>
+        <link refid="classv8Embeddable"/>
+      </node>
+      <node id="85">
+        <label>sdl_ttf_font_t</label>
+        <link refid="classWrapPtr"/>
+      </node>
+      <node id="83">
+        <label>SdlTTF</label>
+        <link refid="classSdlTTF"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="87">
+        <label>v8Embeddable</label>
+        <link refid="classv8Embeddable"/>
+      </node>
+      <node id="88">
+        <label>sdl_ttf_font_t</label>
+        <link refid="classWrapPtr"/>
+      </node>
+      <node id="86">
+        <label>SdlTTF</label>
+        <link refid="classSdlTTF"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h" line="11" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h" bodystart="11" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classWrapPtr_1a0df4caf6e9c8a5abfa2a55a22828f824" prot="public" virt="non-virtual"><scope>SdlTTF</scope><name>Get</name></member>
+      <member refid="classSdlTTF_1a6aea0cc75e0e3edb933e6623fb6aba75" prot="public" virt="virtual"><scope>SdlTTF</scope><name>Init</name></member>
+      <member refid="classv8Embeddable_1a36cbb688fc3dedfd8dae5d8f9d943163" prot="public" virt="non-virtual" ambiguityscope="v8Embeddable::"><scope>SdlTTF</scope><name>IsEmpty</name></member>
+      <member refid="classWrapPtr_1a96aaec13f4d1c22fc4e9c9167901a558" prot="public" virt="non-virtual" ambiguityscope="WrapPtr::"><scope>SdlTTF</scope><name>IsEmpty</name></member>
+      <member refid="classWrapPtr_1a9a7b7c16d907dd0ef43c9270232fb6d2" prot="public" virt="non-virtual"><scope>SdlTTF</scope><name>Reset</name></member>
+      <member refid="classSdlTTF_1af0c119b981d95aa6c5fa3296802b6aaa" prot="public" virt="non-virtual"><scope>SdlTTF</scope><name>SdlTTF</name></member>
+      <member refid="classSdlTTF_1ac3bba3d017f2d110432bfa0cacbb8c82" prot="public" virt="non-virtual"><scope>SdlTTF</scope><name>SdlTTF</name></member>
+      <member refid="classWrapPtr_1a336e0c11724d9d3797907c78a94ba0db" prot="public" virt="non-virtual"><scope>SdlTTF</scope><name>Set</name></member>
+      <member refid="classWrapPtr_1ad25285dff278936651a2ffd2fff75ac2" prot="public" virt="non-virtual"><scope>SdlTTF</scope><name>WrapPtr</name></member>
+      <member refid="classSdlTTF_1a404ae594dc9c148dc9cdf87d7805c2db" prot="public" virt="non-virtual"><scope>SdlTTF</scope><name>~SdlTTF</name></member>
+      <member refid="classWrapPtr_1ae8ffa65c9193261e1d8a324eda2fd1b2" prot="public" virt="non-virtual"><scope>SdlTTF</scope><name>~WrapPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

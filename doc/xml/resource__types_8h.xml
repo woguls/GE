@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="resource__types_8h" kind="file" language="C++">
+    <compoundname>resource_types.h</compoundname>
+    <includes refid="v8__type__wrapper_8h" local="no">shell/v8_type_wrapper.h</includes>
+    <includes refid="reference_8h" local="no">resource/reference.h</includes>
+    <includes refid="directory_8h" local="no">resource/directory.h</includes>
+    <includes refid="tilemap_8h" local="no">resource/tilemap.h</includes>
+    <includedby refid="modules_2directory_8h" local="no">/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/directory.h</includedby>
+    <includedby refid="resource_8h" local="no">/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/resource.h</includedby>
+    <includedby refid="tilelayer__surface_8h" local="no">/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/tilelayer_surface.h</includedby>
+    <includedby refid="modules_2tilemap_8h" local="no">/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/tilemap.h</includedby>
+    <includedby refid="sdl__surface_8h" local="no">/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_surface.h</includedby>
+    <includedby refid="sdl__ttf_8h" local="no">/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h</includedby>
+    <incdepgraph>
+      <node id="203">
+        <label>filesystem</label>
+      </node>
+      <node id="213">
+        <label>SDL.h</label>
+      </node>
+      <node id="214">
+        <label>SDL_image.h</label>
+      </node>
+      <node id="204">
+        <label>resource/directory.h</label>
+        <link refid="directory_8h_source"/>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>shell/v8_type_wrapper.h</label>
+        <link refid="v8__type__wrapper_8h_source"/>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>resource/reference.h</label>
+        <link refid="reference_8h_source"/>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+      </node>
+      <node id="197">
+        <label>string</label>
+      </node>
+      <node id="191">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h</label>
+        <link refid="resource__types_8h"/>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+      </node>
+      <node id="200">
+        <label>map</label>
+      </node>
+      <node id="205">
+        <label>fstream</label>
+      </node>
+      <node id="194">
+        <label>v8pp/module.hpp</label>
+      </node>
+      <node id="208">
+        <label>any</label>
+      </node>
+      <node id="196">
+        <label>common-util.h</label>
+        <link refid="common-util_8h_source"/>
+      </node>
+      <node id="199">
+        <label>vector</label>
+      </node>
+      <node id="211">
+        <label>tinyxml2.h</label>
+      </node>
+      <node id="209">
+        <label>cctype</label>
+      </node>
+      <node id="207">
+        <label>resource/tilemap.h</label>
+        <link refid="tilemap_8h_source"/>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+      </node>
+      <node id="195">
+        <label>v8pp/class.hpp</label>
+      </node>
+      <node id="206">
+        <label>mutex</label>
+      </node>
+      <node id="212">
+        <label>sdl.h</label>
+        <link refid="sdl_8h_source"/>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>set</label>
+      </node>
+      <node id="210">
+        <label>algorithm</label>
+      </node>
+      <node id="202">
+        <label>cstring</label>
+      </node>
+      <node id="193">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="216">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/directory.h</label>
+        <link refid="modules_2directory_8h_source"/>
+      </node>
+      <node id="222">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h</label>
+        <link refid="sdl__ttf_8h_source"/>
+      </node>
+      <node id="220">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_surface.h</label>
+        <link refid="sdl__surface_8h_source"/>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+      </node>
+      <node id="215">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h</label>
+        <link refid="resource__types_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/resource.h</label>
+        <link refid="resource_8h_source"/>
+      </node>
+      <node id="221">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/tileset_surface.h</label>
+        <link refid="tileset__surface_8h_source"/>
+        <childnode refid="218" relation="include">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/tilelayer_surface.h</label>
+        <link refid="tilelayer__surface_8h_source"/>
+      </node>
+      <node id="219">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/tilemap.h</label>
+        <link refid="modules_2tilemap_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="resource__types_8h_1af2742ceabf07f9f1e6f7b0272a6ee720" prot="public" static="no">
+        <type><ref refid="classWrapPtr" kindref="compound">WrapPtr</ref>&lt; <ref refid="classResourceReference" kindref="compound">ResourceReference</ref> &gt;</type>
+        <definition>typedef WrapPtr&lt;ResourceReference&gt; resource_reference_t</definition>
+        <argsstring></argsstring>
+        <name>resource_reference_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h" line="8" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="resource__types_8h_1a7e4fad14e12bf36795916aaa760f3ddf" prot="public" static="no">
+        <type><ref refid="classWrapPtr" kindref="compound">WrapPtr</ref>&lt; <ref refid="classResourceDirectory" kindref="compound">ResourceDirectory</ref> &gt;</type>
+        <definition>typedef WrapPtr&lt;ResourceDirectory&gt; resource_directory_t</definition>
+        <argsstring></argsstring>
+        <name>resource_directory_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h" line="9" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="resource__types_8h_1ab549b4035236bd7e043a5dc73d2139ff" prot="public" static="no">
+        <type><ref refid="classWrapPtr" kindref="compound">WrapPtr</ref>&lt; const <ref refid="structtilemap__data" kindref="compound">tilemap_data</ref> &gt;</type>
+        <definition>typedef WrapPtr&lt;const tilemap_data&gt; resource_tilemap_t</definition>
+        <argsstring></argsstring>
+        <name>resource_tilemap_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h" line="10" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="resource__types_8h_1af9f9a858b658184eb2f8fe6505e87257" prot="public" static="no">
+        <type><ref refid="classWrapPtr" kindref="compound">WrapPtr</ref>&lt; <ref refid="structtilelayer__data" kindref="compound">tilelayer_data</ref> &gt;</type>
+        <definition>typedef WrapPtr&lt;tilelayer_data&gt; resource_tilelayer_t</definition>
+        <argsstring></argsstring>
+        <name>resource_tilelayer_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h" line="11" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__RESOURCE_TYPES_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__RESOURCE_TYPES_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;shell/v8_type_wrapper.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;resource/reference.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;resource/directory.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;resource/tilemap.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classWrapPtr" kindref="compound">WrapPtr&lt;ResourceReference&gt;</ref><sp/><ref refid="classWrapPtr" kindref="compound">resource_reference_t</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classWrapPtr" kindref="compound">WrapPtr&lt;ResourceDirectory&gt;</ref><sp/><ref refid="classWrapPtr" kindref="compound">resource_directory_t</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classWrapPtr" kindref="compound">WrapPtr&lt;const tilemap_data&gt;</ref><sp/><ref refid="classWrapPtr" kindref="compound">resource_tilemap_t</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classWrapPtr" kindref="compound">WrapPtr&lt;tilelayer_data&gt;</ref><sp/><ref refid="classWrapPtr" kindref="compound">resource_tilelayer_t</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h"/>
+  </compounddef>
+</doxygen>

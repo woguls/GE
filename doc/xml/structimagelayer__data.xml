@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structimagelayer__data" kind="struct" language="C++" prot="public">
+    <compoundname>imagelayer_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structimagelayer__data_1aab9d7d1ac7ff80821f6d77cd12b3b5ce" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string imagelayer_data::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="149" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structimagelayer__data_1acf946996915a9a5473f57857db7d9086" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int imagelayer_data::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="150" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structimagelayer__data_1a46b2a688bc46d8efad5b04ed90368dce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int imagelayer_data::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="151" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structimagelayer__data_1a65554934a273c6e2570e6f2e05bd93fb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int imagelayer_data::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="152" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structimagelayer__data_1ae8f8f59c52ca20eb899c6c8f11da7d31" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float imagelayer_data::opacity</definition>
+        <argsstring></argsstring>
+        <name>opacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="153" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structimagelayer__data_1a092fbb7542467a37bd8511d02cc43a54" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool imagelayer_data::visible</definition>
+        <argsstring></argsstring>
+        <name>visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="154" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structimagelayer__data_1a21bfd238bb76240f274471c870b650a5" prot="public" static="no" mutable="no">
+        <type>property_map_t</type>
+        <definition>property_map_t imagelayer_data::properties</definition>
+        <argsstring></argsstring>
+        <name>properties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="155" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structimagelayer__data_1a24be60670f5063535a9865d923bfce31" prot="public" static="no" mutable="no">
+        <type><ref refid="structimage__data" kindref="compound">image_data</ref></type>
+        <definition>image_data imagelayer_data::image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="156" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="14">
+        <label>ResourceReference</label>
+        <link refid="classResourceReference"/>
+      </node>
+      <node id="12">
+        <label>imagelayer_data</label>
+        <link refid="structimagelayer__data"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>image</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>image_data</label>
+        <link refid="structimage__data"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>image</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="148" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="148" bodyend="157"/>
+    <listofallmembers>
+      <member refid="structimagelayer__data_1a24be60670f5063535a9865d923bfce31" prot="public" virt="non-virtual"><scope>imagelayer_data</scope><name>image</name></member>
+      <member refid="structimagelayer__data_1aab9d7d1ac7ff80821f6d77cd12b3b5ce" prot="public" virt="non-virtual"><scope>imagelayer_data</scope><name>name</name></member>
+      <member refid="structimagelayer__data_1ae8f8f59c52ca20eb899c6c8f11da7d31" prot="public" virt="non-virtual"><scope>imagelayer_data</scope><name>opacity</name></member>
+      <member refid="structimagelayer__data_1a21bfd238bb76240f274471c870b650a5" prot="public" virt="non-virtual"><scope>imagelayer_data</scope><name>properties</name></member>
+      <member refid="structimagelayer__data_1a092fbb7542467a37bd8511d02cc43a54" prot="public" virt="non-virtual"><scope>imagelayer_data</scope><name>visible</name></member>
+      <member refid="structimagelayer__data_1acf946996915a9a5473f57857db7d9086" prot="public" virt="non-virtual"><scope>imagelayer_data</scope><name>x</name></member>
+      <member refid="structimagelayer__data_1a46b2a688bc46d8efad5b04ed90368dce" prot="public" virt="non-virtual"><scope>imagelayer_data</scope><name>y</name></member>
+      <member refid="structimagelayer__data_1a65554934a273c6e2570e6f2e05bd93fb" prot="public" virt="non-virtual"><scope>imagelayer_data</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classv8Platform" kind="class" language="C++" prot="public">
+    <compoundname>v8Platform</compoundname>
+    <derivedcompoundref refid="classv8Shell" prot="private" virt="non-virtual">v8Shell</derivedcompoundref>
+    <innerclass refid="structv8Platform_1_1__v8Platform" prot="private">v8Platform::_v8Platform</innerclass>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classv8Platform_1a6d905541186b268f4e2b46f9663f8822" prot="private" static="yes" mutable="no">
+        <type>struct v8Platform::_v8Platform *</type>
+        <definition>struct v8Platform::_v8Platform * v8Platform::_instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_platform.h" line="18" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classv8Platform_1a95d809926563a10b67543b5bdf10d369" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>v8Platform::~v8Platform</definition>
+        <argsstring>()</argsstring>
+        <name>~v8Platform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_platform.h" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8Platform_1a6fc343cedd7965739f3ac45ae61c0b9d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>v8Platform::v8Platform</definition>
+        <argsstring>()</argsstring>
+        <name>v8Platform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_platform.h" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8Platform_1a82cb9a06d8c70ea3efde92455d41eb6f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Platform *</type>
+        <definition>v8::Platform* v8Platform::GetPlatform</definition>
+        <argsstring>()</argsstring>
+        <name>GetPlatform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_platform.h" line="12" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_platform.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8Platform_1a6800ef936608ddcfec9a58b0eaf8ceca" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>v8::Isolate::CreateParams &amp;</type>
+        <definition>v8::Isolate::CreateParams&amp; v8Platform::GetCreateParams</definition>
+        <argsstring>()</argsstring>
+        <name>GetCreateParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_platform.h" line="13" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_platform.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="170">
+        <label>v8Shell</label>
+        <link refid="classv8Shell"/>
+        <childnode refid="169" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="169">
+        <label>v8Platform</label>
+        <link refid="classv8Platform"/>
+      </node>
+    </inheritancegraph>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_platform.h" line="8" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_platform.h" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classv8Platform_1a6d905541186b268f4e2b46f9663f8822" prot="private" virt="non-virtual"><scope>v8Platform</scope><name>_instance</name></member>
+      <member refid="classv8Platform_1a6800ef936608ddcfec9a58b0eaf8ceca" prot="protected" virt="non-virtual"><scope>v8Platform</scope><name>GetCreateParams</name></member>
+      <member refid="classv8Platform_1a82cb9a06d8c70ea3efde92455d41eb6f" prot="protected" virt="non-virtual"><scope>v8Platform</scope><name>GetPlatform</name></member>
+      <member refid="classv8Platform_1a6fc343cedd7965739f3ac45ae61c0b9d" prot="protected" virt="non-virtual"><scope>v8Platform</scope><name>v8Platform</name></member>
+      <member refid="classv8Platform_1a95d809926563a10b67543b5bdf10d369" prot="protected" virt="non-virtual"><scope>v8Platform</scope><name>~v8Platform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

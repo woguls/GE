@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classSdlInit" kind="class" language="C++" prot="public">
+    <compoundname>SdlInit</compoundname>
+    <basecompoundref refid="classv8Embeddable" prot="public" virt="non-virtual">v8Embeddable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSdlInit_1a2425ea41a3ac28ffcadaa93ad9a74a02" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t SdlInit::_flags</definition>
+        <argsstring></argsstring>
+        <name>_flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" line="39" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classSdlInit_1a39cb27945a333e398a4eb52d4869a3ff" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool SdlInit::_init</definition>
+        <argsstring></argsstring>
+        <name>_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" line="40" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSdlInit_1a4e905b583daa63fc2bf7b486f23e1063" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SdlInit::SdlInit</definition>
+        <argsstring>(uint32_t flags)</argsstring>
+        <name>SdlInit</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" line="10" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" bodystart="10" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlInit_1a40619830ddb62be457230ab397506214" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SdlInit::SdlInit</definition>
+        <argsstring>()</argsstring>
+        <name>SdlInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" line="26" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlInit_1a9de66057105c4153459caf688e78d494" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SdlInit::~SdlInit</definition>
+        <argsstring>()</argsstring>
+        <name>~SdlInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" line="32" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlInit_1aedf57c85393638cf0fbf56ce9b763b03" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SdlInit::Init</definition>
+        <argsstring>(v8pp::module &amp;m) override</argsstring>
+        <name>Init</name>
+        <reimplements refid="classv8Embeddable_1a89d438986a9ff37489b6bcd4ebec7845">Init</reimplements>
+        <param>
+          <type>v8pp::module &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" line="37" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>v8Embeddable</label>
+        <link refid="classv8Embeddable"/>
+      </node>
+      <node id="33">
+        <label>SdlInit</label>
+        <link refid="classSdlInit"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="36">
+        <label>v8Embeddable</label>
+        <link refid="classv8Embeddable"/>
+      </node>
+      <node id="35">
+        <label>SdlInit</label>
+        <link refid="classSdlInit"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" line="8" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_init.h" bodystart="8" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classSdlInit_1a2425ea41a3ac28ffcadaa93ad9a74a02" prot="private" virt="non-virtual"><scope>SdlInit</scope><name>_flags</name></member>
+      <member refid="classSdlInit_1a39cb27945a333e398a4eb52d4869a3ff" prot="private" virt="non-virtual"><scope>SdlInit</scope><name>_init</name></member>
+      <member refid="classSdlInit_1aedf57c85393638cf0fbf56ce9b763b03" prot="public" virt="virtual"><scope>SdlInit</scope><name>Init</name></member>
+      <member refid="classv8Embeddable_1a36cbb688fc3dedfd8dae5d8f9d943163" prot="public" virt="non-virtual"><scope>SdlInit</scope><name>IsEmpty</name></member>
+      <member refid="classSdlInit_1a4e905b583daa63fc2bf7b486f23e1063" prot="public" virt="non-virtual"><scope>SdlInit</scope><name>SdlInit</name></member>
+      <member refid="classSdlInit_1a40619830ddb62be457230ab397506214" prot="public" virt="non-virtual"><scope>SdlInit</scope><name>SdlInit</name></member>
+      <member refid="classSdlInit_1a9de66057105c4153459caf688e78d494" prot="public" virt="non-virtual"><scope>SdlInit</scope><name>~SdlInit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

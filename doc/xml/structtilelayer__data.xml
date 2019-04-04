@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structtilelayer__data" kind="struct" language="C++" prot="public">
+    <compoundname>tilelayer_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtilelayer__data_1a055db14923a1ff8fd4f8627afdd35be3" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string tilelayer_data::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="160" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtilelayer__data_1a9ff7edef09e08d0b9946a3b1ffa924bc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tilelayer_data::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="161" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtilelayer__data_1af52962e232e5a95c6529ac17b594660e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tilelayer_data::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="162" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtilelayer__data_1a8adcc456ba1a590477f6e7be8aede88b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tilelayer_data::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="163" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtilelayer__data_1a932f1a4d6733cd9a422e75826b316835" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float tilelayer_data::opacity</definition>
+        <argsstring></argsstring>
+        <name>opacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="164" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtilelayer__data_1a01a570f5731b12bf6aa23fdb3d60f841" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tilelayer_data::visible</definition>
+        <argsstring></argsstring>
+        <name>visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="165" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtilelayer__data_1ade5cf39a45496b29b92564cd666420f1" prot="public" static="no" mutable="no">
+        <type>property_map_t</type>
+        <definition>property_map_t tilelayer_data::properties</definition>
+        <argsstring></argsstring>
+        <name>properties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="166" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtilelayer__data_1ae13a5dd9e6f49fe716baa082e83fdbea" prot="public" static="no" mutable="no">
+        <type>tilelayer_encoding</type>
+        <definition>tilelayer_encoding tilelayer_data::encoding</definition>
+        <argsstring></argsstring>
+        <name>encoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="167" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtilelayer__data_1a63b06558ead59b0baff617e4d17b075e" prot="public" static="no" mutable="no">
+        <type>tilelayer_compression</type>
+        <definition>tilelayer_compression tilelayer_data::compression</definition>
+        <argsstring></argsstring>
+        <name>compression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="168" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtilelayer__data_1a284da93311441a8a1832d771657d355c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; tilelayer_data::_tiles</definition>
+        <argsstring></argsstring>
+        <name>_tiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="169" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="159" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="159" bodyend="170"/>
+    <listofallmembers>
+      <member refid="structtilelayer__data_1a284da93311441a8a1832d771657d355c" prot="public" virt="non-virtual"><scope>tilelayer_data</scope><name>_tiles</name></member>
+      <member refid="structtilelayer__data_1a63b06558ead59b0baff617e4d17b075e" prot="public" virt="non-virtual"><scope>tilelayer_data</scope><name>compression</name></member>
+      <member refid="structtilelayer__data_1ae13a5dd9e6f49fe716baa082e83fdbea" prot="public" virt="non-virtual"><scope>tilelayer_data</scope><name>encoding</name></member>
+      <member refid="structtilelayer__data_1a055db14923a1ff8fd4f8627afdd35be3" prot="public" virt="non-virtual"><scope>tilelayer_data</scope><name>name</name></member>
+      <member refid="structtilelayer__data_1a932f1a4d6733cd9a422e75826b316835" prot="public" virt="non-virtual"><scope>tilelayer_data</scope><name>opacity</name></member>
+      <member refid="structtilelayer__data_1ade5cf39a45496b29b92564cd666420f1" prot="public" virt="non-virtual"><scope>tilelayer_data</scope><name>properties</name></member>
+      <member refid="structtilelayer__data_1a01a570f5731b12bf6aa23fdb3d60f841" prot="public" virt="non-virtual"><scope>tilelayer_data</scope><name>visible</name></member>
+      <member refid="structtilelayer__data_1a9ff7edef09e08d0b9946a3b1ffa924bc" prot="public" virt="non-virtual"><scope>tilelayer_data</scope><name>x</name></member>
+      <member refid="structtilelayer__data_1af52962e232e5a95c6529ac17b594660e" prot="public" virt="non-virtual"><scope>tilelayer_data</scope><name>y</name></member>
+      <member refid="structtilelayer__data_1a8adcc456ba1a590477f6e7be8aede88b" prot="public" virt="non-virtual"><scope>tilelayer_data</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

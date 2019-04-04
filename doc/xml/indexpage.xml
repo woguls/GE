@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Overview</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>&quot;Game Engine&quot; is an unimaginatively named set of bindings for <ulink url="https://www.libsdl.org/">SDL2</ulink> with an embedded <ulink url="https://v8.dev/docs">v8 Javascript engine</ulink>. Its sole purpose for the moment is educational. It is not intened to be a competitor to other tools already available, such as <ulink url="https://www.npmjs.com/package/sdl">node-sdl</ulink> or the many <ulink url="https://github.com/collections/javascript-game-engines">Javascript game engines</ulink></para><para>From the Javascript side, access to the Game Engine is provided through a global module called &quot;GE&quot;:</para><para><programlisting filename=".javascript"><codeline><highlight class="normal">use<sp/>strict;</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>mod<sp/>=<sp/>GE.Modules();</highlight></codeline>
+<codeline><highlight class="normal">mod.require(&quot;SDL&quot;);</highlight></codeline>
+</programlisting></para><para>Each call to mod.require() will initialize new modules within the global object. After <computeroutput>mod.require(&quot;SDL&quot;)</computeroutput> we can then say things like <computeroutput>const win = SDL.Window()</computeroutput></para><para><programlisting filename=".javasciprt"><codeline><highlight class="normal">const<sp/>init_flags<sp/>=<sp/>SDL.InitFlags();</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>window_flags<sp/>=<sp/>SDL.WindowFlags();</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>render_flags<sp/>=<sp/>SDL.RenderFlags();</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>pixel_format<sp/>=<sp/>SDL.Pixelformat();</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>texture_access<sp/>=<sp/>SDL.TextureAccess();</highlight></codeline>
+</programlisting></para><para><heading level="2">Compiling and running</heading>
+</para><para><itemizedlist>
+<listitem><para>read <ref refid="md_requirements" kindref="compound">the requirements</ref> and edit <computeroutput>CmakeLists.txt</computeroutput> then do <programlisting filename=".shell"><codeline><highlight class="normal">mkdir<sp/>build;<sp/>cd<sp/>build;<sp/>cmake<sp/>..;<sp/>make<sp/>shell</highlight></codeline>
+</programlisting></para></listitem><listitem><para>in the build directory run a test program with <programlisting filename=".shell"><codeline><highlight class="normal">./shell<sp/>./js/init.js</highlight></codeline>
+</programlisting> </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

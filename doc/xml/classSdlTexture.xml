@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classSdlTexture" kind="class" language="C++" prot="public">
+    <compoundname>SdlTexture</compoundname>
+    <basecompoundref refid="classv8Embeddable" prot="public" virt="non-virtual">v8Embeddable</basecompoundref>
+    <basecompoundref refid="classWrapPtr" prot="public" virt="non-virtual">WrapPtr&lt; SDL_Texture &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSdlTexture_1ade221322c0bed32368359446dc6dcc1b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SdlTexture::SdlTexture</definition>
+        <argsstring>()</argsstring>
+        <name>SdlTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_texture.h" line="13" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_texture.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlTexture_1af6b671725a56da0c9ea0fef6cdf3f377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SdlTexture::~SdlTexture</definition>
+        <argsstring>()</argsstring>
+        <name>~SdlTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_texture.h" line="14" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_texture.h" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlTexture_1ad9b311e0956c755a2f7dd865ea600af1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SdlTexture::v8_CreateTextureFromSurface</definition>
+        <argsstring>(sdl_renderer_t &amp;ren, sdl_surface_t &amp;sur)</argsstring>
+        <name>v8_CreateTextureFromSurface</name>
+        <param>
+          <type><ref refid="classWrapPtr" kindref="compound">sdl_renderer_t</ref> &amp;</type>
+          <declname>ren</declname>
+        </param>
+        <param>
+          <type><ref refid="classWrapPtr" kindref="compound">sdl_surface_t</ref> &amp;</type>
+          <declname>sur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_texture.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlTexture_1ae1d48e158727088de951530ff1d67ae3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SdlTexture::v8_CreateTexture</definition>
+        <argsstring>(sdl_renderer_t &amp;renderer, Uint32 format, int access, int w, int h)</argsstring>
+        <name>v8_CreateTexture</name>
+        <param>
+          <type><ref refid="classWrapPtr" kindref="compound">sdl_renderer_t</ref> &amp;</type>
+          <declname>renderer</declname>
+        </param>
+        <param>
+          <type>Uint32</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>access</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_texture.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlTexture_1a5bbaf9b3aed07a57a6e9dea9ee413549" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SdlTexture::v8_UpdateTexture</definition>
+        <argsstring>(sdl_surface_t &amp;sur)</argsstring>
+        <name>v8_UpdateTexture</name>
+        <param>
+          <type><ref refid="classWrapPtr" kindref="compound">sdl_surface_t</ref> &amp;</type>
+          <declname>sur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_texture.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classSdlTexture_1a86281ab73331a718638e0f2934ba39ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SdlTexture::Init</definition>
+        <argsstring>(v8pp::module &amp;m) override</argsstring>
+        <name>Init</name>
+        <reimplements refid="classv8Embeddable_1a89d438986a9ff37489b6bcd4ebec7845">Init</reimplements>
+        <param>
+          <type>v8pp::module &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_texture.h" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="75">
+        <label>sdl_texture_t</label>
+        <link refid="classWrapPtr"/>
+      </node>
+      <node id="74">
+        <label>v8Embeddable</label>
+        <link refid="classv8Embeddable"/>
+      </node>
+      <node id="73">
+        <label>SdlTexture</label>
+        <link refid="classSdlTexture"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>sdl_texture_t</label>
+        <link refid="classWrapPtr"/>
+      </node>
+      <node id="77">
+        <label>v8Embeddable</label>
+        <link refid="classv8Embeddable"/>
+      </node>
+      <node id="76">
+        <label>SdlTexture</label>
+        <link refid="classSdlTexture"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_texture.h" line="11" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_texture.h" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classWrapPtr_1a0df4caf6e9c8a5abfa2a55a22828f824" prot="public" virt="non-virtual"><scope>SdlTexture</scope><name>Get</name></member>
+      <member refid="classSdlTexture_1a86281ab73331a718638e0f2934ba39ed" prot="public" virt="virtual"><scope>SdlTexture</scope><name>Init</name></member>
+      <member refid="classv8Embeddable_1a36cbb688fc3dedfd8dae5d8f9d943163" prot="public" virt="non-virtual" ambiguityscope="v8Embeddable::"><scope>SdlTexture</scope><name>IsEmpty</name></member>
+      <member refid="classWrapPtr_1a96aaec13f4d1c22fc4e9c9167901a558" prot="public" virt="non-virtual" ambiguityscope="WrapPtr::"><scope>SdlTexture</scope><name>IsEmpty</name></member>
+      <member refid="classWrapPtr_1a9a7b7c16d907dd0ef43c9270232fb6d2" prot="public" virt="non-virtual"><scope>SdlTexture</scope><name>Reset</name></member>
+      <member refid="classSdlTexture_1ade221322c0bed32368359446dc6dcc1b" prot="public" virt="non-virtual"><scope>SdlTexture</scope><name>SdlTexture</name></member>
+      <member refid="classWrapPtr_1a336e0c11724d9d3797907c78a94ba0db" prot="public" virt="non-virtual"><scope>SdlTexture</scope><name>Set</name></member>
+      <member refid="classSdlTexture_1ae1d48e158727088de951530ff1d67ae3" prot="public" virt="non-virtual"><scope>SdlTexture</scope><name>v8_CreateTexture</name></member>
+      <member refid="classSdlTexture_1ad9b311e0956c755a2f7dd865ea600af1" prot="public" virt="non-virtual"><scope>SdlTexture</scope><name>v8_CreateTextureFromSurface</name></member>
+      <member refid="classSdlTexture_1a5bbaf9b3aed07a57a6e9dea9ee413549" prot="public" virt="non-virtual"><scope>SdlTexture</scope><name>v8_UpdateTexture</name></member>
+      <member refid="classWrapPtr_1ad25285dff278936651a2ffd2fff75ac2" prot="public" virt="non-virtual"><scope>SdlTexture</scope><name>WrapPtr</name></member>
+      <member refid="classSdlTexture_1af6b671725a56da0c9ea0fef6cdf3f377" prot="public" virt="non-virtual"><scope>SdlTexture</scope><name>~SdlTexture</name></member>
+      <member refid="classWrapPtr_1ae8ffa65c9193261e1d8a324eda2fd1b2" prot="public" virt="non-virtual"><scope>SdlTexture</scope><name>~WrapPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

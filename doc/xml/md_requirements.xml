@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="md_requirements" kind="page">
+    <compoundname>md_requirements</compoundname>
+    <title>Requirements</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>Google&apos;s <ulink url="https://v8.dev/docs/build">V8 javascript engine.</ulink> Game Engine was developed using v8 7.3.</para></listitem><listitem><para><ulink url="https://www.libsdl.org/">SDL2</ulink>, including <ulink url="https://www.libsdl.org/projects/SDL_image/">SDL2_image</ulink> and <ulink url="https://www.libsdl.org/projects/SDL_ttf/">SDL2_ttf</ulink> </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

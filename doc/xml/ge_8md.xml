@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="ge_8md" kind="file" language="Markdown">
+    <compoundname>ge.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">&quot;Game<sp/>Engine&quot;<sp/>is<sp/>an<sp/>unimaginatively<sp/>named<sp/>set<sp/>of<sp/>bindings<sp/>for<sp/>[SDL2](https://www.libsdl.org/)<sp/>with<sp/>an<sp/>embedded<sp/>[v8<sp/>Javascript<sp/>engine](https://v8.dev/docs).<sp/>Its<sp/>sole<sp/>purpose<sp/>for<sp/>the<sp/>moment<sp/>is<sp/>educational.<sp/>It<sp/>is<sp/>not<sp/>intened<sp/>to<sp/>be<sp/>a<sp/>competitor<sp/>to<sp/>other<sp/>tools<sp/>already<sp/>available,<sp/>such<sp/>as<sp/>[node-sdl](https://www.npmjs.com/package/sdl)<sp/>or<sp/>the<sp/>many<sp/>[Javascript<sp/>game<sp/>engines](https://github.com/collections/javascript-game-engines)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">From<sp/>the<sp/>Javascript<sp/>side,<sp/>access<sp/>to<sp/>the<sp/>Game<sp/>Engine<sp/>is<sp/>provided<sp/>through<sp/>a<sp/>global<sp/>module<sp/>called<sp/>&quot;GE&quot;:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```javascript</highlight></codeline>
+<codeline><highlight class="normal">use<sp/>strict;</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>mod<sp/>=<sp/>GE.Modules();</highlight></codeline>
+<codeline><highlight class="normal">mod.require(&quot;SDL&quot;);</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Each<sp/>call<sp/>to<sp/>mod.require()<sp/>will<sp/>initialize<sp/>new<sp/>modules<sp/>within<sp/>the<sp/>global<sp/>object.<sp/>After<sp/>`mod.require(&quot;SDL&quot;)`<sp/>we<sp/>can<sp/>then<sp/>say<sp/>things<sp/>like<sp/>`const<sp/>win<sp/>=<sp/>SDL.Window()`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```javasciprt</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>init_flags<sp/>=<sp/>SDL.InitFlags();</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>window_flags<sp/>=<sp/>SDL.WindowFlags();</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>render_flags<sp/>=<sp/>SDL.RenderFlags();</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>pixel_format<sp/>=<sp/>SDL.Pixelformat();</highlight></codeline>
+<codeline><highlight class="normal">const<sp/>texture_access<sp/>=<sp/>SDL.TextureAccess();</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Compiling<sp/>and<sp/>running</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>read<sp/>[the<sp/>requirements](requirements.md)<sp/>and<sp/>edit<sp/>`CmakeLists.txt`<sp/>then<sp/>do</highlight></codeline>
+<codeline><highlight class="normal">```shell<sp/>no-beautify</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>mkdir<sp/>build;<sp/>cd<sp/>build;<sp/>cmake<sp/>..;<sp/>make<sp/>shell</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>in<sp/>the<sp/>build<sp/>directory<sp/>run<sp/>a<sp/>test<sp/>program<sp/>with</highlight></codeline>
+<codeline><highlight class="normal">```shell<sp/>no-beautify</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>./shell<sp/>./js/init.js</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="ge.md"/>
+  </compounddef>
+</doxygen>

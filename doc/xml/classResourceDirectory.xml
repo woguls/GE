@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classResourceDirectory" kind="class" language="C++" prot="public">
+    <compoundname>ResourceDirectory</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classResourceDirectory_1a2cdc078f56278cb7b58701e4e213c737" prot="private" static="yes" mutable="no">
+        <type>std::mutex</type>
+        <definition>std::mutex ResourceDirectory::_resource_map_mutex</definition>
+        <argsstring></argsstring>
+        <name>_resource_map_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="35" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classResourceDirectory_1ac7dee26b93ba782479cca5da67163743" prot="private" static="yes" mutable="no">
+        <type>std::map&lt; std::string, <ref refid="classResourceReference" kindref="compound">ResourceReference</ref> * &gt;</type>
+        <definition>std::map&lt;std::string, ResourceReference*&gt; ResourceDirectory::_resource_map</definition>
+        <argsstring></argsstring>
+        <name>_resource_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="36" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classResourceDirectory_1a8d0962de400b2a3a6fe139e84a4a74b8" prot="private" static="no" mutable="no">
+        <type>fs::path</type>
+        <definition>fs::path ResourceDirectory::_root_path</definition>
+        <argsstring></argsstring>
+        <name>_root_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="37" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classResourceDirectory_1a8cc73e564054c2f423eb91c4f03b9af7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ResourceDirectory::ResourceDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>ResourceDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="20" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1afe8e2df620dbb6ab5f262b8eb5ce1192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ResourceDirectory::~ResourceDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>~ResourceDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1a047453f6e87254dde5a4d33e4ce5791c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResourceDirectory::BuildFromPath</definition>
+        <argsstring>(std::string path)</argsstring>
+        <name>BuildFromPath</name>
+        <param>
+          <type>std::string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1a8fa4d67bec8abbb5a83cbc2228786d02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classResourceReference" kindref="compound">ResourceReference</ref> *</type>
+        <definition>ResourceReference* ResourceDirectory::Find</definition>
+        <argsstring>(const std::string &amp;identifier) const</argsstring>
+        <name>Find</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1a328985a2130ef8fdc158344ec10dc4d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classResourceReference" kindref="compound">ResourceReference</ref> *</type>
+        <definition>ResourceReference* ResourceDirectory::Match</definition>
+        <argsstring>(const std::string &amp;identifier)</argsstring>
+        <name>Match</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1a9194392e5cb0de31170ffc2c38fcbea0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string ResourceDirectory::GetPath</definition>
+        <argsstring>()</argsstring>
+        <name>GetPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="25" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1a5a2a1443bd73d347733d6ebec091af6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ResourceDirectory::Size</definition>
+        <argsstring>()</argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="26" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1abfffa43ce3ccf1ca88d2a70b0c1c54e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResourceDirectory::Print</definition>
+        <argsstring>()</argsstring>
+        <name>Print</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classResourceDirectory_1a1f89dd754a809614af649c1321297a80" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResourceDirectory::InitSDL_image</definition>
+        <argsstring>(std::set&lt; resource_type &gt; &amp;_types_present)</argsstring>
+        <name>InitSDL_image</name>
+        <param>
+          <type>std::set&lt; resource_type &gt; &amp;</type>
+          <declname>_types_present</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1af3bed4a14227f095bbdc28bd839e0b8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const resource_type</type>
+        <definition>const resource_type ResourceDirectory::GetResourceTypeFromPath</definition>
+        <argsstring>(fs::path const &amp;p)</argsstring>
+        <name>GetResourceTypeFromPath</name>
+        <param>
+          <type>fs::path const &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1a88084b3b51b5c84178a524b768b1ecaa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const resource_type</type>
+        <definition>const resource_type ResourceDirectory::FindXMLType</definition>
+        <argsstring>(fs::path const &amp;p)</argsstring>
+        <name>FindXMLType</name>
+        <param>
+          <type>fs::path const &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1aba124abaa3f2e2bac4f314b10b1666b3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool ResourceDirectory::IsTileMap</definition>
+        <argsstring>(fs::path const &amp;path)</argsstring>
+        <name>IsTileMap</name>
+        <param>
+          <type>fs::path const &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classResourceDirectory_1a310ca937435403109a715bc8e0ead2e5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool ResourceDirectory::AddReference</definition>
+        <argsstring>(ResourceReference *ref, std::set&lt; resource_type &gt; &amp;_types_present)</argsstring>
+        <name>AddReference</name>
+        <param>
+          <type><ref refid="classResourceReference" kindref="compound">ResourceReference</ref> *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>std::set&lt; resource_type &gt; &amp;</type>
+          <declname>_types_present</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" line="17" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h" bodystart="17" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classResourceDirectory_1ac7dee26b93ba782479cca5da67163743" prot="private" virt="non-virtual"><scope>ResourceDirectory</scope><name>_resource_map</name></member>
+      <member refid="classResourceDirectory_1a2cdc078f56278cb7b58701e4e213c737" prot="private" virt="non-virtual"><scope>ResourceDirectory</scope><name>_resource_map_mutex</name></member>
+      <member refid="classResourceDirectory_1a8d0962de400b2a3a6fe139e84a4a74b8" prot="private" virt="non-virtual"><scope>ResourceDirectory</scope><name>_root_path</name></member>
+      <member refid="classResourceDirectory_1a310ca937435403109a715bc8e0ead2e5" prot="private" virt="non-virtual"><scope>ResourceDirectory</scope><name>AddReference</name></member>
+      <member refid="classResourceDirectory_1a047453f6e87254dde5a4d33e4ce5791c" prot="public" virt="non-virtual"><scope>ResourceDirectory</scope><name>BuildFromPath</name></member>
+      <member refid="classResourceDirectory_1a8fa4d67bec8abbb5a83cbc2228786d02" prot="public" virt="non-virtual"><scope>ResourceDirectory</scope><name>Find</name></member>
+      <member refid="classResourceDirectory_1a88084b3b51b5c84178a524b768b1ecaa" prot="private" virt="non-virtual"><scope>ResourceDirectory</scope><name>FindXMLType</name></member>
+      <member refid="classResourceDirectory_1a9194392e5cb0de31170ffc2c38fcbea0" prot="public" virt="non-virtual"><scope>ResourceDirectory</scope><name>GetPath</name></member>
+      <member refid="classResourceDirectory_1af3bed4a14227f095bbdc28bd839e0b8b" prot="private" virt="non-virtual"><scope>ResourceDirectory</scope><name>GetResourceTypeFromPath</name></member>
+      <member refid="classResourceDirectory_1a1f89dd754a809614af649c1321297a80" prot="private" virt="non-virtual"><scope>ResourceDirectory</scope><name>InitSDL_image</name></member>
+      <member refid="classResourceDirectory_1aba124abaa3f2e2bac4f314b10b1666b3" prot="private" virt="non-virtual"><scope>ResourceDirectory</scope><name>IsTileMap</name></member>
+      <member refid="classResourceDirectory_1a328985a2130ef8fdc158344ec10dc4d0" prot="public" virt="non-virtual"><scope>ResourceDirectory</scope><name>Match</name></member>
+      <member refid="classResourceDirectory_1abfffa43ce3ccf1ca88d2a70b0c1c54e2" prot="public" virt="non-virtual"><scope>ResourceDirectory</scope><name>Print</name></member>
+      <member refid="classResourceDirectory_1a8cc73e564054c2f423eb91c4f03b9af7" prot="public" virt="non-virtual"><scope>ResourceDirectory</scope><name>ResourceDirectory</name></member>
+      <member refid="classResourceDirectory_1a5a2a1443bd73d347733d6ebec091af6b" prot="public" virt="non-virtual"><scope>ResourceDirectory</scope><name>Size</name></member>
+      <member refid="classResourceDirectory_1afe8e2df620dbb6ab5f262b8eb5ce1192" prot="public" virt="non-virtual"><scope>ResourceDirectory</scope><name>~ResourceDirectory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

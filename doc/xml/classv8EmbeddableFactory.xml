@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classv8EmbeddableFactory" kind="class" language="C++" prot="public">
+    <compoundname>v8EmbeddableFactory</compoundname>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classv8EmbeddableFactory_1aa52a421323b2a4ac5318aa3f5237fada" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class v8Embeddable</definition>
+        <argsstring></argsstring>
+        <name>v8Embeddable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" line="22" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classv8EmbeddableFactory_1a373a8c9502e9ead3dd3f57f5cf2040cd" prot="private" static="yes" mutable="no">
+        <type>std::vector&lt; std::unique_ptr&lt; <ref refid="classv8Embeddable" kindref="compound">v8Embeddable</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::unique_ptr&lt;v8Embeddable&gt; &gt; v8EmbeddableFactory::_objects</definition>
+        <argsstring></argsstring>
+        <name>_objects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" line="32" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classv8EmbeddableFactory_1a4cff6260b70097f882a4a40303a9b4a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool v8EmbeddableFactory::Init</definition>
+        <argsstring>(v8pp::module &amp;m)</argsstring>
+        <name>Init</name>
+        <param>
+          <type>v8pp::module &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8EmbeddableFactory_1a075bcba6cb06f440a8fe030a5095869b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v8EmbeddableFactory::_NewFromString</definition>
+        <argsstring>(const std::string &amp;objName)</argsstring>
+        <name>_NewFromString</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>objName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8EmbeddableFactory_1a4b68040657854d2e91d676f8567065f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v8EmbeddableFactory::NewFromString</definition>
+        <argsstring>(char const *objName)</argsstring>
+        <name>NewFromString</name>
+        <param>
+          <type>char const *</type>
+          <declname>objName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classv8EmbeddableFactory_1a027c86a1ef70e72ac3b04319bf05bd74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>v8EmbeddableFactory::~v8EmbeddableFactory</definition>
+        <argsstring>()</argsstring>
+        <name>~v8EmbeddableFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" line="27" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" bodystart="27" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" line="21" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_embeddable.h" bodystart="21" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classv8EmbeddableFactory_1a075bcba6cb06f440a8fe030a5095869b" prot="public" virt="non-virtual"><scope>v8EmbeddableFactory</scope><name>_NewFromString</name></member>
+      <member refid="classv8EmbeddableFactory_1a373a8c9502e9ead3dd3f57f5cf2040cd" prot="private" virt="non-virtual"><scope>v8EmbeddableFactory</scope><name>_objects</name></member>
+      <member refid="classv8EmbeddableFactory_1a4cff6260b70097f882a4a40303a9b4a1" prot="public" virt="non-virtual"><scope>v8EmbeddableFactory</scope><name>Init</name></member>
+      <member refid="classv8EmbeddableFactory_1a4b68040657854d2e91d676f8567065f4" prot="public" virt="non-virtual"><scope>v8EmbeddableFactory</scope><name>NewFromString</name></member>
+      <member refid="classv8EmbeddableFactory_1aa52a421323b2a4ac5318aa3f5237fada" prot="private" virt="non-virtual"><scope>v8EmbeddableFactory</scope><name>v8Embeddable</name></member>
+      <member refid="classv8EmbeddableFactory_1a027c86a1ef70e72ac3b04319bf05bd74" prot="public" virt="non-virtual"><scope>v8EmbeddableFactory</scope><name>~v8EmbeddableFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

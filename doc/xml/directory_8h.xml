@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="directory_8h" kind="file" language="C++">
+    <compoundname>directory.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">map</includes>
+    <includes local="no">set</includes>
+    <includes local="no">cstring</includes>
+    <includes local="no">filesystem</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">mutex</includes>
+    <includes refid="reference_8h" local="no">resource/reference.h</includes>
+    <includedby refid="resource__types_8h" local="no">/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h</includedby>
+    <includedby refid="tilemap_8h" local="no">/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h</includedby>
+    <incdepgraph>
+      <node id="129">
+        <label>filesystem</label>
+      </node>
+      <node id="123">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h</label>
+        <link refid="directory_8h"/>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>resource/reference.h</label>
+        <link refid="reference_8h_source"/>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>string</label>
+      </node>
+      <node id="126">
+        <label>map</label>
+      </node>
+      <node id="130">
+        <label>fstream</label>
+      </node>
+      <node id="125">
+        <label>vector</label>
+      </node>
+      <node id="131">
+        <label>mutex</label>
+      </node>
+      <node id="127">
+        <label>set</label>
+      </node>
+      <node id="128">
+        <label>cstring</label>
+      </node>
+      <node id="133">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="136">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/directory.h</label>
+        <link refid="modules_2directory_8h_source"/>
+      </node>
+      <node id="142">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_ttf.h</label>
+        <link refid="sdl__ttf_8h_source"/>
+      </node>
+      <node id="134">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h</label>
+        <link refid="directory_8h"/>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_surface.h</label>
+        <link refid="sdl__surface_8h_source"/>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource/resource_types.h</label>
+        <link refid="resource__types_8h_source"/>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/resource.h</label>
+        <link refid="resource_8h_source"/>
+      </node>
+      <node id="141">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/tileset_surface.h</label>
+        <link refid="tileset__surface_8h_source"/>
+        <childnode refid="138" relation="include">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/tilelayer_surface.h</label>
+        <link refid="tilelayer__surface_8h_source"/>
+      </node>
+      <node id="143">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h</label>
+        <link refid="tilemap_8h_source"/>
+        <childnode refid="135" relation="include">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/resource-modules/tilemap.h</label>
+        <link refid="modules_2tilemap_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classResourceDirectory" prot="public">ResourceDirectory</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__RESOURCE_DIRECTORY_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__RESOURCE_DIRECTORY_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;set&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;mutex&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;resource/reference.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fs<sp/>=<sp/>std::filesystem;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classResourceDirectory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classResourceDirectory" kindref="compound">ResourceDirectory</ref><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>because<sp/>all<sp/>ResourceReferences<sp/>have<sp/>a<sp/>static<sp/>pointer<sp/>to<sp/>a<sp/>ResourceDirectory,<sp/>this<sp/>class<sp/>must<sp/>be<sp/>a<sp/>singleton!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classResourceDirectory" kindref="compound">ResourceDirectory</ref>(<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classResourceDirectory" kindref="compound">ResourceDirectory</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BuildFromPath(std::string<sp/>path);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classResourceReference" kindref="compound">ResourceReference</ref>*<sp/>Find(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>identifier)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classResourceReference" kindref="compound">ResourceReference</ref>*<sp/>Match(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>identifier);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>GetPath()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::string(_root_path);<sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Size()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_resource_map.size();<sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Print();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>InitSDL_image(std::set&lt;resource_type&gt;&amp;<sp/>_types_present);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>resource_type<sp/>GetResourceTypeFromPath(fs::path<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>p);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>resource_type<sp/>FindXMLType(fs::path<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>p);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsTileMap(fs::path<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/>path);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>AddReference(<sp/><ref refid="classResourceReference" kindref="compound">ResourceReference</ref>*<sp/>ref,<sp/>std::set&lt;resource_type&gt;&amp;<sp/>_types_present);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::mutex<sp/>_resource_map_mutex;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>ResourceReference*&gt;<sp/>_resource_map;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>fs::path<sp/>_root_path;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/directory.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+@INCLUDE                = Doxyfile
+GENERATE_HTML           = NO
+GENERATE_XML            = YES
+XML_PROGRAMLISTING      = YES
+M_SHOW_UNDOCUMENTED     = YES
+M_LINKS_NAVBAR1         = pages
+M_FAVICON               = "./favicon.ico"

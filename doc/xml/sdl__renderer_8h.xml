@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="sdl__renderer_8h" kind="file" language="C++">
+    <compoundname>sdl_renderer.h</compoundname>
+    <includes refid="v8__embeddable_8h" local="no">shell/v8_embeddable.h</includes>
+    <includes refid="sdl_8h" local="no">sdl.h</includes>
+    <includes local="no">v8pp/module.hpp</includes>
+    <includes local="no">string</includes>
+    <includes refid="types_8h" local="no">sdl-modules/types.h</includes>
+    <includes refid="common-util_8h" local="no">common-util.h</includes>
+    <includes local="no">SDL_timer.h</includes>
+    <incdepgraph>
+      <node id="382">
+        <label>SDL_timer.h</label>
+      </node>
+      <node id="368">
+        <label>v8.h</label>
+      </node>
+      <node id="380">
+        <label>SDL_ttf.h</label>
+      </node>
+      <node id="375">
+        <label>SDL.h</label>
+      </node>
+      <node id="376">
+        <label>SDL_image.h</label>
+      </node>
+      <node id="378">
+        <label>shell/v8_type_wrapper.h</label>
+        <link refid="v8__type__wrapper_8h_source"/>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+      </node>
+      <node id="369">
+        <label>string</label>
+      </node>
+      <node id="366">
+        <label>/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_renderer.h</label>
+        <link refid="sdl__renderer_8h"/>
+        <childnode refid="367" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="377" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+      </node>
+      <node id="381">
+        <label>SDL_events.h</label>
+      </node>
+      <node id="377">
+        <label>sdl-modules/types.h</label>
+        <link refid="types_8h_source"/>
+        <childnode refid="378" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
+      </node>
+      <node id="372">
+        <label>v8pp/module.hpp</label>
+      </node>
+      <node id="367">
+        <label>shell/v8_embeddable.h</label>
+        <link refid="v8__embeddable_8h_source"/>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+      </node>
+      <node id="373">
+        <label>common-util.h</label>
+        <link refid="common-util_8h_source"/>
+      </node>
+      <node id="371">
+        <label>vector</label>
+      </node>
+      <node id="379">
+        <label>v8pp/class.hpp</label>
+      </node>
+      <node id="374">
+        <label>sdl.h</label>
+        <link refid="sdl_8h_source"/>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="376" relation="include">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classSdlRenderer" prot="public">SdlRenderer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__V8MODULES_SDL_RENDERER_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__V8MODULES_SDL_RENDERER_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;shell/v8_embeddable.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sdl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;v8pp/module.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sdl-modules/types.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;common-util.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;SDL_timer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classSdlRenderer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSdlRenderer" kindref="compound">SdlRenderer</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classv8Embeddable" kindref="compound">v8Embeddable</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classWrapPtr" kindref="compound">sdl_renderer_t</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classSdlRenderer" kindref="compound">SdlRenderer</ref>()<sp/>:<sp/><ref refid="classWrapPtr" kindref="compound">sdl_renderer_t</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classSdlRenderer" kindref="compound">SdlRenderer</ref>(<ref refid="classWrapPtr" kindref="compound">sdl_window_t</ref>&amp;<sp/>window,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/>uint32_t<sp/>flags);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classSdlRenderer" kindref="compound">SdlRenderer</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LOG_THREAD(</highlight><highlight class="stringliteral">&quot;~SdlRenderer<sp/>called<sp/>SDL_DestroyRenderer&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SDL_DestroyRenderer(sdl_renderer_t::Get());</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>v8_CreateRenderer(<ref refid="classWrapPtr" kindref="compound">sdl_window_t</ref>&amp;<sp/>window,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/>uint32_t<sp/>flags);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>v8_Clear();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>v8_Copy(<ref refid="classWrapPtr" kindref="compound">sdl_texture_t</ref>&amp;<sp/>tex);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>v8_Present();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>v8_PresentPerformance();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetPerformanceCounter()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_performance_fps;<sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Init(v8pp::module&amp;<sp/>m)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>Uint64<sp/>_performance_counter;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_performance_fps;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/sdl-modules/sdl_renderer.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_b2c05b11dbc691bba5c0cb93063c379f" kind="dir">
+    <compoundname>/media/pablo/walter/home/walter/code/sdl-v8/src/shell</compoundname>
+    <innerfile refid="shell_8h">shell.h</innerfile>
+    <innerfile refid="v8__embeddable_8h">v8_embeddable.h</innerfile>
+    <innerfile refid="v8__platform_8h">v8_platform.h</innerfile>
+    <innerfile refid="v8__type__wrapper_8h">v8_type_wrapper.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/"/>
+  </compounddef>
+</doxygen>

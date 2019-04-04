@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classWrapPtr" kind="class" language="C++" prot="public">
+    <compoundname>WrapPtr</compoundname>
+    <derivedcompoundref refid="classResourceModule" prot="public" virt="non-virtual">ResourceModule</derivedcompoundref>
+    <derivedcompoundref refid="classSdlEvent" prot="public" virt="non-virtual">SdlEvent</derivedcompoundref>
+    <derivedcompoundref refid="classSdlPixelformat" prot="public" virt="non-virtual">SdlPixelformat</derivedcompoundref>
+    <derivedcompoundref refid="classSdlRect" prot="public" virt="non-virtual">SdlRect</derivedcompoundref>
+    <derivedcompoundref refid="classSdlRenderer" prot="public" virt="non-virtual">SdlRenderer</derivedcompoundref>
+    <derivedcompoundref refid="classSdlSurface" prot="public" virt="non-virtual">SdlSurface</derivedcompoundref>
+    <derivedcompoundref refid="classSdlSurface" prot="public" virt="non-virtual">SdlSurface</derivedcompoundref>
+    <derivedcompoundref refid="classSdlTexture" prot="public" virt="non-virtual">SdlTexture</derivedcompoundref>
+    <derivedcompoundref refid="classSdlTTF" prot="public" virt="non-virtual">SdlTTF</derivedcompoundref>
+    <derivedcompoundref refid="classSdlWindow" prot="public" virt="non-virtual">SdlWindow</derivedcompoundref>
+    <derivedcompoundref refid="classSdlWindow" prot="public" virt="non-virtual">SdlWindow</derivedcompoundref>
+    <derivedcompoundref refid="classTileLayerSurfaceModule" prot="public" virt="non-virtual">TileLayerSurfaceModule</derivedcompoundref>
+    <derivedcompoundref refid="classTileMapModule" prot="public" virt="non-virtual">TileMapModule</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classWrapPtr_1aa2c08b1a1fd015a6d241ab2b00317f93" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* WrapPtr&lt; T &gt;::_object</definition>
+        <argsstring></argsstring>
+        <name>_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" line="33" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWrapPtr_1a96aaec13f4d1c22fc4e9c9167901a558" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WrapPtr&lt; T &gt;::IsEmpty</definition>
+        <argsstring>()</argsstring>
+        <name>IsEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" line="12" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classWrapPtr_1ad25285dff278936651a2ffd2fff75ac2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WrapPtr&lt; T &gt;::WrapPtr</definition>
+        <argsstring>()</argsstring>
+        <name>WrapPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" line="13" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classWrapPtr_1ae8ffa65c9193261e1d8a324eda2fd1b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WrapPtr&lt; T &gt;::~WrapPtr</definition>
+        <argsstring>()</argsstring>
+        <name>~WrapPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" line="14" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" bodystart="14" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classWrapPtr_1a0df4caf6e9c8a5abfa2a55a22828f824" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* WrapPtr&lt; T &gt;::Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" line="22" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classWrapPtr_1a336e0c11724d9d3797907c78a94ba0db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WrapPtr&lt; T &gt;::Set</definition>
+        <argsstring>(T *obj)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>T *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" line="23" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classWrapPtr_1a9a7b7c16d907dd0ef43c9270232fb6d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WrapPtr&lt; T &gt;::Reset</definition>
+        <argsstring>(T *obj)</argsstring>
+        <name>Reset</name>
+        <param>
+          <type>T *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" line="28" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="192">
+        <label>TileMapModule&lt; const tilemap_data &gt;</label>
+        <link refid="classTileMapModule"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>SdlEvent&lt; SDL_Event &gt;</label>
+        <link refid="classSdlEvent"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>SdlTTF&lt; TTF_Font &gt;</label>
+        <link refid="classSdlTTF"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>SdlWindow&lt; SDL_Rect &gt;</label>
+        <link refid="classSdlWindow"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>ResourceModule&lt; ResourceReference &gt;</label>
+        <link refid="classResourceModule"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>TileLayerSurfaceModule</label>
+        <link refid="classTileLayerSurfaceModule"/>
+        <childnode refid="183" relation="public-inheritance">
+        </childnode>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>TileSetSurfaceModule</label>
+        <link refid="classTileSetSurfaceModule"/>
+        <childnode refid="183" relation="public-inheritance">
+        </childnode>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>SdlWindow&lt; SDL_Window &gt;</label>
+        <link refid="classSdlWindow"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>WrapPtr&lt; T &gt;</label>
+        <link refid="classWrapPtr"/>
+      </node>
+      <node id="182">
+        <label>SdlRenderer&lt; SDL_Renderer &gt;</label>
+        <link refid="classSdlRenderer"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>SdlRect&lt; SDL_Rect &gt;</label>
+        <link refid="classSdlRect"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>SdlPixelformat&lt; SDL_PixelFormat &gt;</label>
+        <link refid="classSdlPixelformat"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>SdlSurface&lt; SDL_Surface &gt;</label>
+        <link refid="classSdlSurface"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>SdlSurface&lt; SDL_Rect &gt;</label>
+        <link refid="classSdlSurface"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>TileLayerSurfaceModule&lt; tilelayer_data &gt;</label>
+        <link refid="classTileLayerSurfaceModule"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>SdlTexture&lt; SDL_Texture &gt;</label>
+        <link refid="classSdlTexture"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" line="10" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/shell/v8_type_wrapper.h" bodystart="10" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classWrapPtr_1aa2c08b1a1fd015a6d241ab2b00317f93" prot="private" virt="non-virtual"><scope>WrapPtr</scope><name>_object</name></member>
+      <member refid="classWrapPtr_1a0df4caf6e9c8a5abfa2a55a22828f824" prot="public" virt="non-virtual"><scope>WrapPtr</scope><name>Get</name></member>
+      <member refid="classWrapPtr_1a96aaec13f4d1c22fc4e9c9167901a558" prot="public" virt="non-virtual"><scope>WrapPtr</scope><name>IsEmpty</name></member>
+      <member refid="classWrapPtr_1a9a7b7c16d907dd0ef43c9270232fb6d2" prot="public" virt="non-virtual"><scope>WrapPtr</scope><name>Reset</name></member>
+      <member refid="classWrapPtr_1a336e0c11724d9d3797907c78a94ba0db" prot="public" virt="non-virtual"><scope>WrapPtr</scope><name>Set</name></member>
+      <member refid="classWrapPtr_1ad25285dff278936651a2ffd2fff75ac2" prot="public" virt="non-virtual"><scope>WrapPtr</scope><name>WrapPtr</name></member>
+      <member refid="classWrapPtr_1ae8ffa65c9193261e1d8a324eda2fd1b2" prot="public" virt="non-virtual"><scope>WrapPtr</scope><name>~WrapPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

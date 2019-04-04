@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classTileArray" kind="class" language="C++" prot="public">
+    <compoundname>TileArray</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classTileArray_1a3c392b53e118291bc749a7c034688bf0" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; TileArray::_tiles</definition>
+        <argsstring></argsstring>
+        <name>_tiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="21" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTileArray_1a4ab69b3efd60aaaf759751e961269ba4" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TileArray::TileArray</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>TileArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="15" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileArray_1aae5261395fb9ea0040aae0cded239ba6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TileArray::SetTile</definition>
+        <argsstring>(size_t index, int id)</argsstring>
+        <name>SetTile</name>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="18" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileArray_1a2661e7408f455cc6e0a7c2e34d29dba0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TileArray::GetTile</definition>
+        <argsstring>(size_t index)</argsstring>
+        <name>GetTile</name>
+        <param>
+          <type>size_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="19" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="13" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="13" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classTileArray_1a3c392b53e118291bc749a7c034688bf0" prot="public" virt="non-virtual"><scope>TileArray</scope><name>_tiles</name></member>
+      <member refid="classTileArray_1a2661e7408f455cc6e0a7c2e34d29dba0" prot="public" virt="non-virtual"><scope>TileArray</scope><name>GetTile</name></member>
+      <member refid="classTileArray_1aae5261395fb9ea0040aae0cded239ba6" prot="public" virt="non-virtual"><scope>TileArray</scope><name>SetTile</name></member>
+      <member refid="classTileArray_1a4ab69b3efd60aaaf759751e961269ba4" prot="public" virt="non-virtual"><scope>TileArray</scope><name>TileArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

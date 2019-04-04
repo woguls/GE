@@ -1,0 +1,39 @@
+\char`\"{}\+Game Engine\char`\"{} is an unimaginatively named set of bindings for \href{https://www.libsdl.org/}{\tt S\+D\+L2} with an embedded \href{https://v8.dev/docs}{\tt v8 Javascript engine}. Its sole purpose for the moment is educational. It is not intened to be a competitor to other tools already available, such as \href{https://www.npmjs.com/package/sdl}{\tt node-\/sdl} or the many \href{https://github.com/collections/javascript-game-engines}{\tt Javascript game engines}
+
+From the Javascript side, access to the Game Engine is provided through a global module called \char`\"{}\+G\+E\char`\"{}\+:
+
+
+\begin{DoxyCode}
+use strict;
+const mod = GE.Modules();
+mod.require("SDL");
+\end{DoxyCode}
+
+
+Each call to mod.\+require() will initialize new modules within the global object. After {\ttfamily mod.\+require(\char`\"{}\+S\+D\+L\char`\"{})} we can then say things like {\ttfamily const win = S\+D\+L.\+Window()}
+
+
+\begin{DoxyCode}
+const init\_flags = SDL.InitFlags();
+const window\_flags = SDL.WindowFlags();
+const render\_flags = SDL.RenderFlags();
+const pixel\_format = SDL.Pixelformat();
+const texture\_access = SDL.TextureAccess();
+\end{DoxyCode}
+
+
+\subsection*{Compiling and running}
+
+
+\begin{DoxyItemize}
+\item read \mbox{\hyperlink{md_requirements}{the requirements}} and edit {\ttfamily Cmake\+Lists.\+txt} then do 
+\begin{DoxyCode}
+mkdir build; cd build; cmake ..; make shell
+\end{DoxyCode}
+
+\item in the build directory run a test program with 
+\begin{DoxyCode}
+./shell ./js/init.js
+\end{DoxyCode}
+ 
+\end{DoxyItemize}

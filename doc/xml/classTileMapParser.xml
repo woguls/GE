@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classTileMapParser" kind="class" language="C++" prot="public">
+    <compoundname>TileMapParser</compoundname>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classTileMapParser_1acc9955af7e16d78a95cd5ba830c35fe8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class TileMap</definition>
+        <argsstring></argsstring>
+        <name>TileMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="205" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTileMapParser_1a31062486510bcfa6b90b6c646587e6b5" prot="private" static="no" mutable="no">
+        <type><ref refid="classResourceDirectory" kindref="compound">ResourceDirectory</ref> *</type>
+        <definition>ResourceDirectory* TileMapParser::_dir</definition>
+        <argsstring></argsstring>
+        <name>_dir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="235" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTileMapParser_1a03afc8439c8f0adac19aeecdd39e365c" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classResourceReference" kindref="compound">ResourceReference</ref> &amp;</type>
+        <definition>const ResourceReference&amp; TileMapParser::_reference</definition>
+        <argsstring></argsstring>
+        <name>_reference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="236" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTileMapParser_1a74332078ad63ddca5dc3019ff89ef41e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TileMapParser::z_order</definition>
+        <argsstring></argsstring>
+        <name>z_order</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="239" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTileMapParser_1a8342e1f9fe3ba367a202290997a2ccc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TileMapParser::TileMapParser</definition>
+        <argsstring>()=delete</argsstring>
+        <name>TileMapParser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="207" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1a843a916670952fb06dbba0c265ca1d9d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TileMapParser::TileMapParser</definition>
+        <argsstring>(ResourceDirectory *dir, const ResourceReference &amp;reference)</argsstring>
+        <name>TileMapParser</name>
+        <param>
+          <type><ref refid="classResourceDirectory" kindref="compound">ResourceDirectory</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classResourceReference" kindref="compound">ResourceReference</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="208" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="208" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1a943b4548a41009fe65bd4c791483f6f5" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TileMapParser::TileMapParser</definition>
+        <argsstring>(const ResourceReference &amp;reference)</argsstring>
+        <name>TileMapParser</name>
+        <param>
+          <type>const <ref refid="classResourceReference" kindref="compound">ResourceReference</ref> &amp;</type>
+          <declname>reference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="214" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="214" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1aa975b241764c239200dbfb25fcc0d0a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; const <ref refid="structtilemap__data" kindref="compound">tilemap_data</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;const tilemap_data&gt; TileMapParser::Parse</definition>
+        <argsstring>()</argsstring>
+        <name>Parse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="219" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classTileMapParser_1a7ecab75cc5b6389db6d6a2be48116cd0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::Parse</definition>
+        <argsstring>(tinyxml2::XMLNode *node, tilemap_data &amp;map)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type>tinyxml2::XMLNode *</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="structtilemap__data" kindref="compound">tilemap_data</ref> &amp;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="222" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1ac6aa04e0df99c51d92e1cc8c09f9923e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::ParseProperties</definition>
+        <argsstring>(const tinyxml2::XMLNode *node, property_map_t &amp;map)</argsstring>
+        <name>ParseProperties</name>
+        <param>
+          <type>const tinyxml2::XMLNode *</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>property_map_t &amp;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="223" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1ae0549e8e01478031d3acc67b1e628019" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::ParseProperty</definition>
+        <argsstring>(const tinyxml2::XMLElement *propertyElem, map_property &amp;prop)</argsstring>
+        <name>ParseProperty</name>
+        <param>
+          <type>const tinyxml2::XMLElement *</type>
+          <declname>propertyElem</declname>
+        </param>
+        <param>
+          <type><ref refid="structmap__property" kindref="compound">map_property</ref> &amp;</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="224" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1af43ab34c48a37e10cec34ba3af44c67c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::ParseImage</definition>
+        <argsstring>(const tinyxml2::XMLNode *imageElem, image_data *image)</argsstring>
+        <name>ParseImage</name>
+        <param>
+          <type>const tinyxml2::XMLNode *</type>
+          <declname>imageElem</declname>
+        </param>
+        <param>
+          <type><ref refid="structimage__data" kindref="compound">image_data</ref> *</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="225" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1a4c54d2a258da821a03d5f64a6da71a29" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::ParseTileset</definition>
+        <argsstring>(const tinyxml2::XMLNode *tilesetNode, tileset_data *tileset)</argsstring>
+        <name>ParseTileset</name>
+        <param>
+          <type>const tinyxml2::XMLNode *</type>
+          <declname>tilesetNode</declname>
+        </param>
+        <param>
+          <type><ref refid="structtileset__data" kindref="compound">tileset_data</ref> *</type>
+          <declname>tileset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="226" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1a262ceb6dd2ecd76ff6dd5732b9fd9637" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::ParseTileLayer</definition>
+        <argsstring>(const tinyxml2::XMLNode *tilelayerNode, tilelayer_data *tilelayer, int width, int height)</argsstring>
+        <name>ParseTileLayer</name>
+        <param>
+          <type>const tinyxml2::XMLNode *</type>
+          <declname>tilelayerNode</declname>
+        </param>
+        <param>
+          <type><ref refid="structtilelayer__data" kindref="compound">tilelayer_data</ref> *</type>
+          <declname>tilelayer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="227" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1a06b482db7cdfcafdcfe649373cc13a07" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::ParseImageLayer</definition>
+        <argsstring>(const tinyxml2::XMLNode *tileLayerNode, imagelayer_data *imagelayer)</argsstring>
+        <name>ParseImageLayer</name>
+        <param>
+          <type>const tinyxml2::XMLNode *</type>
+          <declname>tileLayerNode</declname>
+        </param>
+        <param>
+          <type><ref refid="structimagelayer__data" kindref="compound">imagelayer_data</ref> *</type>
+          <declname>imagelayer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="228" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1ade3fcd9875c913e304afa8e7b9a03dca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::ParseTile</definition>
+        <argsstring>(const tinyxml2::XMLNode *tileNode, tile_data *tileset)</argsstring>
+        <name>ParseTile</name>
+        <param>
+          <type>const tinyxml2::XMLNode *</type>
+          <declname>tileNode</declname>
+        </param>
+        <param>
+          <type><ref refid="structtile__data" kindref="compound">tile_data</ref> *</type>
+          <declname>tileset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="229" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1a44da58e6c5249bda96dc9e66dfd68487" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::ParseXML</definition>
+        <argsstring>(const tinyxml2::XMLNode *dataNode, tilelayer_data *tilelayer, int width, int height)</argsstring>
+        <name>ParseXML</name>
+        <param>
+          <type>const tinyxml2::XMLNode *</type>
+          <declname>dataNode</declname>
+        </param>
+        <param>
+          <type><ref refid="structtilelayer__data" kindref="compound">tilelayer_data</ref> *</type>
+          <declname>tilelayer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="230" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1ac56035f75c481c9f83052dcad6e12414" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::ParseBase64</definition>
+        <argsstring>(const std::string &amp;innerText, tilelayer_data *tilelayer, int width, int height)</argsstring>
+        <name>ParseBase64</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>innerText</declname>
+        </param>
+        <param>
+          <type><ref refid="structtilelayer__data" kindref="compound">tilelayer_data</ref> *</type>
+          <declname>tilelayer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="231" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1ab8ffc9e4d87d2c0096a3b3d637ae1ef2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool TileMapParser::ParseCSV</definition>
+        <argsstring>(const std::string &amp;innerText, tilelayer_data *tilelayer, int width, int height)</argsstring>
+        <name>ParseCSV</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>innerText</declname>
+        </param>
+        <param>
+          <type><ref refid="structtilelayer__data" kindref="compound">tilelayer_data</ref> *</type>
+          <declname>tilelayer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="232" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1a7c227348f22681442b77aefcd9a80ba5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* TileMapParser::DecompressGZIP</definition>
+        <argsstring>(const char *data, int dataSize, int expectedSize)</argsstring>
+        <name>DecompressGZIP</name>
+        <param>
+          <type>const char *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dataSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>expectedSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="233" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1ad381a8e7c441c235fc303893e249f26c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t TileMapParser::StringToColor32</definition>
+        <argsstring>(const std::string &amp;s)</argsstring>
+        <name>StringToColor32</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="237" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classTileMapParser_1a166a2b6c68dd2901eb267e2e2c0751eb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string TileMapParser::StringToLower</definition>
+        <argsstring>(std::string s)</argsstring>
+        <name>StringToLower</name>
+        <param>
+          <type>std::string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="238" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" line="204" column="1" bodyfile="/media/pablo/walter/home/walter/code/sdl-v8/src/resource/tilemap.h" bodystart="204" bodyend="240"/>
+    <listofallmembers>
+      <member refid="classTileMapParser_1a31062486510bcfa6b90b6c646587e6b5" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>_dir</name></member>
+      <member refid="classTileMapParser_1a03afc8439c8f0adac19aeecdd39e365c" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>_reference</name></member>
+      <member refid="classTileMapParser_1a7c227348f22681442b77aefcd9a80ba5" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>DecompressGZIP</name></member>
+      <member refid="classTileMapParser_1aa975b241764c239200dbfb25fcc0d0a6" prot="public" virt="non-virtual"><scope>TileMapParser</scope><name>Parse</name></member>
+      <member refid="classTileMapParser_1a7ecab75cc5b6389db6d6a2be48116cd0" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>Parse</name></member>
+      <member refid="classTileMapParser_1ac56035f75c481c9f83052dcad6e12414" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>ParseBase64</name></member>
+      <member refid="classTileMapParser_1ab8ffc9e4d87d2c0096a3b3d637ae1ef2" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>ParseCSV</name></member>
+      <member refid="classTileMapParser_1af43ab34c48a37e10cec34ba3af44c67c" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>ParseImage</name></member>
+      <member refid="classTileMapParser_1a06b482db7cdfcafdcfe649373cc13a07" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>ParseImageLayer</name></member>
+      <member refid="classTileMapParser_1ac6aa04e0df99c51d92e1cc8c09f9923e" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>ParseProperties</name></member>
+      <member refid="classTileMapParser_1ae0549e8e01478031d3acc67b1e628019" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>ParseProperty</name></member>
+      <member refid="classTileMapParser_1ade3fcd9875c913e304afa8e7b9a03dca" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>ParseTile</name></member>
+      <member refid="classTileMapParser_1a262ceb6dd2ecd76ff6dd5732b9fd9637" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>ParseTileLayer</name></member>
+      <member refid="classTileMapParser_1a4c54d2a258da821a03d5f64a6da71a29" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>ParseTileset</name></member>
+      <member refid="classTileMapParser_1a44da58e6c5249bda96dc9e66dfd68487" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>ParseXML</name></member>
+      <member refid="classTileMapParser_1ad381a8e7c441c235fc303893e249f26c" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>StringToColor32</name></member>
+      <member refid="classTileMapParser_1a166a2b6c68dd2901eb267e2e2c0751eb" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>StringToLower</name></member>
+      <member refid="classTileMapParser_1acc9955af7e16d78a95cd5ba830c35fe8" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>TileMap</name></member>
+      <member refid="classTileMapParser_1a8342e1f9fe3ba367a202290997a2ccc8" prot="public" virt="non-virtual"><scope>TileMapParser</scope><name>TileMapParser</name></member>
+      <member refid="classTileMapParser_1a843a916670952fb06dbba0c265ca1d9d" prot="public" virt="non-virtual"><scope>TileMapParser</scope><name>TileMapParser</name></member>
+      <member refid="classTileMapParser_1a943b4548a41009fe65bd4c791483f6f5" prot="public" virt="non-virtual"><scope>TileMapParser</scope><name>TileMapParser</name></member>
+      <member refid="classTileMapParser_1a74332078ad63ddca5dc3019ff89ef41e" prot="private" virt="non-virtual"><scope>TileMapParser</scope><name>z_order</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

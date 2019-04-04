@@ -1,0 +1,82 @@
+\hypertarget{classv8Shell}{}\section{v8\+Shell Class Reference}
+\label{classv8Shell}\index{v8\+Shell@{v8\+Shell}}
+Inheritance diagram for v8\+Shell\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classv8Shell}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classv8Shell_a33d06507857d3144eee8e0bf5d38508f}\label{classv8Shell_a33d06507857d3144eee8e0bf5d38508f}} 
+int {\bfseries Run} ()
+\item 
+\mbox{\Hypertarget{classv8Shell_ac6c76de48d6511a9792aa6ba8b28fda0}\label{classv8Shell_ac6c76de48d6511a9792aa6ba8b28fda0}} 
+bool {\bfseries Running} ()
+\item 
+\mbox{\Hypertarget{classv8Shell_a29797142df03589900cfa57d645a7475}\label{classv8Shell_a29797142df03589900cfa57d645a7475}} 
+int {\bfseries \+\_\+run} ()
+\item 
+\mbox{\Hypertarget{classv8Shell_a67a11c0fe0d19107edf059ca51845b39}\label{classv8Shell_a67a11c0fe0d19107edf059ca51845b39}} 
+int {\bfseries \+\_\+run\+\_\+args} (int argc=0, char $\ast$$\ast$argv=nullptr)
+\item 
+\mbox{\Hypertarget{classv8Shell_aaf984192023ad1310dde36a19796ce2b}\label{classv8Shell_aaf984192023ad1310dde36a19796ce2b}} 
+void {\bfseries Set\+Context\+Properties} (v8pp\+::context \&context)
+\item 
+\mbox{\Hypertarget{classv8Shell_a04a48d472c88638ae0faa2c919cf7f5c}\label{classv8Shell_a04a48d472c88638ae0faa2c919cf7f5c}} 
+void {\bfseries Should\+Exit} ()
+\item 
+\mbox{\Hypertarget{classv8Shell_ad77db9a7f7163df5c09fff9ff519ee4e}\label{classv8Shell_ad77db9a7f7163df5c09fff9ff519ee4e}} 
+void {\bfseries Run\+Shell} (v8\+::\+Platform $\ast$platform)
+\item 
+\mbox{\Hypertarget{classv8Shell_a50532bc0097c0c9d014d24f234876080}\label{classv8Shell_a50532bc0097c0c9d014d24f234876080}} 
+int {\bfseries Run\+Main} (v8\+::\+Platform $\ast$platform, int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classv8Shell_ad6f8824f82ad9d65b6628cf2638aed2e}\label{classv8Shell_ad6f8824f82ad9d65b6628cf2638aed2e}} 
+static bool {\bfseries Execute\+String} (v8\+::\+Isolate $\ast$isolate, v8\+::\+Local$<$ v8\+::\+String $>$ source, v8\+::\+Local$<$ v8\+::\+Value $>$ name, bool print\+\_\+result, bool report\+\_\+exceptions)
+\item 
+\mbox{\Hypertarget{classv8Shell_a42f39e84a85a5569b51a383ff3040844}\label{classv8Shell_a42f39e84a85a5569b51a383ff3040844}} 
+static void {\bfseries Load} (const v8\+::\+Function\+Callback\+Info$<$ v8\+::\+Value $>$ \&args)
+\item 
+\mbox{\Hypertarget{classv8Shell_a03ba2e9fa89d5b5be2c0628401578380}\label{classv8Shell_a03ba2e9fa89d5b5be2c0628401578380}} 
+static v8\+::\+Maybe\+Local$<$ v8\+::\+String $>$ {\bfseries Read\+File} (v8\+::\+Isolate $\ast$isolate, const char $\ast$name)
+\item 
+\mbox{\Hypertarget{classv8Shell_a978273099b602ea7a88f26b9424d2b20}\label{classv8Shell_a978273099b602ea7a88f26b9424d2b20}} 
+static void {\bfseries Print} (const v8\+::\+Function\+Callback\+Info$<$ v8\+::\+Value $>$ \&args)
+\item 
+\mbox{\Hypertarget{classv8Shell_a3889864df9a4aab90b1c0428bc1e62c4}\label{classv8Shell_a3889864df9a4aab90b1c0428bc1e62c4}} 
+static void {\bfseries Read} (const v8\+::\+Function\+Callback\+Info$<$ v8\+::\+Value $>$ \&args)
+\item 
+\mbox{\Hypertarget{classv8Shell_a8dfdbfca32f8a9917c8e9774fcd37b6d}\label{classv8Shell_a8dfdbfca32f8a9917c8e9774fcd37b6d}} 
+static void {\bfseries Quit} (const v8\+::\+Function\+Callback\+Info$<$ v8\+::\+Value $>$ \&args)
+\item 
+\mbox{\Hypertarget{classv8Shell_a1020b0a431e68eb23fae27c92d4a4f33}\label{classv8Shell_a1020b0a431e68eb23fae27c92d4a4f33}} 
+static void {\bfseries Version} (const v8\+::\+Function\+Callback\+Info$<$ v8\+::\+Value $>$ \&args)
+\item 
+\mbox{\Hypertarget{classv8Shell_ab1a7bd37f1e933f0ab45f81ebbca0c44}\label{classv8Shell_ab1a7bd37f1e933f0ab45f81ebbca0c44}} 
+static void {\bfseries Report\+Exception} (v8\+::\+Isolate $\ast$isolate, v8\+::\+Try\+Catch $\ast$handler)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classv8Shell_aeba5e5c80bbfad5e512b8b17919e6aef}\label{classv8Shell_aeba5e5c80bbfad5e512b8b17919e6aef}} 
+std\+::future$<$ int $>$ {\bfseries \+\_\+run\+\_\+shell\+\_\+future}
+\item 
+\mbox{\Hypertarget{classv8Shell_ac3d25e32eb59487e57503dcf4e11f1cc}\label{classv8Shell_ac3d25e32eb59487e57503dcf4e11f1cc}} 
+\mbox{\hyperlink{classv8EmbeddableFactory}{v8\+Embeddable\+Factory}} {\bfseries \+\_\+objects}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classv8Shell_a470bbf02f406e47704a6a8cc29d0b439}\label{classv8Shell_a470bbf02f406e47704a6a8cc29d0b439}} 
+static bool {\bfseries should\+\_\+exit}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/media/pablo/walter/home/walter/code/sdl-\/v8/src/shell/shell.\+h\end{DoxyCompactItemize}

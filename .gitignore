@@ -47,7 +47,9 @@ _deps
 # dev directories
 build
 doc
+
 external/v8/*
-external/res/*
 !./external/v8/gm.py
+
+external/res/*
 

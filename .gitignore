@@ -49,7 +49,7 @@ build
 doc
 
 external/v8/*
-!./external/v8/gm.py
+!external/v8/gm.py
 
 external/res/*
 
